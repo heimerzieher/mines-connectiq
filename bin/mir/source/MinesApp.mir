@@ -1,0 +1,231 @@
+[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 5; ]
+class MinesApp extends Application.AppBase{
+    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 8; @position = 15; ]
+    public
+    var engine;
+    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 11; @position = 15; ]
+    public
+    var n_cells;
+    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 12; @position = 15; ]
+    public
+    var n_mines;
+    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 14; ]
+    function initialize() as Void {
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_15_4_start:
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 16 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 18 8 ]
+        %tmp.4 = getm $.Toybox.Application;
+        %tmp.5 = getv %tmp.4 :Properties;
+        %tmp.6 = getv function %tmp.5 :getValue;
+        %tmp.7 = "NumberMines";
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        putv self :n_mines %tmp.8;
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 19 8 ]
+        %tmp.9 = getm $.Toybox.Application;
+        %tmp.10 = getv %tmp.9 :Properties;
+        %tmp.11 = getv function %tmp.10 :getValue;
+        %tmp.12 = "SizeField";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        putv self :n_cells %tmp.13;
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 22 8 ]
+        %tmp.17 = getv ? :MinesEngine;
+        %tmp.19 = getv ? :n_cells;
+        %tmp.21 = getv ? :n_mines;
+        %tmp.14 = newc %tmp.17 (%tmp.19, %tmp.21);
+        putv self :engine %tmp.14;
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 24 8 ]
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_8_if_stmt:
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_11_begin:
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_11_begin:
+        %tmp.22 = getm $.Toybox.Application;
+        %tmp.23 = getv %tmp.22 :Properties;
+        %tmp.24 = getv function %tmp.23 :getValue;
+        %tmp.25 = "SaveFieldSize";
+        %tmp.26 = invoke %tmp.23 %tmp.24(%tmp.25);
+        %tmp.27 = 0;
+        %tmp.28 = ne %tmp.26 %tmp.27;
+        %tmp.29 = dup %tmp.28;
+        bf %tmp.29 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_68_end;
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_68_true:
+        %tmp.30 = getm $.Toybox.Application;
+        %tmp.31 = getv %tmp.30 :Properties;
+        %tmp.32 = getv function %tmp.31 :getValue;
+        %tmp.33 = "SaveFieldCells";
+        %tmp.34 = invoke %tmp.31 %tmp.32(%tmp.33);
+        %tmp.35 = null;
+        %tmp.36 = ne %tmp.34 %tmp.35;
+        %tmp.37 = and %tmp.28 %tmp.36;
+        push %tmp.37;
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_68_end:
+        %tmp.38 = phi [%tmp.29 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_11_begin] [%tmp.37 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_68_true] [%tmp.38 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_68_end];
+        %tmp.39 = dup %tmp.38;
+        bf %tmp.39 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_129_end;
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_129_true:
+        %tmp.40 = getm $.Toybox.Application;
+        %tmp.41 = getv %tmp.40 :Properties;
+        %tmp.42 = getv function %tmp.41 :getValue;
+        %tmp.43 = "SaveFieldDiscoveredCells";
+        %tmp.44 = invoke %tmp.41 %tmp.42(%tmp.43);
+        %tmp.45 = null;
+        %tmp.46 = ne %tmp.44 %tmp.45;
+        %tmp.47 = and %tmp.38 %tmp.46;
+        push %tmp.47;
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_129_end:
+        %tmp.48 = phi [%tmp.39 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_11_begin] [%tmp.47 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_129_true] [%tmp.48 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_129_end];
+        bf %tmp.48 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_8_if_end;
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_8_if_true:
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_25_8_start:
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 26 12 ]
+        %tmp.49 = self;
+        %tmp.50 = getv function %tmp.49 :loadGame;
+        invoke %tmp.49 %tmp.50();
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_25_8_stop:
+        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_8_if_end;
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_8_if_end:
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_15_4_stop:
+    }
+    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 32; ]
+    public
+    function saveGame() {
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_33_4_start:
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 34 8 ]
+        [ "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_33_4_start" "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_33_4_stop" ]
+        %field.1 = local;
+        %tmp.2 = getv ? :engine;
+        %tmp.3 = getv function %tmp.2 :getField;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %field.1 %tmp.4;
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 36 8 ]
+        %tmp.5 = getm $.Toybox.Application;
+        %tmp.6 = getv %tmp.5 :Properties;
+        %tmp.7 = getv function %tmp.6 :setValue;
+        %tmp.8 = "SaveFieldSize";
+        %tmp.9 = lgetv %field.1;
+        %tmp.10 = getv function %tmp.9 :getSize;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = as %tmp.11 Number;
+        invoke %tmp.6 %tmp.7(%tmp.8, %tmp.12);
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 37 8 ]
+        %tmp.13 = getm $.Toybox.Application;
+        %tmp.14 = getv %tmp.13 :Properties;
+        %tmp.15 = getv function %tmp.14 :setValue;
+        %tmp.16 = "SaveFieldCells";
+        %tmp.17 = lgetv %field.1;
+        %tmp.18 = getv function %tmp.17 :getCells;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        %tmp.20 = as %tmp.19 Array<Number>;
+        invoke %tmp.14 %tmp.15(%tmp.16, %tmp.20);
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 38 8 ]
+        %tmp.21 = getm $.Toybox.Application;
+        %tmp.22 = getv %tmp.21 :Properties;
+        %tmp.23 = getv function %tmp.22 :setValue;
+        %tmp.24 = "SaveFieldDiscoveredCells";
+        %tmp.25 = lgetv %field.1;
+        %tmp.26 = getv function %tmp.25 :getDiscoveredCells;
+        %tmp.27 = invoke %tmp.25 %tmp.26();
+        %tmp.28 = as %tmp.27 Array<Number>;
+        invoke %tmp.22 %tmp.23(%tmp.24, %tmp.28);
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_33_4_stop:
+    }
+    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 41; ]
+    public
+    function loadGame() {
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_start:
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 43 8 ]
+        [ "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_start" "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_stop" ]
+        %size.1 = local;
+        %tmp.1 = getm $.Toybox.Application;
+        %tmp.2 = getv %tmp.1 :Properties;
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = "SaveFieldSize";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        %tmp.6 = as %tmp.5 Number;
+        lputv %size.1 %tmp.6;
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 44 8 ]
+        [ "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_start" "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_stop" ]
+        %cells.2 = local;
+        %tmp.7 = getm $.Toybox.Application;
+        %tmp.8 = getv %tmp.7 :Properties;
+        %tmp.9 = getv function %tmp.8 :getValue;
+        %tmp.10 = "SaveFieldCells";
+        %tmp.11 = invoke %tmp.8 %tmp.9(%tmp.10);
+        %tmp.12 = as %tmp.11 Array<Number>;
+        lputv %cells.2 %tmp.12;
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 45 8 ]
+        [ "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_start" "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_stop" ]
+        %cells_disc.3 = local;
+        %tmp.13 = getm $.Toybox.Application;
+        %tmp.14 = getv %tmp.13 :Properties;
+        %tmp.15 = getv function %tmp.14 :getValue;
+        %tmp.16 = "SaveFieldDiscoveredCells";
+        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
+        %tmp.18 = as %tmp.17 Array<Number>;
+        lputv %cells_disc.3 %tmp.18;
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 47 8 ]
+        %tmp.20 = getv ? :engine;
+        %tmp.21 = getv function %tmp.20 :loadState;
+        %tmp.23 = lgetv %size.1;
+        %tmp.25 = lgetv %cells.2;
+        %tmp.27 = lgetv %cells_disc.3;
+        invoke %tmp.20 %tmp.21(%tmp.23, %tmp.25, %tmp.27);
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_stop:
+    }
+    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 51; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 56; ]
+    function onStop(state as Dictionary or Null) as Void {
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_57_4_start:
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 58 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :saveGame;
+        invoke %tmp.1 %tmp.2();
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_57_4_stop:
+    }
+    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 62; ]
+    function getInitialView() as Array<Views or InputDelegates> or Null {
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_63_4_start:
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 64 8 ]
+        %tmp.1 = newa Array<Views or InputDelegates> 2;
+        %tmp.5 = getv ? :MinesView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        %tmp.11 = getv ? :MinesDelegate;
+        %tmp.8 = newc %tmp.11 ();
+        %tmp.12 = dup %tmp.7;
+        %tmp.13 = aputv %tmp.12 1 %tmp.8;
+        ret %tmp.13;
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_63_4_stop:
+    }
+}
+[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 69; ]
+function getApp() as MinesApp {
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_70_0_start:
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 71 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 MinesApp;
+    ret %tmp.4;
+_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_70_0_stop:
+}
+[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 1; ]
+<init> {
+}

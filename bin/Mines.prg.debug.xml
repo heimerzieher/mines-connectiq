@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/manifest.xml"/>
+<pcToLineNum>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="1" lineNum="5" parent="globals/MinesApp" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="2" lineNum="41" parent="globals/MinesApp" pc="268435479" symbol="loadGame"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="2" lineNum="43" parent="globals/MinesApp" pc="268435483" symbol="loadGame"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="2" lineNum="44" parent="globals/MinesApp" pc="268435511" symbol="loadGame"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="2" lineNum="45" parent="globals/MinesApp" pc="268435539" symbol="loadGame"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="2" lineNum="47" parent="globals/MinesApp" pc="268435567" symbol="loadGame"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="3" lineNum="51" parent="globals/MinesApp" pc="268435592" symbol="onStart"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="4" lineNum="62" parent="globals/MinesApp" pc="268435595" symbol="getInitialView"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="4" lineNum="64" parent="globals/MinesApp" pc="268435597" symbol="getInitialView"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="5" lineNum="14" parent="globals/MinesApp" pc="268435672" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="5" lineNum="16" parent="globals/MinesApp" pc="268435674" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="5" lineNum="18" parent="globals/MinesApp" pc="268435692" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="5" lineNum="19" parent="globals/MinesApp" pc="268435726" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="5" lineNum="22" parent="globals/MinesApp" pc="268435760" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="5" lineNum="24" parent="globals/MinesApp" pc="268435810" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="5" lineNum="26" parent="globals/MinesApp" pc="268435913" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="6" lineNum="56" parent="globals/MinesApp" pc="268435929" symbol="onStop"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="6" lineNum="58" parent="globals/MinesApp" pc="268435931" symbol="onStop"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="7" lineNum="32" parent="globals/MinesApp" pc="268435944" symbol="saveGame"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="7" lineNum="34" parent="globals/MinesApp" pc="268435948" symbol="saveGame"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="7" lineNum="36" parent="globals/MinesApp" pc="268435967" symbol="saveGame"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="7" lineNum="37" parent="globals/MinesApp" pc="268436005" symbol="saveGame"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="7" lineNum="38" parent="globals/MinesApp" pc="268436043" symbol="saveGame"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/bin/gen/006-B4376-00/source/Rez.mcgen" id="8" lineNum="7" parent="globals/Rez" pc="268436082" symbol="&lt;init&gt;"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="9" lineNum="267" parent="globals/Field" pc="268436106" symbol="loadState"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="9" lineNum="269" parent="globals/Field" pc="268436108" symbol="loadState"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="9" lineNum="270" parent="globals/Field" pc="268436118" symbol="loadState"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="9" lineNum="271" parent="globals/Field" pc="268436128" symbol="loadState"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="10" lineNum="289" parent="globals/Field" pc="268436139" symbol="setCells"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="10" lineNum="291" parent="globals/Field" pc="268436141" symbol="setCells"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="11" lineNum="197" parent="globals/Field" pc="268436152" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="11" lineNum="199" parent="globals/Field" pc="268436156" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="11" lineNum="201" parent="globals/Field" pc="268436174" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="11" lineNum="203" parent="globals/Field" pc="268436225" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="11" lineNum="205" parent="globals/Field" pc="268436259" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="11" lineNum="207" parent="globals/Field" pc="268436283" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="11" lineNum="209" parent="globals/Field" pc="268436301" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="11" lineNum="211" parent="globals/Field" pc="268436319" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="11" lineNum="213" parent="globals/Field" pc="268436343" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="11" lineNum="215" parent="globals/Field" pc="268436428" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="11" lineNum="219" parent="globals/Field" pc="268436471" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="12" lineNum="157" parent="globals/Field" pc="268436532" symbol="checkWinCondition"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="12" lineNum="159" parent="globals/Field" pc="268436536" symbol="checkWinCondition"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="12" lineNum="161" parent="globals/Field" pc="268436566" symbol="checkWinCondition"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="12" lineNum="163" parent="globals/Field" pc="268436632" symbol="checkWinCondition"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="12" lineNum="167" parent="globals/Field" pc="268436651" symbol="checkWinCondition"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="13" lineNum="182" parent="globals/Field" pc="268436654" symbol="setFlag"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="13" lineNum="184" parent="globals/Field" pc="268436656" symbol="setFlag"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="13" lineNum="186" parent="globals/Field" pc="268436674" symbol="setFlag"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="13" lineNum="188" parent="globals/Field" pc="268436698" symbol="setFlag"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="13" lineNum="190" parent="globals/Field" pc="268436722" symbol="setFlag"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="13" lineNum="192" parent="globals/Field" pc="268436746" symbol="setFlag"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="14" lineNum="274" parent="globals/Field" pc="268436774" symbol="getCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="14" lineNum="276" parent="globals/Field" pc="268436776" symbol="getCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="15" lineNum="262" parent="globals/Field" pc="268436800" symbol="uncover"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="15" lineNum="264" parent="globals/Field" pc="268436802" symbol="uncover"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="16" lineNum="300" parent="globals/Field" pc="268436819" symbol="setDiscoveredCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="16" lineNum="302" parent="globals/Field" pc="268436821" symbol="setDiscoveredCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="17" lineNum="279" parent="globals/Field" pc="268436847" symbol="setCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="17" lineNum="281" parent="globals/Field" pc="268436849" symbol="setCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="18" lineNum="170" parent="globals/Field" pc="268436875" symbol="cellExists"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="18" lineNum="172" parent="globals/Field" pc="268436877" symbol="cellExists"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="18" lineNum="174" parent="globals/Field" pc="268436936" symbol="cellExists"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="18" lineNum="179" parent="globals/Field" pc="268436942" symbol="cellExists"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="19" lineNum="310" parent="globals/Field" pc="268436946" symbol="setDiscoveredCells"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="19" lineNum="312" parent="globals/Field" pc="268436948" symbol="setDiscoveredCells"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="20" lineNum="294" parent="globals/Field" pc="268436959" symbol="getDiscoveredCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="20" lineNum="296" parent="globals/Field" pc="268436961" symbol="getDiscoveredCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="21" lineNum="305" parent="globals/Field" pc="268436985" symbol="getDiscoveredCells"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="21" lineNum="307" parent="globals/Field" pc="268436987" symbol="getDiscoveredCells"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="22" lineNum="315" parent="globals/Field" pc="268436996" symbol="getSize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="22" lineNum="317" parent="globals/Field" pc="268436998" symbol="getSize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="106" parent="globals/Field" pc="268437007" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="108" parent="globals/Field" pc="268437011" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="110" parent="globals/Field" pc="268437021" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="112" parent="globals/Field" pc="268437047" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="114" parent="globals/Field" pc="268437073" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="116" parent="globals/Field" pc="268437119" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="118" parent="globals/Field" pc="268437139" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="120" parent="globals/Field" pc="268437169" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="122" parent="globals/Field" pc="268437198" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="127" parent="globals/Field" pc="268437217" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="130" parent="globals/Field" pc="268437233" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="133" parent="globals/Field" pc="268437262" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="135" parent="globals/Field" pc="268437283" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="137" parent="globals/Field" pc="268437304" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="139" parent="globals/Field" pc="268437328" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="141" parent="globals/Field" pc="268437346" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="143" parent="globals/Field" pc="268437364" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="145" parent="globals/Field" pc="268437388" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="23" lineNum="147" parent="globals/Field" pc="268437446" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="24" lineNum="284" parent="globals/Field" pc="268437557" symbol="getCells"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="24" lineNum="286" parent="globals/Field" pc="268437559" symbol="getCells"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="25" lineNum="6" parent="globals/MinesView" pc="268437568" symbol="&lt;init&gt;"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="27" lineNum="14" parent="globals/MinesView" pc="268437587" symbol="onLayout"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="27" lineNum="16" parent="globals/MinesView" pc="268437589" symbol="onLayout"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="28" lineNum="8" parent="globals/MinesView" pc="268437631" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="28" lineNum="10" parent="globals/MinesView" pc="268437633" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="27" parent="globals/MinesView" pc="268437652" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="30" parent="globals/MinesView" pc="268437656" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="31" parent="globals/MinesView" pc="268437676" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="37" parent="globals/MinesView" pc="268437688" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="40" parent="globals/MinesView" pc="268437707" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="41" parent="globals/MinesView" pc="268437720" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="42" parent="globals/MinesView" pc="268437733" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="43" parent="globals/MinesView" pc="268437743" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="46" parent="globals/MinesView" pc="268437753" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="47" parent="globals/MinesView" pc="268437780" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="51" parent="globals/MinesView" pc="268437807" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="58" parent="globals/MinesView" pc="268437823" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="59" parent="globals/MinesView" pc="268437839" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="63" parent="globals/MinesView" pc="268437855" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="65" parent="globals/MinesView" pc="268437883" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="67" parent="globals/MinesView" pc="268437900" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="69" parent="globals/MinesView" pc="268437915" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="71" parent="globals/MinesView" pc="268437930" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="73" parent="globals/MinesView" pc="268437962" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="75" parent="globals/MinesView" pc="268437973" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="76" parent="globals/MinesView" pc="268437995" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="79" parent="globals/MinesView" pc="268438030" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="81" parent="globals/MinesView" pc="268438041" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="82" parent="globals/MinesView" pc="268438063" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="84" parent="globals/MinesView" pc="268438095" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="85" parent="globals/MinesView" pc="268438117" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="89" parent="globals/MinesView" pc="268438172" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="95" parent="globals/MinesView" pc="268438186" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="97" parent="globals/MinesView" pc="268438197" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="98" parent="globals/MinesView" pc="268438219" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="103" parent="globals/MinesView" pc="268438274" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="104" parent="globals/MinesView" pc="268438296" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="108" parent="globals/MinesView" pc="268438373" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="109" parent="globals/MinesView" pc="268438395" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="115" parent="globals/MinesView" pc="268438453" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="116" parent="globals/MinesView" pc="268438475" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="118" parent="globals/MinesView" pc="268438519" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="121" parent="globals/MinesView" pc="268438554" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="122" parent="globals/MinesView" pc="268438576" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="126" parent="globals/MinesView" pc="268438616" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="128" parent="globals/MinesView" pc="268438651" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesView.mc" id="30" lineNum="129" parent="globals/MinesView" pc="268438673" symbol="onUpdate"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="31" lineNum="23" parent="globals/MinesEngine" pc="268438714" symbol="loadState"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="31" lineNum="25" parent="globals/MinesEngine" pc="268438716" symbol="loadState"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="31" lineNum="26" parent="globals/MinesEngine" pc="268438735" symbol="loadState"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="31" lineNum="28" parent="globals/MinesEngine" pc="268438754" symbol="loadState"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="31" lineNum="30" parent="globals/MinesEngine" pc="268438778" symbol="loadState"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="32" lineNum="81" parent="globals/MinesEngine" pc="268438792" symbol="getCursor"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="32" lineNum="83" parent="globals/MinesEngine" pc="268438794" symbol="getCursor"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="33" lineNum="49" parent="globals/MinesEngine" pc="268438803" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="33" lineNum="51" parent="globals/MinesEngine" pc="268438805" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="33" lineNum="53" parent="globals/MinesEngine" pc="268438827" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="33" lineNum="55" parent="globals/MinesEngine" pc="268438857" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="33" lineNum="56" parent="globals/MinesEngine" pc="268438870" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="33" lineNum="62" parent="globals/MinesEngine" pc="268438891" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="33" lineNum="64" parent="globals/MinesEngine" pc="268438911" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="33" lineNum="65" parent="globals/MinesEngine" pc="268438924" symbol="discoverCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="34" lineNum="44" parent="globals/MinesEngine" pc="268438946" symbol="setFlag"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="34" lineNum="46" parent="globals/MinesEngine" pc="268438948" symbol="setFlag"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="35" lineNum="39" parent="globals/MinesEngine" pc="268438971" symbol="getCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="35" lineNum="41" parent="globals/MinesEngine" pc="268438973" symbol="getCell"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="36" lineNum="91" parent="globals/MinesEngine" pc="268438995" symbol="getField"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="36" lineNum="93" parent="globals/MinesEngine" pc="268438997" symbol="getField"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="37" lineNum="86" parent="globals/MinesEngine" pc="268439006" symbol="getStatus"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="37" lineNum="88" parent="globals/MinesEngine" pc="268439008" symbol="getStatus"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="38" lineNum="70" parent="globals/MinesEngine" pc="268439017" symbol="cellExists"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="38" lineNum="72" parent="globals/MinesEngine" pc="268439019" symbol="cellExists"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="39" lineNum="34" parent="globals/MinesEngine" pc="268439041" symbol="getFieldSize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="39" lineNum="36" parent="globals/MinesEngine" pc="268439043" symbol="getFieldSize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="40" lineNum="75" parent="globals/MinesEngine" pc="268439061" symbol="setCursor"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="40" lineNum="77" parent="globals/MinesEngine" pc="268439063" symbol="setCursor"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="40" lineNum="78" parent="globals/MinesEngine" pc="268439079" symbol="setCursor"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="41" lineNum="11" parent="globals/MinesEngine" pc="268439096" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="41" lineNum="13" parent="globals/MinesEngine" pc="268439098" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="41" lineNum="15" parent="globals/MinesEngine" pc="268439136" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="41" lineNum="17" parent="globals/MinesEngine" pc="268439150" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="41" lineNum="18" parent="globals/MinesEngine" pc="268439169" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesEngine.mc" id="41" lineNum="20" parent="globals/MinesEngine" pc="268439188" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="42" lineNum="69" parent="globals" pc="268439202" symbol="getApp"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" id="42" lineNum="71" parent="globals" pc="268439212" symbol="getApp"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="43" lineNum="28" parent="globals/MinesMenu" pc="268439228" symbol="&lt;init&gt;"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="44" lineNum="32" parent="globals/MinesMenu" pc="268439247" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="44" lineNum="34" parent="globals/MinesMenu" pc="268439249" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="45" lineNum="6" parent="globals/MinesDelegate" pc="268439287" symbol="&lt;init&gt;"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="46" lineNum="14" parent="globals/MinesDelegate" pc="268439306" symbol="onMenu"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="46" lineNum="16" parent="globals/MinesDelegate" pc="268439310" symbol="onMenu"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="46" lineNum="18" parent="globals/MinesDelegate" pc="268439338" symbol="onMenu"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="46" lineNum="20" parent="globals/MinesDelegate" pc="268439388" symbol="onMenu"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="46" lineNum="21" parent="globals/MinesDelegate" pc="268439438" symbol="onMenu"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="46" lineNum="23" parent="globals/MinesDelegate" pc="268439488" symbol="onMenu"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="46" lineNum="24" parent="globals/MinesDelegate" pc="268439518" symbol="onMenu"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="46" lineNum="26" parent="globals/MinesDelegate" pc="268439578" symbol="onMenu"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="46" lineNum="27" parent="globals/MinesDelegate" pc="268439608" symbol="onMenu"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="46" lineNum="29" parent="globals/MinesDelegate" pc="268439668" symbol="onMenu"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="46" lineNum="31" parent="globals/MinesDelegate" pc="268439718" symbol="onMenu"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="46" lineNum="33" parent="globals/MinesDelegate" pc="268439767" symbol="onMenu"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="113" parent="globals/MinesDelegate" pc="268439770" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="115" parent="globals/MinesDelegate" pc="268439774" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="117" parent="globals/MinesDelegate" pc="268439795" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="119" parent="globals/MinesDelegate" pc="268439823" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="121" parent="globals/MinesDelegate" pc="268439858" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="123" parent="globals/MinesDelegate" pc="268439878" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="125" parent="globals/MinesDelegate" pc="268439906" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="128" parent="globals/MinesDelegate" pc="268439961" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="130" parent="globals/MinesDelegate" pc="268439981" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="131" parent="globals/MinesDelegate" pc="268440009" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="134" parent="globals/MinesDelegate" pc="268440067" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="136" parent="globals/MinesDelegate" pc="268440087" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="137" parent="globals/MinesDelegate" pc="268440115" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="140" parent="globals/MinesDelegate" pc="268440173" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="142" parent="globals/MinesDelegate" pc="268440193" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="143" parent="globals/MinesDelegate" pc="268440221" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="146" parent="globals/MinesDelegate" pc="268440279" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="47" lineNum="149" parent="globals/MinesDelegate" pc="268440295" symbol="onSwipe"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="48" lineNum="9" parent="globals/MinesDelegate" pc="268440298" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="48" lineNum="11" parent="globals/MinesDelegate" pc="268440300" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="49" lineNum="36" parent="globals/MinesDelegate" pc="268440319" symbol="onKey"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="49" lineNum="40" parent="globals/MinesDelegate" pc="268440323" symbol="onKey"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="49" lineNum="42" parent="globals/MinesDelegate" pc="268440343" symbol="onKey"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="49" lineNum="45" parent="globals/MinesDelegate" pc="268440378" symbol="onKey"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="49" lineNum="46" parent="globals/MinesDelegate" pc="268440406" symbol="onKey"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="49" lineNum="48" parent="globals/MinesDelegate" pc="268440449" symbol="onKey"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="49" lineNum="53" parent="globals/MinesDelegate" pc="268440471" symbol="onKey"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="49" lineNum="55" parent="globals/MinesDelegate" pc="268440491" symbol="onKey"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="49" lineNum="58" parent="globals/MinesDelegate" pc="268440526" symbol="onKey"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="49" lineNum="60" parent="globals/MinesDelegate" pc="268440554" symbol="onKey"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="49" lineNum="62" parent="globals/MinesDelegate" pc="268440597" symbol="onKey"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="49" lineNum="67" parent="globals/MinesDelegate" pc="268440619" symbol="onKey"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="49" lineNum="69" parent="globals/MinesDelegate" pc="268440639" symbol="onKey"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="49" lineNum="97" parent="globals/MinesDelegate" pc="268440663" symbol="onKey"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesDelegate.mc" id="49" lineNum="98" parent="globals/MinesDelegate" pc="268440696" symbol="onKey"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="50" lineNum="39" parent="globals/MinesMenuDelegate" pc="268440699" symbol="&lt;init&gt;"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="51" lineNum="43" parent="globals/MinesMenuDelegate" pc="268440718" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="51" lineNum="45" parent="globals/MinesMenuDelegate" pc="268440720" symbol="initialize"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="50" parent="globals/MinesMenuDelegate" pc="268440739" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="52" parent="globals/MinesMenuDelegate" pc="268440743" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="54" parent="globals/MinesMenuDelegate" pc="268440761" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="57" parent="globals/MinesMenuDelegate" pc="268440810" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="60" parent="globals/MinesMenuDelegate" pc="268440838" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="61" parent="globals/MinesMenuDelegate" pc="268440859" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="66" parent="globals/MinesMenuDelegate" pc="268440883" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="68" parent="globals/MinesMenuDelegate" pc="268440911" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="69" parent="globals/MinesMenuDelegate" pc="268440956" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="71" parent="globals/MinesMenuDelegate" pc="268441001" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="72" parent="globals/MinesMenuDelegate" pc="268441019" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="74" parent="globals/MinesMenuDelegate" pc="268441096" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="76" parent="globals/MinesMenuDelegate" pc="268441117" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="79" parent="globals/MinesMenuDelegate" pc="268441136" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="82" parent="globals/MinesMenuDelegate" pc="268441164" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="84" parent="globals/MinesMenuDelegate" pc="268441185" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="86" parent="globals/MinesMenuDelegate" pc="268441206" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="90" parent="globals/MinesMenuDelegate" pc="268441225" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="93" parent="globals/MinesMenuDelegate" pc="268441253" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="95" parent="globals/MinesMenuDelegate" pc="268441274" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="97" parent="globals/MinesMenuDelegate" pc="268441295" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="100" parent="globals/MinesMenuDelegate" pc="268441314" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="102" parent="globals/MinesMenuDelegate" pc="268441342" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="104" parent="globals/MinesMenuDelegate" pc="268441372" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="106" parent="globals/MinesMenuDelegate" pc="268441400" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="108" parent="globals/MinesMenuDelegate" pc="268441431" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="113" parent="globals/MinesMenuDelegate" pc="268441457" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="115" parent="globals/MinesMenuDelegate" pc="268441485" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="117" parent="globals/MinesMenuDelegate" pc="268441515" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="119" parent="globals/MinesMenuDelegate" pc="268441531" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="121" parent="globals/MinesMenuDelegate" pc="268441562" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesMenuDelegate.mc" id="52" lineNum="126" parent="globals/MinesMenuDelegate" pc="268441588" symbol="onSelect"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/bin/gen/006-B4376-00/source/Rez.mcgen" id="53" lineNum="19" parent="globals/Rez/Layouts" pc="268441616" symbol="MainLayout"/>
+<entry filename="/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/bin/gen/006-B4376-00/source/Rez.mcgen" id="53" lineNum="20" parent="globals/Rez/Layouts" pc="268441626" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="13" object="true" symbol="MinesMenuDelegate"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="44" method="true" symbol="getFieldSize"/>
+<entry id="33" method="true" symbol="setCells"/>
+<entry id="12" object="true" symbol="MinesMenu"/>
+<entry id="32" method="true" symbol="setCell"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry field="true" id="15" symbol="engine"/>
+<entry id="48" method="true" symbol="MainLayout"/>
+<entry id="29" method="true" symbol="getDiscoveredCell"/>
+<entry id="30" method="true" symbol="getDiscoveredCells"/>
+<entry field="true" id="23" symbol="&lt;globals/Field/&lt;&gt;cells&gt;"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="45" method="true" symbol="getStatus"/>
+<entry id="28" method="true" symbol="getCells"/>
+<entry field="true" id="49" symbol="AppName"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="22" method="true" symbol="cellExists"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="11" object="true" symbol="MinesEngine"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="16" method="true" symbol="loadGame"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389630" method="true" symbol="getSize"/>
+<entry field="true" id="41" symbol="&lt;globals/MinesEngine/&lt;&gt;game_status&gt;"/>
+<entry id="21" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="36" method="true" symbol="setFlag"/>
+<entry id="34" method="true" symbol="setDiscoveredCell"/>
+<entry id="9" object="true" symbol="MinesApp"/>
+<entry field="true" id="26" symbol="&lt;globals/Field/&lt;&gt;discovered_cells&gt;"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="19" method="true" symbol="saveGame"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="24" method="true" symbol="checkWinCondition"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="27" method="true" symbol="getCell"/>
+<entry field="true" id="47" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="46" method="true" symbol="setCursor"/>
+<entry id="35" method="true" symbol="setDiscoveredCells"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="37" symbol="&lt;globals/Field/&lt;&gt;size&gt;"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="25" method="true" symbol="discoverCell"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="14" object="true" symbol="MinesView"/>
+<entry field="true" id="40" symbol="&lt;globals/MinesEngine/&lt;&gt;field&gt;"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389863" object="true" symbol="Field"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="31" method="true" symbol="loadState"/>
+<entry id="8389097" method="true" symbol="onKey"/>
+<entry id="42" method="true" symbol="getCursor"/>
+<entry field="true" id="39" symbol="&lt;globals/MinesEngine/&lt;&gt;cursor_pos&gt;"/>
+<entry id="20" module="true" symbol="Layouts"/>
+<entry id="10" object="true" symbol="MinesDelegate"/>
+<entry field="true" id="18" symbol="n_mines"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="43" method="true" symbol="getField"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="17" symbol="n_cells"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="8389642" symbol="title"/>
+<entry id="38" method="true" symbol="uncover"/>
+<entry id="8389101" method="true" symbol="onSwipe"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435590" name="size" stackId="1" startPc="268435483"/>
+<entry endPc="268435590" name="cells" stackId="2" startPc="268435483"/>
+<entry endPc="268435590" name="cells_disc" stackId="3" startPc="268435483"/>
+<entry arg="true" endPc="268435943" name="state" stackId="1" startPc="268435929"/>
+<entry endPc="268436080" name="field" stackId="1" startPc="268435948"/>
+<entry arg="true" endPc="268436138" name="s" stackId="1" startPc="268436106"/>
+<entry arg="true" endPc="268436138" name="c_cells" stackId="2" startPc="268436106"/>
+<entry arg="true" endPc="268436138" name="c_cellsdisc" stackId="3" startPc="268436106"/>
+<entry arg="true" endPc="268436151" name="c" stackId="1" startPc="268436139"/>
+<entry arg="true" endPc="268436531" name="x" stackId="1" startPc="268436152"/>
+<entry arg="true" endPc="268436531" name="y" stackId="2" startPc="268436152"/>
+<entry endPc="268436524" name="i" stackId="3" startPc="268436301"/>
+<entry endPc="268436511" name="j" stackId="4" startPc="268436319"/>
+<entry endPc="268436650" name="i" stackId="1" startPc="268436566"/>
+<entry arg="true" endPc="268436773" name="x" stackId="1" startPc="268436654"/>
+<entry arg="true" endPc="268436773" name="y" stackId="2" startPc="268436654"/>
+<entry arg="true" endPc="268436799" name="x" stackId="1" startPc="268436774"/>
+<entry arg="true" endPc="268436799" name="y" stackId="2" startPc="268436774"/>
+<entry arg="true" endPc="268436846" name="x" stackId="1" startPc="268436819"/>
+<entry arg="true" endPc="268436846" name="y" stackId="2" startPc="268436819"/>
+<entry arg="true" endPc="268436846" name="val" stackId="3" startPc="268436819"/>
+<entry arg="true" endPc="268436874" name="x" stackId="1" startPc="268436847"/>
+<entry arg="true" endPc="268436874" name="y" stackId="2" startPc="268436847"/>
+<entry arg="true" endPc="268436874" name="val" stackId="3" startPc="268436847"/>
+<entry arg="true" endPc="268436945" name="x" stackId="1" startPc="268436875"/>
+<entry arg="true" endPc="268436945" name="y" stackId="2" startPc="268436875"/>
+<entry arg="true" endPc="268436958" name="c" stackId="1" startPc="268436946"/>
+<entry arg="true" endPc="268436984" name="x" stackId="1" startPc="268436959"/>
+<entry arg="true" endPc="268436984" name="y" stackId="2" startPc="268436959"/>
+<entry arg="true" endPc="268437556" name="s_field" stackId="1" startPc="268437007"/>
+<entry arg="true" endPc="268437556" name="n_mines" stackId="2" startPc="268437007"/>
+<entry endPc="268437555" name="prob_mine" stackId="3" startPc="268437011"/>
+<entry endPc="268437261" name="i" stackId="4" startPc="268437169"/>
+<entry endPc="268437555" name="x" stackId="5" startPc="268437283"/>
+<entry endPc="268437542" name="y" stackId="6" startPc="268437304"/>
+<entry endPc="268437526" name="i" stackId="7" startPc="268437346"/>
+<entry endPc="268437513" name="j" stackId="8" startPc="268437364"/>
+<entry arg="true" endPc="268437630" name="dc" stackId="1" startPc="268437587"/>
+<entry arg="true" endPc="268438713" name="dc" stackId="1" startPc="268437652"/>
+<entry endPc="268438712" name="n_cells" stackId="2" startPc="268437656"/>
+<entry endPc="268438712" name="screen_width" stackId="3" startPc="268437656"/>
+<entry endPc="268438712" name="screen_height" stackId="4" startPc="268437656"/>
+<entry endPc="268438712" name="center_x" stackId="5" startPc="268437656"/>
+<entry endPc="268438712" name="center_y" stackId="6" startPc="268437656"/>
+<entry endPc="268438712" name="target_field_width" stackId="7" startPc="268437656"/>
+<entry endPc="268438712" name="target_field_height" stackId="8" startPc="268437656"/>
+<entry endPc="268438712" name="cell_size" stackId="9" startPc="268437656"/>
+<entry endPc="268438712" name="position_x" stackId="10" startPc="268437656"/>
+<entry endPc="268438712" name="position_y" stackId="11" startPc="268437656"/>
+<entry endPc="268438712" name="cursor_pos" stackId="12" startPc="268437656"/>
+<entry endPc="268438452" name="x" stackId="13" startPc="268437915"/>
+<entry endPc="268438439" name="y" stackId="14" startPc="268437930"/>
+<entry endPc="268438426" name="cell" stackId="15" startPc="268437930"/>
+<entry arg="true" endPc="268438791" name="size" stackId="1" startPc="268438714"/>
+<entry arg="true" endPc="268438791" name="c_cells" stackId="2" startPc="268438714"/>
+<entry arg="true" endPc="268438791" name="c_cellsdisc" stackId="3" startPc="268438714"/>
+<entry arg="true" endPc="268438945" name="x" stackId="1" startPc="268438803"/>
+<entry arg="true" endPc="268438945" name="y" stackId="2" startPc="268438803"/>
+<entry arg="true" endPc="268438970" name="x" stackId="1" startPc="268438946"/>
+<entry arg="true" endPc="268438970" name="y" stackId="2" startPc="268438946"/>
+<entry arg="true" endPc="268438994" name="x" stackId="1" startPc="268438971"/>
+<entry arg="true" endPc="268438994" name="y" stackId="2" startPc="268438971"/>
+<entry arg="true" endPc="268439040" name="x" stackId="1" startPc="268439017"/>
+<entry arg="true" endPc="268439040" name="y" stackId="2" startPc="268439017"/>
+<entry arg="true" endPc="268439095" name="x" stackId="1" startPc="268439061"/>
+<entry arg="true" endPc="268439095" name="y" stackId="2" startPc="268439061"/>
+<entry arg="true" endPc="268439201" name="s_field" stackId="1" startPc="268439096"/>
+<entry arg="true" endPc="268439201" name="n_mines" stackId="2" startPc="268439096"/>
+<entry endPc="268439769" name="menu" stackId="1" startPc="268439310"/>
+<entry endPc="268439769" name="val" stackId="2" startPc="268439310"/>
+<entry arg="true" endPc="268440297" name="swipeEvent" stackId="1" startPc="268439770"/>
+<entry endPc="268440297" name="size" stackId="2" startPc="268439774"/>
+<entry endPc="268439957" name="cursor_pos" stackId="3" startPc="268439878"/>
+<entry endPc="268440063" name="cursor_pos" stackId="4" startPc="268439981"/>
+<entry endPc="268440169" name="cursor_pos" stackId="5" startPc="268440087"/>
+<entry endPc="268440272" name="cursor_pos" stackId="6" startPc="268440193"/>
+<entry arg="true" endPc="268440698" name="keyEvent" stackId="1" startPc="268440319"/>
+<entry endPc="268440464" name="cursor_pos" stackId="2" startPc="268440378"/>
+<entry endPc="268440612" name="cursor_pos" stackId="3" startPc="268440526"/>
+<entry arg="true" endPc="268441615" name="menuItem" stackId="1" startPc="268440739"/>
+<entry endPc="268441453" name="value" stackId="2" startPc="268441342"/>
+<entry endPc="268441453" name="new_value" stackId="3" startPc="268441342"/>
+<entry endPc="268441584" name="value" stackId="4" startPc="268441485"/>
+<entry endPc="268441584" name="new_value" stackId="5" startPc="268441485"/>
+<entry arg="true" endPc="268441632" name="dc" stackId="1" startPc="268441616"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/MinesApp" offset="198" parentId="globals" symbolId="MinesApp" type="class"/>
+<dataEntry label="globals/Rez" offset="309" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Field" offset="388" parentId="globals" symbolId="Field" type="class"/>
+<dataEntry label="globals/MinesView" offset="579" parentId="globals" symbolId="MinesView" type="class"/>
+<dataEntry label="globals/MinesEngine" offset="658" parentId="globals" symbolId="MinesEngine" type="class"/>
+<dataEntry label="globals/MinesMenu" offset="809" parentId="globals" symbolId="MinesMenu" type="class"/>
+<dataEntry label="globals/MinesDelegate" offset="856" parentId="globals" symbolId="MinesDelegate" type="class"/>
+<dataEntry label="globals/MinesMenuDelegate" offset="927" parentId="globals" symbolId="MinesMenuDelegate" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="982" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="1021" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="1060" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="1091" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1122" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="1161" parentId="Rez" symbolId="JsonData" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="MinesApp" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435591" name="loadGame" parent="MinesApp" startPc="268435479">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435594" name="onStart" parent="MinesApp" startPc="268435592">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435671" name="getInitialView" parent="MinesApp" startPc="268435595">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435928" name="initialize" parent="MinesApp" startPc="268435672">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435943" name="onStop" parent="MinesApp" startPc="268435929">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436081" name="saveGame" parent="MinesApp" startPc="268435944">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436105" name="&lt;init&gt;" parent="Rez" startPc="268436082">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Field">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436138" name="loadState" parent="Field" startPc="268436106">
+<param id="s"/>
+<param id="c_cells"/>
+<param id="c_cellsdisc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436151" name="setCells" parent="Field" startPc="268436139">
+<param id="c"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436531" name="discoverCell" parent="Field" startPc="268436152">
+<param id="x"/>
+<param id="y"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436653" name="checkWinCondition" parent="Field" startPc="268436532">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436773" name="setFlag" parent="Field" startPc="268436654">
+<param id="x"/>
+<param id="y"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436799" name="getCell" parent="Field" startPc="268436774">
+<param id="x"/>
+<param id="y"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436818" name="uncover" parent="Field" startPc="268436800">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436846" name="setDiscoveredCell" parent="Field" startPc="268436819">
+<param id="x"/>
+<param id="y"/>
+<param id="val"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436874" name="setCell" parent="Field" startPc="268436847">
+<param id="x"/>
+<param id="y"/>
+<param id="val"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436945" name="cellExists" parent="Field" startPc="268436875">
+<param id="x"/>
+<param id="y"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436958" name="setDiscoveredCells" parent="Field" startPc="268436946">
+<param id="c"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436984" name="getDiscoveredCell" parent="Field" startPc="268436959">
+<param id="x"/>
+<param id="y"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436995" name="getDiscoveredCells" parent="Field" startPc="268436985">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437006" name="getSize" parent="Field" startPc="268436996">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437556" name="initialize" parent="Field" startPc="268437007">
+<param id="s_field"/>
+<param id="n_mines"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437567" name="getCells" parent="Field" startPc="268437557">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437586" name="&lt;init&gt;" parent="MinesView" startPc="268437568">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="MinesView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437630" name="onLayout" parent="MinesView" startPc="268437587">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437651" name="initialize" parent="MinesView" startPc="268437631">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="MinesView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438713" name="onUpdate" parent="MinesView" startPc="268437652">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="MinesEngine">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438791" name="loadState" parent="MinesEngine" startPc="268438714">
+<param id="size"/>
+<param id="c_cells"/>
+<param id="c_cellsdisc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438802" name="getCursor" parent="MinesEngine" startPc="268438792">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438945" name="discoverCell" parent="MinesEngine" startPc="268438803">
+<param id="x"/>
+<param id="y"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438970" name="setFlag" parent="MinesEngine" startPc="268438946">
+<param id="x"/>
+<param id="y"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438994" name="getCell" parent="MinesEngine" startPc="268438971">
+<param id="x"/>
+<param id="y"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439005" name="getField" parent="MinesEngine" startPc="268438995">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439016" name="getStatus" parent="MinesEngine" startPc="268439006">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439040" name="cellExists" parent="MinesEngine" startPc="268439017">
+<param id="x"/>
+<param id="y"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439060" name="getFieldSize" parent="MinesEngine" startPc="268439041">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439095" name="setCursor" parent="MinesEngine" startPc="268439061">
+<param id="x"/>
+<param id="y"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439201" name="initialize" parent="MinesEngine" startPc="268439096">
+<param id="s_field"/>
+<param id="n_mines"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439227" name="getApp" startPc="268439202">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439246" name="&lt;init&gt;" parent="MinesMenu" startPc="268439228">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439286" name="initialize" parent="MinesMenu" startPc="268439247">
+<documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439305" name="&lt;init&gt;" parent="MinesDelegate" startPc="268439287">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439769" name="onMenu" parent="MinesDelegate" startPc="268439306">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440297" name="onSwipe" parent="MinesDelegate" startPc="268439770">
+<param id="swipeEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440318" name="initialize" parent="MinesDelegate" startPc="268440298">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440698" name="onKey" parent="MinesDelegate" startPc="268440319">
+<param id="keyEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440717" name="&lt;init&gt;" parent="MinesMenuDelegate" startPc="268440699">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440738" name="initialize" parent="MinesMenuDelegate" startPc="268440718">
+<documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441615" name="onSelect" parent="MinesMenuDelegate" startPc="268440739">
+<param id="menuItem"/>
+<documentation><![CDATA[<div class="description"> Handle a menu item being selected<br/> <div class="param"> menuItem The menu item selected</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441632" name="MainLayout" parent="Layouts" startPc="268441616">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
