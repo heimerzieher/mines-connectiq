@@ -21,7 +21,7 @@ class MinesApp extends Application.AppBase
 
         engine = new MinesEngine(n_cells, n_mines);
 
-        if(Application.Properties.getValue("SaveFieldSize") != 0 && Application.Properties.getValue("SaveFieldCells") != null && Application.Properties.getValue("SaveFieldDiscoveredCells") != null)
+        if(Application.Properties.getValue("SaveFieldSize") != 0 && Application.Properties.getValue("SaveFieldCells") != null && Application.Properties.getValue("SaveFieldDiscoveredCells") != null && Application.Properties.getValue("SaveSecondsElapsed") != null)
         {
             loadGame();
         }
@@ -36,6 +36,7 @@ class MinesApp extends Application.AppBase
         Application.Properties.setValue("SaveFieldSize", field.getSize() as Number);
         Application.Properties.setValue("SaveFieldCells", field.getCells() as Array<Number>);
         Application.Properties.setValue("SaveFieldDiscoveredCells", field.getDiscoveredCells() as Array<Number>);
+        Application.Properties.setValue("SaveSecondsElapsed", engine.getSecondsElapsed() as Number);
     }
 
     public function loadGame()
@@ -43,8 +44,10 @@ class MinesApp extends Application.AppBase
         var size = Application.Properties.getValue("SaveFieldSize") as Number;
         var cells = Application.Properties.getValue("SaveFieldCells") as Array<Number>;
         var cells_disc = Application.Properties.getValue("SaveFieldDiscoveredCells") as Array<Number>;
+        var secs_elapsed = Application.Properties.getValue("SaveSecondsElapsed") as Number;
 
-        engine.loadState(size, cells, cells_disc);           
+
+        engine.loadState(size, cells, cells_disc, secs_elapsed);           
     }
 
     // onStart() is called on application start up

@@ -1,58 +1,59 @@
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 1; ]
+[ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 1; ]
 import Toybox.Application;
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 2; ]
+[ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 2; ]
 import Toybox.Lang;
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 3; ]
+[ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 3; ]
 import Toybox.WatchUi;
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 5; ]
+[ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 5; ]
 class MinesApp extends Application.AppBase{
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 5; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 5; ]
     <init> {
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 5; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 5; ]
     static
     <init> {
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 8; @position = 15; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 8; @position = 15; ]
     public
     var engine;
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 11; @position = 15; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 11; @position = 15; ]
     public
     var n_cells;
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 12; @position = 15; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 12; @position = 15; ]
     public
     var n_mines;
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 14; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 14; ]
     function initialize() as Void {
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_15_4_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 16 8 ]
+_home_max_git_mines_connectiq_source_MinesApp_mc_15_4_start:
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 16 8 ]
         %tmp.2 = getv ? :AppBase;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 18 8 ]
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 18 8 ]
         %tmp.4 = getm $.Toybox.Application;
         %tmp.5 = getv %tmp.4 :Properties;
         %tmp.6 = getv function %tmp.5 :getValue;
         %tmp.7 = "NumberMines";
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
         putv self :n_mines %tmp.8;
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 19 8 ]
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 19 8 ]
         %tmp.9 = getm $.Toybox.Application;
         %tmp.10 = getv %tmp.9 :Properties;
         %tmp.11 = getv function %tmp.10 :getValue;
         %tmp.12 = "SizeField";
         %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
         putv self :n_cells %tmp.13;
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 22 8 ]
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 22 8 ]
         %tmp.17 = getv ? :MinesEngine;
         %tmp.19 = getv ? :n_cells;
         %tmp.21 = getv ? :n_mines;
         %tmp.14 = newc %tmp.17 (%tmp.19, %tmp.21);
         putv self :engine %tmp.14;
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 24 8 ]
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_8_if_stmt:
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_11_begin:
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_11_begin:
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 24 8 ]
+_home_max_git_mines_connectiq_source_MinesApp_mc_24_8_if_stmt:
+_home_max_git_mines_connectiq_source_MinesApp_mc_24_11_begin:
+_home_max_git_mines_connectiq_source_MinesApp_mc_24_11_begin:
+_home_max_git_mines_connectiq_source_MinesApp_mc_24_11_begin:
         %tmp.22 = getm $.Toybox.Application;
         %tmp.23 = getv %tmp.22 :Properties;
         %tmp.24 = getv function %tmp.23 :getValue;
@@ -61,8 +62,8 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc
         %tmp.27 = 0;
         %tmp.28 = ne %tmp.26 %tmp.27;
         %tmp.29 = dup %tmp.28;
-        bf %tmp.29 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_68_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_68_true:
+        bf %tmp.29 @_home_max_git_mines_connectiq_source_MinesApp_mc_24_68_end;
+_home_max_git_mines_connectiq_source_MinesApp_mc_24_68_true:
         %tmp.30 = getm $.Toybox.Application;
         %tmp.31 = getv %tmp.30 :Properties;
         %tmp.32 = getv function %tmp.31 :getValue;
@@ -72,11 +73,11 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc
         %tmp.36 = ne %tmp.34 %tmp.35;
         %tmp.37 = and %tmp.28 %tmp.36;
         push %tmp.37;
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_68_end:
-        %tmp.38 = phi [%tmp.29 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_11_begin] [%tmp.37 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_68_true] [%tmp.38 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_68_end];
+_home_max_git_mines_connectiq_source_MinesApp_mc_24_68_end:
+        %tmp.38 = phi [%tmp.29 @_home_max_git_mines_connectiq_source_MinesApp_mc_24_11_begin] [%tmp.37 @_home_max_git_mines_connectiq_source_MinesApp_mc_24_68_true] [%tmp.38 @_home_max_git_mines_connectiq_source_MinesApp_mc_24_68_end];
         %tmp.39 = dup %tmp.38;
-        bf %tmp.39 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_129_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_129_true:
+        bf %tmp.39 @_home_max_git_mines_connectiq_source_MinesApp_mc_24_129_end;
+_home_max_git_mines_connectiq_source_MinesApp_mc_24_129_true:
         %tmp.40 = getm $.Toybox.Application;
         %tmp.41 = getv %tmp.40 :Properties;
         %tmp.42 = getv function %tmp.41 :getValue;
@@ -86,32 +87,46 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc
         %tmp.46 = ne %tmp.44 %tmp.45;
         %tmp.47 = and %tmp.38 %tmp.46;
         push %tmp.47;
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_129_end:
-        %tmp.48 = phi [%tmp.39 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_11_begin] [%tmp.47 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_129_true] [%tmp.48 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_129_end];
-        bf %tmp.48 @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_8_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_8_if_true:
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_25_8_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 26 12 ]
-        %tmp.49 = self;
-        %tmp.50 = getv function %tmp.49 :loadGame;
-        invoke %tmp.49 %tmp.50();
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_25_8_stop:
-        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_8_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_24_8_if_end:
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_15_4_stop:
+_home_max_git_mines_connectiq_source_MinesApp_mc_24_129_end:
+        %tmp.48 = phi [%tmp.39 @_home_max_git_mines_connectiq_source_MinesApp_mc_24_11_begin] [%tmp.47 @_home_max_git_mines_connectiq_source_MinesApp_mc_24_129_true] [%tmp.48 @_home_max_git_mines_connectiq_source_MinesApp_mc_24_129_end];
+        %tmp.49 = dup %tmp.48;
+        bf %tmp.49 @_home_max_git_mines_connectiq_source_MinesApp_mc_24_200_end;
+_home_max_git_mines_connectiq_source_MinesApp_mc_24_200_true:
+        %tmp.50 = getm $.Toybox.Application;
+        %tmp.51 = getv %tmp.50 :Properties;
+        %tmp.52 = getv function %tmp.51 :getValue;
+        %tmp.53 = "SaveSecondsElapsed";
+        %tmp.54 = invoke %tmp.51 %tmp.52(%tmp.53);
+        %tmp.55 = null;
+        %tmp.56 = ne %tmp.54 %tmp.55;
+        %tmp.57 = and %tmp.48 %tmp.56;
+        push %tmp.57;
+_home_max_git_mines_connectiq_source_MinesApp_mc_24_200_end:
+        %tmp.58 = phi [%tmp.49 @_home_max_git_mines_connectiq_source_MinesApp_mc_24_11_begin] [%tmp.57 @_home_max_git_mines_connectiq_source_MinesApp_mc_24_200_true] [%tmp.58 @_home_max_git_mines_connectiq_source_MinesApp_mc_24_200_end];
+        bf %tmp.58 @_home_max_git_mines_connectiq_source_MinesApp_mc_24_8_if_end;
+_home_max_git_mines_connectiq_source_MinesApp_mc_24_8_if_true:
+_home_max_git_mines_connectiq_source_MinesApp_mc_25_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 26 12 ]
+        %tmp.59 = self;
+        %tmp.60 = getv function %tmp.59 :loadGame;
+        invoke %tmp.59 %tmp.60();
+_home_max_git_mines_connectiq_source_MinesApp_mc_25_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesApp_mc_24_8_if_end;
+_home_max_git_mines_connectiq_source_MinesApp_mc_24_8_if_end:
+_home_max_git_mines_connectiq_source_MinesApp_mc_15_4_stop:
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 32; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 32; ]
     public
     function saveGame() {
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_33_4_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 34 8 ]
-        [ "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_33_4_start" "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_33_4_stop" ]
+_home_max_git_mines_connectiq_source_MinesApp_mc_33_4_start:
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 34 8 ]
+        [ "_home_max_git_mines_connectiq_source_MinesApp_mc_33_4_start" "_home_max_git_mines_connectiq_source_MinesApp_mc_33_4_stop" ]
         %field.1 = local;
         %tmp.2 = getv ? :engine;
         %tmp.3 = getv function %tmp.2 :getField;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %field.1 %tmp.4;
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 36 8 ]
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 36 8 ]
         %tmp.5 = getm $.Toybox.Application;
         %tmp.6 = getv %tmp.5 :Properties;
         %tmp.7 = getv function %tmp.6 :setValue;
@@ -121,7 +136,7 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc
         %tmp.11 = invoke %tmp.9 %tmp.10();
         %tmp.12 = as %tmp.11 Number;
         invoke %tmp.6 %tmp.7(%tmp.8, %tmp.12);
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 37 8 ]
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 37 8 ]
         %tmp.13 = getm $.Toybox.Application;
         %tmp.14 = getv %tmp.13 :Properties;
         %tmp.15 = getv function %tmp.14 :setValue;
@@ -131,7 +146,7 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc
         %tmp.19 = invoke %tmp.17 %tmp.18();
         %tmp.20 = as %tmp.19 Array<Number>;
         invoke %tmp.14 %tmp.15(%tmp.16, %tmp.20);
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 38 8 ]
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 38 8 ]
         %tmp.21 = getm $.Toybox.Application;
         %tmp.22 = getv %tmp.21 :Properties;
         %tmp.23 = getv function %tmp.22 :setValue;
@@ -141,14 +156,24 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc
         %tmp.27 = invoke %tmp.25 %tmp.26();
         %tmp.28 = as %tmp.27 Array<Number>;
         invoke %tmp.22 %tmp.23(%tmp.24, %tmp.28);
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_33_4_stop:
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 39 8 ]
+        %tmp.29 = getm $.Toybox.Application;
+        %tmp.30 = getv %tmp.29 :Properties;
+        %tmp.31 = getv function %tmp.30 :setValue;
+        %tmp.32 = "SaveSecondsElapsed";
+        %tmp.34 = getv ? :engine;
+        %tmp.35 = getv function %tmp.34 :getSecondsElapsed;
+        %tmp.36 = invoke %tmp.34 %tmp.35();
+        %tmp.37 = as %tmp.36 Number;
+        invoke %tmp.30 %tmp.31(%tmp.32, %tmp.37);
+_home_max_git_mines_connectiq_source_MinesApp_mc_33_4_stop:
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 41; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 42; ]
     public
     function loadGame() {
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 43 8 ]
-        [ "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_start" "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_stop" ]
+_home_max_git_mines_connectiq_source_MinesApp_mc_43_4_start:
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 44 8 ]
+        [ "_home_max_git_mines_connectiq_source_MinesApp_mc_43_4_start" "_home_max_git_mines_connectiq_source_MinesApp_mc_43_4_stop" ]
         %size.1 = local;
         %tmp.1 = getm $.Toybox.Application;
         %tmp.2 = getv %tmp.1 :Properties;
@@ -157,8 +182,8 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc
         %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
         %tmp.6 = as %tmp.5 Number;
         lputv %size.1 %tmp.6;
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 44 8 ]
-        [ "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_start" "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_stop" ]
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 45 8 ]
+        [ "_home_max_git_mines_connectiq_source_MinesApp_mc_43_4_start" "_home_max_git_mines_connectiq_source_MinesApp_mc_43_4_stop" ]
         %cells.2 = local;
         %tmp.7 = getm $.Toybox.Application;
         %tmp.8 = getv %tmp.7 :Properties;
@@ -167,8 +192,8 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc
         %tmp.11 = invoke %tmp.8 %tmp.9(%tmp.10);
         %tmp.12 = as %tmp.11 Array<Number>;
         lputv %cells.2 %tmp.12;
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 45 8 ]
-        [ "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_start" "_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_stop" ]
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 46 8 ]
+        [ "_home_max_git_mines_connectiq_source_MinesApp_mc_43_4_start" "_home_max_git_mines_connectiq_source_MinesApp_mc_43_4_stop" ]
         %cells_disc.3 = local;
         %tmp.13 = getm $.Toybox.Application;
         %tmp.14 = getv %tmp.13 :Properties;
@@ -177,31 +202,42 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc
         %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
         %tmp.18 = as %tmp.17 Array<Number>;
         lputv %cells_disc.3 %tmp.18;
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 47 8 ]
-        %tmp.20 = getv ? :engine;
-        %tmp.21 = getv function %tmp.20 :loadState;
-        %tmp.23 = lgetv %size.1;
-        %tmp.25 = lgetv %cells.2;
-        %tmp.27 = lgetv %cells_disc.3;
-        invoke %tmp.20 %tmp.21(%tmp.23, %tmp.25, %tmp.27);
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_42_4_stop:
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 47 8 ]
+        [ "_home_max_git_mines_connectiq_source_MinesApp_mc_43_4_start" "_home_max_git_mines_connectiq_source_MinesApp_mc_43_4_stop" ]
+        %secs_elapsed.4 = local;
+        %tmp.19 = getm $.Toybox.Application;
+        %tmp.20 = getv %tmp.19 :Properties;
+        %tmp.21 = getv function %tmp.20 :getValue;
+        %tmp.22 = "SaveSecondsElapsed";
+        %tmp.23 = invoke %tmp.20 %tmp.21(%tmp.22);
+        %tmp.24 = as %tmp.23 Number;
+        lputv %secs_elapsed.4 %tmp.24;
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 50 8 ]
+        %tmp.26 = getv ? :engine;
+        %tmp.27 = getv function %tmp.26 :loadState;
+        %tmp.29 = lgetv %size.1;
+        %tmp.31 = lgetv %cells.2;
+        %tmp.33 = lgetv %cells_disc.3;
+        %tmp.35 = lgetv %secs_elapsed.4;
+        invoke %tmp.26 %tmp.27(%tmp.29, %tmp.31, %tmp.33, %tmp.35);
+_home_max_git_mines_connectiq_source_MinesApp_mc_43_4_stop:
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 51; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 54; ]
     function onStart(state as Dictionary or Null) as Void {
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 56; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 59; ]
     function onStop(state as Dictionary or Null) as Void {
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_57_4_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 58 8 ]
+_home_max_git_mines_connectiq_source_MinesApp_mc_60_4_start:
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 61 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :saveGame;
         invoke %tmp.1 %tmp.2();
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_57_4_stop:
+_home_max_git_mines_connectiq_source_MinesApp_mc_60_4_stop:
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 62; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 65; ]
     function getInitialView() as Array<Views or InputDelegates> or Null {
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_63_4_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 64 8 ]
+_home_max_git_mines_connectiq_source_MinesApp_mc_66_4_start:
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 67 8 ]
         %tmp.1 = newa Array<Views or InputDelegates> 2;
         %tmp.5 = getv ? :MinesView;
         %tmp.2 = newc %tmp.5 ();
@@ -212,20 +248,20 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc
         %tmp.12 = dup %tmp.7;
         %tmp.13 = aputv %tmp.12 1 %tmp.8;
         ret %tmp.13;
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_63_4_stop:
+_home_max_git_mines_connectiq_source_MinesApp_mc_66_4_stop:
     }
 }
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 69; ]
+[ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 72; ]
 function getApp() as MinesApp {
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_70_0_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc" 71 4 ]
+_home_max_git_mines_connectiq_source_MinesApp_mc_73_0_start:
+[ "/home/max/git/mines-connectiq/source/MinesApp.mc" 74 4 ]
     %tmp.1 = getm $.Toybox.Application;
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 MinesApp;
     ret %tmp.4;
-_home_max_Dokumente_Playground_iqconnect_Projects_Mines_Mines_source_MinesApp_mc_70_0_stop:
+_home_max_git_mines_connectiq_source_MinesApp_mc_73_0_stop:
 }
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Mines/Mines/source/MinesApp.mc"; @line = 1; ]
+[ @file = "/home/max/git/mines-connectiq/source/MinesApp.mc"; @line = 1; ]
 <init> {
 }

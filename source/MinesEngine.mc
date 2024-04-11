@@ -1,4 +1,5 @@
 
+using Toybox.Timer;
 
 class MinesEngine
 {
@@ -7,6 +8,10 @@ class MinesEngine
     private var cursor_pos;
 
     private var game_status;
+
+    private var timer;
+
+    private var seconds_count;
 
     public function initialize(s_field, n_mines)
     {
@@ -18,9 +23,24 @@ class MinesEngine
         cursor_pos[1] = 0;
 
         game_status = STATUS_ACTIVE;
+
+        seconds_count = 0;
+
+        timer = new Timer.Timer();
+        timer.start(method(:timerCallback)  as Method() as Void, 1000, true);
     }
 
-    public function loadState(size, c_cells, c_cellsdisc)
+    public function timerCallback() 
+    {
+        if(game_status == STATUS_ACTIVE)
+        {
+            seconds_count += 1;
+            WatchUi.requestUpdate();
+        }
+    }
+
+
+    public function loadState(size, c_cells, c_cellsdisc, seconds_elapsed)
     {
         cursor_pos[0] = 0;
         cursor_pos[1] = 0;
@@ -28,6 +48,8 @@ class MinesEngine
         field.loadState(size, c_cells, c_cellsdisc);
 
         game_status = STATUS_ACTIVE;
+
+        seconds_count = seconds_elapsed;
 
     }
 
@@ -91,6 +113,11 @@ class MinesEngine
     public function getField()
     {
         return field;
+    }
+
+    public function getSecondsElapsed()
+    {
+        return seconds_count;
     }
 }
 
