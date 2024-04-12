@@ -11,6 +11,8 @@ class MinesApp extends Application.AppBase
     public var n_cells;
     public var n_mines;
 
+    public var view;
+
     function initialize() 
     {
         AppBase.initialize();
@@ -64,7 +66,8 @@ class MinesApp extends Application.AppBase
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? 
     {
-        return [ new MinesView(), new MinesDelegate() ] as Array<Views or InputDelegates>;
+        view = new MinesView();
+        return [ view , new MinesDelegate() ] as Array<Views or InputDelegates>;
     }
 
 }

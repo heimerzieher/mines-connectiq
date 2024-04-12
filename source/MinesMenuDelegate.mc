@@ -68,6 +68,7 @@ class MinesMenuDelegate extends WatchUi.Menu2InputDelegate
             getApp().n_cells = Application.Properties.getValue("SizeField");
             getApp().n_mines = Application.Properties.getValue("NumberMines");
     
+            getApp().engine.stop(); //avoid timer errors
             getApp().engine = null; // free the menory
             getApp().engine = new MinesEngine(getApp().n_cells,getApp().n_mines);
 

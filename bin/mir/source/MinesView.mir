@@ -15,19 +15,29 @@ class MinesView extends WatchUi.View{
     static
     <init> {
     }
-    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 8; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 8; @position = 8; ]
+    var screen_width;
+    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 9; @position = 8; ]
+    var screen_height;
+    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 11; @position = 8; ]
+    var position_x;
+    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 12; @position = 8; ]
+    var position_y;
+    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 14; @position = 8; ]
+    var cell_size;
+    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 16; ]
     function initialize() as Void {
-_home_max_git_mines_connectiq_source_MinesView_mc_9_4_start:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 10 8 ]
+_home_max_git_mines_connectiq_source_MinesView_mc_17_4_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 18 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_home_max_git_mines_connectiq_source_MinesView_mc_9_4_stop:
+_home_max_git_mines_connectiq_source_MinesView_mc_17_4_stop:
     }
-    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 14; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 22; ]
     function onLayout(dc as Dc) as Void {
-_home_max_git_mines_connectiq_source_MinesView_mc_15_4_start:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 16 8 ]
+_home_max_git_mines_connectiq_source_MinesView_mc_23_4_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 24 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -36,62 +46,58 @@ _home_max_git_mines_connectiq_source_MinesView_mc_15_4_start:
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-_home_max_git_mines_connectiq_source_MinesView_mc_15_4_stop:
+_home_max_git_mines_connectiq_source_MinesView_mc_23_4_stop:
     }
-    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 22; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 30; ]
     function onShow() as Void {
     }
-    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 27; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 35; ]
     function onUpdate(dc as Dc) as Void {
-_home_max_git_mines_connectiq_source_MinesView_mc_28_4_start:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 30 8 ]
+_home_max_git_mines_connectiq_source_MinesView_mc_36_4_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 38 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :onUpdate;
         %tmp.5 = lgetv %dc;
         invoke %tmp.2 %tmp.3(%tmp.5);
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 31 8 ]
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 39 8 ]
         %tmp.6 = lgetv %dc;
         %tmp.7 = getv function %tmp.6 :clear;
         invoke %tmp.6 %tmp.7();
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 34 8 ]
-        [ "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_stop" ]
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 42 8 ]
+        [ "_home_max_git_mines_connectiq_source_MinesView_mc_36_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_36_4_stop" ]
         %n_cells.1 = local;
         %tmp.8 = self;
         %tmp.9 = getv function %tmp.8 :getApp;
         %tmp.10 = invoke %tmp.8 %tmp.9();
         %tmp.11 = getv %tmp.10 :n_cells;
         lputv %n_cells.1 %tmp.11;
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 36 8 ]
-        [ "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_stop" ]
-        %screen_width.2 = local;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 44 8 ]
         %tmp.12 = lgetv %dc;
         %tmp.13 = getv function %tmp.12 :getWidth;
         %tmp.14 = invoke %tmp.12 %tmp.13();
-        lputv %screen_width.2 %tmp.14;
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 37 8 ]
-        [ "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_stop" ]
-        %screen_height.3 = local;
+        putv self :screen_width %tmp.14;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 45 8 ]
         %tmp.15 = lgetv %dc;
         %tmp.16 = getv function %tmp.15 :getHeight;
         %tmp.17 = invoke %tmp.15 %tmp.16();
-        lputv %screen_height.3 %tmp.17;
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 38 8 ]
-        [ "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_stop" ]
-        %center_x.4 = local;
-        %tmp.19 = lgetv %screen_width.2;
+        putv self :screen_height %tmp.17;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 46 8 ]
+        [ "_home_max_git_mines_connectiq_source_MinesView_mc_36_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_36_4_stop" ]
+        %center_x.2 = local;
+        %tmp.19 = getv ? :screen_width;
         %tmp.20 = 2;
         %tmp.21 = div %tmp.19 %tmp.20;
-        lputv %center_x.4 %tmp.21;
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 39 8 ]
-        [ "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_stop" ]
-        %center_y.5 = local;
-        %tmp.23 = lgetv %screen_height.3;
+        lputv %center_x.2 %tmp.21;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 47 8 ]
+        [ "_home_max_git_mines_connectiq_source_MinesView_mc_36_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_36_4_stop" ]
+        %center_y.3 = local;
+        %tmp.23 = getv ? :screen_height;
         %tmp.24 = 2;
         %tmp.25 = div %tmp.23 %tmp.24;
-        lputv %center_y.5 %tmp.25;
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 41 8 ]
-        [ "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_stop" ]
-        %target_field_width.6 = local;
+        lputv %center_y.3 %tmp.25;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 49 8 ]
+        [ "_home_max_git_mines_connectiq_source_MinesView_mc_36_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_36_4_stop" ]
+        %target_field_width.4 = local;
         %tmp.27 = getv ? :Math;
         %tmp.28 = getv function %tmp.27 :cos;
         %tmp.30 = getv ? :Math;
@@ -99,12 +105,12 @@ _home_max_git_mines_connectiq_source_MinesView_mc_28_4_start:
         %tmp.32 = 4;
         %tmp.33 = div %tmp.31 %tmp.32;
         %tmp.34 = invoke %tmp.27 %tmp.28(%tmp.33);
-        %tmp.36 = lgetv %screen_width.2;
+        %tmp.36 = getv ? :screen_width;
         %tmp.37 = mul %tmp.34 %tmp.36;
-        lputv %target_field_width.6 %tmp.37;
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 42 8 ]
-        [ "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_stop" ]
-        %target_field_height.7 = local;
+        lputv %target_field_width.4 %tmp.37;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 50 8 ]
+        [ "_home_max_git_mines_connectiq_source_MinesView_mc_36_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_36_4_stop" ]
+        %target_field_height.5 = local;
         %tmp.39 = getv ? :Math;
         %tmp.40 = getv function %tmp.39 :sin;
         %tmp.42 = getv ? :Math;
@@ -112,104 +118,98 @@ _home_max_git_mines_connectiq_source_MinesView_mc_28_4_start:
         %tmp.44 = 4;
         %tmp.45 = div %tmp.43 %tmp.44;
         %tmp.46 = invoke %tmp.39 %tmp.40(%tmp.45);
-        %tmp.48 = lgetv %screen_height.3;
+        %tmp.48 = getv ? :screen_height;
         %tmp.49 = mul %tmp.46 %tmp.48;
-        lputv %target_field_height.7 %tmp.49;
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 46 8 ]
-        [ "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_stop" ]
-        %cell_size.8 = local;
-        %tmp.51 = lgetv %target_field_width.6;
+        lputv %target_field_height.5 %tmp.49;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 54 8 ]
+        %tmp.51 = lgetv %target_field_width.4;
         %tmp.53 = lgetv %n_cells.1;
         %tmp.54 = div %tmp.51 %tmp.53;
         %tmp.55 = getv function %tmp.54 :toNumber;
         %tmp.56 = invoke %tmp.54 %tmp.55();
-        lputv %cell_size.8 %tmp.56;
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 51 8 ]
-        [ "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_stop" ]
-        %position_x.9 = local;
-        %tmp.58 = lgetv %center_x.4;
-        %tmp.60 = lgetv %cell_size.8;
+        putv self :cell_size %tmp.56;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 59 8 ]
+        %tmp.58 = lgetv %center_x.2;
+        %tmp.60 = getv ? :cell_size;
         %tmp.62 = lgetv %n_cells.1;
         %tmp.63 = mul %tmp.60 %tmp.62;
         %tmp.64 = 2;
         %tmp.65 = div %tmp.63 %tmp.64;
         %tmp.66 = sub %tmp.58 %tmp.65;
-        lputv %position_x.9 %tmp.66;
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 52 8 ]
-        [ "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_stop" ]
-        %position_y.10 = local;
-        %tmp.68 = lgetv %center_y.5;
-        %tmp.70 = lgetv %cell_size.8;
+        putv self :position_x %tmp.66;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 60 8 ]
+        %tmp.68 = lgetv %center_y.3;
+        %tmp.70 = getv ? :cell_size;
         %tmp.72 = lgetv %n_cells.1;
         %tmp.73 = mul %tmp.70 %tmp.72;
         %tmp.74 = 2;
         %tmp.75 = div %tmp.73 %tmp.74;
         %tmp.76 = sub %tmp.68 %tmp.75;
-        lputv %position_y.10 %tmp.76;
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 55 8 ]
-        [ "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_28_4_stop" ]
-        %cursor_pos.11 = local;
+        putv self :position_y %tmp.76;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 63 8 ]
+        [ "_home_max_git_mines_connectiq_source_MinesView_mc_36_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_36_4_stop" ]
+        %cursor_pos.6 = local;
         %tmp.77 = self;
         %tmp.78 = getv function %tmp.77 :getApp;
         %tmp.79 = invoke %tmp.77 %tmp.78();
         %tmp.80 = getv %tmp.79 :engine;
         %tmp.81 = getv function %tmp.80 :getCursor;
         %tmp.82 = invoke %tmp.80 %tmp.81();
-        lputv %cursor_pos.11 %tmp.82;
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 57 8 ]
+        lputv %cursor_pos.6 %tmp.82;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 65 8 ]
         %tmp.83 = lgetv %dc;
         %tmp.84 = getv function %tmp.83 :setPenWidth;
         %tmp.85 = 2;
         invoke %tmp.83 %tmp.84(%tmp.85);
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 60 8 ]
-        for @_home_max_git_mines_connectiq_source_MinesView_mc_60_8_for_test @_home_max_git_mines_connectiq_source_MinesView_mc_60_8_for_incr @_home_max_git_mines_connectiq_source_MinesView_mc_60_8_for_end;
-_home_max_git_mines_connectiq_source_MinesView_mc_60_8_for_init:
-        [ "_home_max_git_mines_connectiq_source_MinesView_mc_60_8_for_begin" "_home_max_git_mines_connectiq_source_MinesView_mc_60_8_for_end" ]
-        %x.12 = local;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 68 8 ]
+        for @_home_max_git_mines_connectiq_source_MinesView_mc_68_8_for_test @_home_max_git_mines_connectiq_source_MinesView_mc_68_8_for_incr @_home_max_git_mines_connectiq_source_MinesView_mc_68_8_for_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_68_8_for_init:
+        [ "_home_max_git_mines_connectiq_source_MinesView_mc_68_8_for_begin" "_home_max_git_mines_connectiq_source_MinesView_mc_68_8_for_end" ]
+        %x.7 = local;
         %tmp.86 = 0;
-        lputv %x.12 %tmp.86;
-_home_max_git_mines_connectiq_source_MinesView_mc_60_8_for_test:
-        %tmp.88 = lgetv %x.12;
+        lputv %x.7 %tmp.86;
+_home_max_git_mines_connectiq_source_MinesView_mc_68_8_for_test:
+        %tmp.88 = lgetv %x.7;
         %tmp.90 = lgetv %n_cells.1;
         %tmp.91 = lt %tmp.88 %tmp.90;
-        bf %tmp.91 @_home_max_git_mines_connectiq_source_MinesView_mc_60_8_for_end;
-_home_max_git_mines_connectiq_source_MinesView_mc_60_8_for_begin:
-_home_max_git_mines_connectiq_source_MinesView_mc_61_8_start:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 62 12 ]
-        for @_home_max_git_mines_connectiq_source_MinesView_mc_62_12_for_test @_home_max_git_mines_connectiq_source_MinesView_mc_62_12_for_incr @_home_max_git_mines_connectiq_source_MinesView_mc_62_12_for_end;
-_home_max_git_mines_connectiq_source_MinesView_mc_62_12_for_init:
-        [ "_home_max_git_mines_connectiq_source_MinesView_mc_62_12_for_begin" "_home_max_git_mines_connectiq_source_MinesView_mc_62_12_for_end" ]
-        %y.13 = local;
+        bf %tmp.91 @_home_max_git_mines_connectiq_source_MinesView_mc_68_8_for_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_68_8_for_begin:
+_home_max_git_mines_connectiq_source_MinesView_mc_69_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 70 12 ]
+        for @_home_max_git_mines_connectiq_source_MinesView_mc_70_12_for_test @_home_max_git_mines_connectiq_source_MinesView_mc_70_12_for_incr @_home_max_git_mines_connectiq_source_MinesView_mc_70_12_for_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_70_12_for_init:
+        [ "_home_max_git_mines_connectiq_source_MinesView_mc_70_12_for_begin" "_home_max_git_mines_connectiq_source_MinesView_mc_70_12_for_end" ]
+        %y.8 = local;
         %tmp.92 = 0;
-        lputv %y.13 %tmp.92;
-_home_max_git_mines_connectiq_source_MinesView_mc_62_12_for_test:
-        %tmp.94 = lgetv %y.13;
+        lputv %y.8 %tmp.92;
+_home_max_git_mines_connectiq_source_MinesView_mc_70_12_for_test:
+        %tmp.94 = lgetv %y.8;
         %tmp.96 = lgetv %n_cells.1;
         %tmp.97 = lt %tmp.94 %tmp.96;
-        bf %tmp.97 @_home_max_git_mines_connectiq_source_MinesView_mc_62_12_for_end;
-_home_max_git_mines_connectiq_source_MinesView_mc_62_12_for_begin:
-_home_max_git_mines_connectiq_source_MinesView_mc_63_12_start:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 64 16 ]
-        [ "_home_max_git_mines_connectiq_source_MinesView_mc_63_12_start" "_home_max_git_mines_connectiq_source_MinesView_mc_63_12_stop" ]
-        %cell.14 = local;
+        bf %tmp.97 @_home_max_git_mines_connectiq_source_MinesView_mc_70_12_for_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_70_12_for_begin:
+_home_max_git_mines_connectiq_source_MinesView_mc_71_12_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 72 16 ]
+        [ "_home_max_git_mines_connectiq_source_MinesView_mc_71_12_start" "_home_max_git_mines_connectiq_source_MinesView_mc_71_12_stop" ]
+        %cell.9 = local;
         %tmp.98 = self;
         %tmp.99 = getv function %tmp.98 :getApp;
         %tmp.100 = invoke %tmp.98 %tmp.99();
         %tmp.101 = getv %tmp.100 :engine;
         %tmp.102 = getv function %tmp.101 :getCell;
-        %tmp.104 = lgetv %x.12;
-        %tmp.106 = lgetv %y.13;
+        %tmp.104 = lgetv %x.7;
+        %tmp.106 = lgetv %y.8;
         %tmp.107 = invoke %tmp.101 %tmp.102(%tmp.104, %tmp.106);
-        lputv %cell.14 %tmp.107;
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 66 16 ]
-_home_max_git_mines_connectiq_source_MinesView_mc_66_16_if_stmt:
-        %tmp.109 = lgetv %cell.14;
+        lputv %cell.9 %tmp.107;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 74 16 ]
+_home_max_git_mines_connectiq_source_MinesView_mc_74_16_if_stmt:
+        %tmp.109 = lgetv %cell.9;
         %tmp.111 = getv ? :CELL_UNDISCOVERED;
         %tmp.112 = eq %tmp.109 %tmp.111;
-        bf %tmp.112 @_home_max_git_mines_connectiq_source_MinesView_mc_66_16_if_false;
-_home_max_git_mines_connectiq_source_MinesView_mc_66_16_if_true:
-_home_max_git_mines_connectiq_source_MinesView_mc_67_16_start:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 68 20 ]
+        bf %tmp.112 @_home_max_git_mines_connectiq_source_MinesView_mc_74_16_if_false;
+_home_max_git_mines_connectiq_source_MinesView_mc_74_16_if_true:
+_home_max_git_mines_connectiq_source_MinesView_mc_75_16_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 76 20 ]
         %tmp.113 = lgetv %dc;
         %tmp.114 = getv function %tmp.113 :setColor;
         %tmp.115 = getm $.Toybox.Graphics;
@@ -217,34 +217,34 @@ _home_max_git_mines_connectiq_source_MinesView_mc_67_16_start:
         %tmp.117 = getm $.Toybox.Graphics;
         %tmp.118 = getv %tmp.117 :COLOR_BLACK;
         invoke %tmp.113 %tmp.114(%tmp.116, %tmp.118);
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 69 20 ]
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 77 20 ]
         %tmp.119 = lgetv %dc;
         %tmp.120 = getv function %tmp.119 :fillRectangle;
-        %tmp.122 = lgetv %position_x.9;
-        %tmp.124 = lgetv %x.12;
-        %tmp.126 = lgetv %cell_size.8;
+        %tmp.122 = getv ? :position_x;
+        %tmp.124 = lgetv %x.7;
+        %tmp.126 = getv ? :cell_size;
         %tmp.127 = mul %tmp.124 %tmp.126;
         %tmp.128 = add %tmp.122 %tmp.127;
-        %tmp.130 = lgetv %position_y.10;
-        %tmp.132 = lgetv %y.13;
-        %tmp.134 = lgetv %cell_size.8;
+        %tmp.130 = getv ? :position_y;
+        %tmp.132 = lgetv %y.8;
+        %tmp.134 = getv ? :cell_size;
         %tmp.135 = mul %tmp.132 %tmp.134;
         %tmp.136 = add %tmp.130 %tmp.135;
-        %tmp.138 = lgetv %cell_size.8;
-        %tmp.140 = lgetv %cell_size.8;
+        %tmp.138 = getv ? :cell_size;
+        %tmp.140 = getv ? :cell_size;
         invoke %tmp.119 %tmp.120(%tmp.128, %tmp.136, %tmp.138, %tmp.140);
-_home_max_git_mines_connectiq_source_MinesView_mc_67_16_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesView_mc_66_16_if_end;
-_home_max_git_mines_connectiq_source_MinesView_mc_66_16_if_false:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 72 21 ]
-_home_max_git_mines_connectiq_source_MinesView_mc_72_21_if_stmt:
-        %tmp.142 = lgetv %cell.14;
+_home_max_git_mines_connectiq_source_MinesView_mc_75_16_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesView_mc_74_16_if_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_74_16_if_false:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 80 21 ]
+_home_max_git_mines_connectiq_source_MinesView_mc_80_21_if_stmt:
+        %tmp.142 = lgetv %cell.9;
         %tmp.144 = getv ? :CELL_UNDISCOVERED_FLAGGED;
         %tmp.145 = eq %tmp.142 %tmp.144;
-        bf %tmp.145 @_home_max_git_mines_connectiq_source_MinesView_mc_72_21_if_false;
-_home_max_git_mines_connectiq_source_MinesView_mc_72_21_if_true:
-_home_max_git_mines_connectiq_source_MinesView_mc_73_16_start:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 74 20 ]
+        bf %tmp.145 @_home_max_git_mines_connectiq_source_MinesView_mc_80_21_if_false;
+_home_max_git_mines_connectiq_source_MinesView_mc_80_21_if_true:
+_home_max_git_mines_connectiq_source_MinesView_mc_81_16_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 82 20 ]
         %tmp.146 = lgetv %dc;
         %tmp.147 = getv function %tmp.146 :setColor;
         %tmp.148 = getm $.Toybox.Graphics;
@@ -252,23 +252,23 @@ _home_max_git_mines_connectiq_source_MinesView_mc_73_16_start:
         %tmp.150 = getm $.Toybox.Graphics;
         %tmp.151 = getv %tmp.150 :COLOR_BLACK;
         invoke %tmp.146 %tmp.147(%tmp.149, %tmp.151);
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 75 20 ]
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 83 20 ]
         %tmp.152 = lgetv %dc;
         %tmp.153 = getv function %tmp.152 :fillRectangle;
-        %tmp.155 = lgetv %position_x.9;
-        %tmp.157 = lgetv %x.12;
-        %tmp.159 = lgetv %cell_size.8;
+        %tmp.155 = getv ? :position_x;
+        %tmp.157 = lgetv %x.7;
+        %tmp.159 = getv ? :cell_size;
         %tmp.160 = mul %tmp.157 %tmp.159;
         %tmp.161 = add %tmp.155 %tmp.160;
-        %tmp.163 = lgetv %position_y.10;
-        %tmp.165 = lgetv %y.13;
-        %tmp.167 = lgetv %cell_size.8;
+        %tmp.163 = getv ? :position_y;
+        %tmp.165 = lgetv %y.8;
+        %tmp.167 = getv ? :cell_size;
         %tmp.168 = mul %tmp.165 %tmp.167;
         %tmp.169 = add %tmp.163 %tmp.168;
-        %tmp.171 = lgetv %cell_size.8;
-        %tmp.173 = lgetv %cell_size.8;
+        %tmp.171 = getv ? :cell_size;
+        %tmp.173 = getv ? :cell_size;
         invoke %tmp.152 %tmp.153(%tmp.161, %tmp.169, %tmp.171, %tmp.173);
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 77 20 ]
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 85 20 ]
         %tmp.174 = lgetv %dc;
         %tmp.175 = getv function %tmp.174 :setColor;
         %tmp.176 = getm $.Toybox.Graphics;
@@ -276,21 +276,21 @@ _home_max_git_mines_connectiq_source_MinesView_mc_73_16_start:
         %tmp.178 = getm $.Toybox.Graphics;
         %tmp.179 = getv %tmp.178 :COLOR_LT_GRAY;
         invoke %tmp.174 %tmp.175(%tmp.177, %tmp.179);
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 78 20 ]
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 86 20 ]
         %tmp.180 = lgetv %dc;
         %tmp.181 = getv function %tmp.180 :drawText;
-        %tmp.183 = lgetv %position_x.9;
-        %tmp.185 = lgetv %x.12;
-        %tmp.187 = lgetv %cell_size.8;
+        %tmp.183 = getv ? :position_x;
+        %tmp.185 = lgetv %x.7;
+        %tmp.187 = getv ? :cell_size;
         %tmp.188 = mul %tmp.185 %tmp.187;
         %tmp.189 = add %tmp.183 %tmp.188;
-        %tmp.191 = lgetv %cell_size.8;
+        %tmp.191 = getv ? :cell_size;
         %tmp.192 = 2;
         %tmp.193 = div %tmp.191 %tmp.192;
         %tmp.194 = add %tmp.189 %tmp.193;
-        %tmp.196 = lgetv %position_y.10;
-        %tmp.198 = lgetv %y.13;
-        %tmp.200 = lgetv %cell_size.8;
+        %tmp.196 = getv ? :position_y;
+        %tmp.198 = lgetv %y.8;
+        %tmp.200 = getv ? :cell_size;
         %tmp.201 = mul %tmp.198 %tmp.200;
         %tmp.202 = add %tmp.196 %tmp.201;
         %tmp.203 = getm $.Toybox.Graphics;
@@ -299,27 +299,27 @@ _home_max_git_mines_connectiq_source_MinesView_mc_73_16_start:
         %tmp.206 = getm $.Toybox.Graphics;
         %tmp.207 = getv %tmp.206 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.180 %tmp.181(%tmp.194, %tmp.202, %tmp.204, %tmp.205, %tmp.207);
-_home_max_git_mines_connectiq_source_MinesView_mc_73_16_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesView_mc_72_21_if_end;
-_home_max_git_mines_connectiq_source_MinesView_mc_72_21_if_false:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 82 21 ]
-_home_max_git_mines_connectiq_source_MinesView_mc_82_21_if_stmt:
-        %tmp.209 = lgetv %cell.14;
+_home_max_git_mines_connectiq_source_MinesView_mc_81_16_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesView_mc_80_21_if_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_80_21_if_false:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 90 21 ]
+_home_max_git_mines_connectiq_source_MinesView_mc_90_21_if_stmt:
+        %tmp.209 = lgetv %cell.9;
         %tmp.211 = getv ? :CELL_EMPTY;
         %tmp.212 = eq %tmp.209 %tmp.211;
-        bf %tmp.212 @_home_max_git_mines_connectiq_source_MinesView_mc_82_21_if_false;
-_home_max_git_mines_connectiq_source_MinesView_mc_82_21_if_true:
-        goto @_home_max_git_mines_connectiq_source_MinesView_mc_82_21_if_end;
-_home_max_git_mines_connectiq_source_MinesView_mc_82_21_if_false:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 88 21 ]
-_home_max_git_mines_connectiq_source_MinesView_mc_88_21_if_stmt:
-        %tmp.214 = lgetv %cell.14;
+        bf %tmp.212 @_home_max_git_mines_connectiq_source_MinesView_mc_90_21_if_false;
+_home_max_git_mines_connectiq_source_MinesView_mc_90_21_if_true:
+        goto @_home_max_git_mines_connectiq_source_MinesView_mc_90_21_if_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_90_21_if_false:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 96 21 ]
+_home_max_git_mines_connectiq_source_MinesView_mc_96_21_if_stmt:
+        %tmp.214 = lgetv %cell.9;
         %tmp.216 = getv ? :CELL_MINE;
         %tmp.217 = eq %tmp.214 %tmp.216;
-        bf %tmp.217 @_home_max_git_mines_connectiq_source_MinesView_mc_88_21_if_false;
-_home_max_git_mines_connectiq_source_MinesView_mc_88_21_if_true:
-_home_max_git_mines_connectiq_source_MinesView_mc_89_16_start:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 90 20 ]
+        bf %tmp.217 @_home_max_git_mines_connectiq_source_MinesView_mc_96_21_if_false;
+_home_max_git_mines_connectiq_source_MinesView_mc_96_21_if_true:
+_home_max_git_mines_connectiq_source_MinesView_mc_97_16_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 98 20 ]
         %tmp.218 = lgetv %dc;
         %tmp.219 = getv function %tmp.218 :setColor;
         %tmp.220 = getm $.Toybox.Graphics;
@@ -327,21 +327,21 @@ _home_max_git_mines_connectiq_source_MinesView_mc_89_16_start:
         %tmp.222 = getm $.Toybox.Graphics;
         %tmp.223 = getv %tmp.222 :COLOR_BLACK;
         invoke %tmp.218 %tmp.219(%tmp.221, %tmp.223);
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 91 20 ]
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 99 20 ]
         %tmp.224 = lgetv %dc;
         %tmp.225 = getv function %tmp.224 :drawText;
-        %tmp.227 = lgetv %position_x.9;
-        %tmp.229 = lgetv %x.12;
-        %tmp.231 = lgetv %cell_size.8;
+        %tmp.227 = getv ? :position_x;
+        %tmp.229 = lgetv %x.7;
+        %tmp.231 = getv ? :cell_size;
         %tmp.232 = mul %tmp.229 %tmp.231;
         %tmp.233 = add %tmp.227 %tmp.232;
-        %tmp.235 = lgetv %cell_size.8;
+        %tmp.235 = getv ? :cell_size;
         %tmp.236 = 2;
         %tmp.237 = div %tmp.235 %tmp.236;
         %tmp.238 = add %tmp.233 %tmp.237;
-        %tmp.240 = lgetv %position_y.10;
-        %tmp.242 = lgetv %y.13;
-        %tmp.244 = lgetv %cell_size.8;
+        %tmp.240 = getv ? :position_y;
+        %tmp.242 = lgetv %y.8;
+        %tmp.244 = getv ? :cell_size;
         %tmp.245 = mul %tmp.242 %tmp.244;
         %tmp.246 = add %tmp.240 %tmp.245;
         %tmp.247 = getm $.Toybox.Graphics;
@@ -350,11 +350,11 @@ _home_max_git_mines_connectiq_source_MinesView_mc_89_16_start:
         %tmp.250 = getm $.Toybox.Graphics;
         %tmp.251 = getv %tmp.250 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.224 %tmp.225(%tmp.238, %tmp.246, %tmp.248, %tmp.249, %tmp.251);
-_home_max_git_mines_connectiq_source_MinesView_mc_89_16_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesView_mc_88_21_if_end;
-_home_max_git_mines_connectiq_source_MinesView_mc_88_21_if_false:
-_home_max_git_mines_connectiq_source_MinesView_mc_95_16_start:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 96 20 ]
+_home_max_git_mines_connectiq_source_MinesView_mc_97_16_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesView_mc_96_21_if_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_96_21_if_false:
+_home_max_git_mines_connectiq_source_MinesView_mc_103_16_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 104 20 ]
         %tmp.252 = lgetv %dc;
         %tmp.253 = getv function %tmp.252 :setColor;
         %tmp.254 = getm $.Toybox.Graphics;
@@ -362,21 +362,21 @@ _home_max_git_mines_connectiq_source_MinesView_mc_95_16_start:
         %tmp.256 = getm $.Toybox.Graphics;
         %tmp.257 = getv %tmp.256 :COLOR_BLACK;
         invoke %tmp.252 %tmp.253(%tmp.255, %tmp.257);
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 97 20 ]
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 105 20 ]
         %tmp.258 = lgetv %dc;
         %tmp.259 = getv function %tmp.258 :drawText;
-        %tmp.261 = lgetv %position_x.9;
-        %tmp.263 = lgetv %x.12;
-        %tmp.265 = lgetv %cell_size.8;
+        %tmp.261 = getv ? :position_x;
+        %tmp.263 = lgetv %x.7;
+        %tmp.265 = getv ? :cell_size;
         %tmp.266 = mul %tmp.263 %tmp.265;
         %tmp.267 = add %tmp.261 %tmp.266;
-        %tmp.269 = lgetv %cell_size.8;
+        %tmp.269 = getv ? :cell_size;
         %tmp.270 = 2;
         %tmp.271 = div %tmp.269 %tmp.270;
         %tmp.272 = add %tmp.267 %tmp.271;
-        %tmp.274 = lgetv %position_y.10;
-        %tmp.276 = lgetv %y.13;
-        %tmp.278 = lgetv %cell_size.8;
+        %tmp.274 = getv ? :position_y;
+        %tmp.276 = lgetv %y.8;
+        %tmp.278 = getv ? :cell_size;
         %tmp.279 = mul %tmp.276 %tmp.278;
         %tmp.280 = add %tmp.274 %tmp.279;
         %tmp.281 = getm $.Toybox.Graphics;
@@ -386,18 +386,18 @@ _home_max_git_mines_connectiq_source_MinesView_mc_95_16_start:
         %tmp.285 = invoke %tmp.283 %tmp.284();
         %tmp.286 = getv %tmp.285 :engine;
         %tmp.287 = getv function %tmp.286 :getCell;
-        %tmp.289 = lgetv %x.12;
-        %tmp.291 = lgetv %y.13;
+        %tmp.289 = lgetv %x.7;
+        %tmp.291 = lgetv %y.8;
         %tmp.292 = invoke %tmp.286 %tmp.287(%tmp.289, %tmp.291);
         %tmp.293 = getm $.Toybox.Graphics;
         %tmp.294 = getv %tmp.293 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.258 %tmp.259(%tmp.272, %tmp.280, %tmp.282, %tmp.292, %tmp.294);
-_home_max_git_mines_connectiq_source_MinesView_mc_95_16_stop:
-_home_max_git_mines_connectiq_source_MinesView_mc_88_21_if_end:
-_home_max_git_mines_connectiq_source_MinesView_mc_82_21_if_end:
-_home_max_git_mines_connectiq_source_MinesView_mc_72_21_if_end:
-_home_max_git_mines_connectiq_source_MinesView_mc_66_16_if_end:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 101 16 ]
+_home_max_git_mines_connectiq_source_MinesView_mc_103_16_stop:
+_home_max_git_mines_connectiq_source_MinesView_mc_96_21_if_end:
+_home_max_git_mines_connectiq_source_MinesView_mc_90_21_if_end:
+_home_max_git_mines_connectiq_source_MinesView_mc_80_21_if_end:
+_home_max_git_mines_connectiq_source_MinesView_mc_74_16_if_end:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 109 16 ]
         %tmp.295 = lgetv %dc;
         %tmp.296 = getv function %tmp.295 :setColor;
         %tmp.297 = getm $.Toybox.Graphics;
@@ -405,39 +405,39 @@ _home_max_git_mines_connectiq_source_MinesView_mc_66_16_if_end:
         %tmp.299 = getm $.Toybox.Graphics;
         %tmp.300 = getv %tmp.299 :COLOR_BLACK;
         invoke %tmp.295 %tmp.296(%tmp.298, %tmp.300);
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 102 16 ]
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 110 16 ]
         %tmp.301 = lgetv %dc;
         %tmp.302 = getv function %tmp.301 :drawRectangle;
-        %tmp.304 = lgetv %position_x.9;
-        %tmp.306 = lgetv %x.12;
-        %tmp.308 = lgetv %cell_size.8;
+        %tmp.304 = getv ? :position_x;
+        %tmp.306 = lgetv %x.7;
+        %tmp.308 = getv ? :cell_size;
         %tmp.309 = mul %tmp.306 %tmp.308;
         %tmp.310 = add %tmp.304 %tmp.309;
-        %tmp.312 = lgetv %position_y.10;
-        %tmp.314 = lgetv %y.13;
-        %tmp.316 = lgetv %cell_size.8;
+        %tmp.312 = getv ? :position_y;
+        %tmp.314 = lgetv %y.8;
+        %tmp.316 = getv ? :cell_size;
         %tmp.317 = mul %tmp.314 %tmp.316;
         %tmp.318 = add %tmp.312 %tmp.317;
-        %tmp.320 = lgetv %cell_size.8;
-        %tmp.322 = lgetv %cell_size.8;
+        %tmp.320 = getv ? :cell_size;
+        %tmp.322 = getv ? :cell_size;
         invoke %tmp.301 %tmp.302(%tmp.310, %tmp.318, %tmp.320, %tmp.322);
-_home_max_git_mines_connectiq_source_MinesView_mc_63_12_stop:
-_home_max_git_mines_connectiq_source_MinesView_mc_62_12_for_incr:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 62 ]
-        %tmp.325 = lgetv %y.13;
+_home_max_git_mines_connectiq_source_MinesView_mc_71_12_stop:
+_home_max_git_mines_connectiq_source_MinesView_mc_70_12_for_incr:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 70 ]
+        %tmp.325 = lgetv %y.8;
         %tmp.326 = add %tmp.325 1;
-        lputv %y.13 %tmp.326;
-        goto @_home_max_git_mines_connectiq_source_MinesView_mc_62_12_for_test;
-_home_max_git_mines_connectiq_source_MinesView_mc_62_12_for_end:
-_home_max_git_mines_connectiq_source_MinesView_mc_61_8_stop:
-_home_max_git_mines_connectiq_source_MinesView_mc_60_8_for_incr:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 60 ]
-        %tmp.329 = lgetv %x.12;
+        lputv %y.8 %tmp.326;
+        goto @_home_max_git_mines_connectiq_source_MinesView_mc_70_12_for_test;
+_home_max_git_mines_connectiq_source_MinesView_mc_70_12_for_end:
+_home_max_git_mines_connectiq_source_MinesView_mc_69_8_stop:
+_home_max_git_mines_connectiq_source_MinesView_mc_68_8_for_incr:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 68 ]
+        %tmp.329 = lgetv %x.7;
         %tmp.330 = add %tmp.329 1;
-        lputv %x.12 %tmp.330;
-        goto @_home_max_git_mines_connectiq_source_MinesView_mc_60_8_for_test;
-_home_max_git_mines_connectiq_source_MinesView_mc_60_8_for_end:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 108 8 ]
+        lputv %x.7 %tmp.330;
+        goto @_home_max_git_mines_connectiq_source_MinesView_mc_68_8_for_test;
+_home_max_git_mines_connectiq_source_MinesView_mc_68_8_for_end:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 116 8 ]
         %tmp.331 = lgetv %dc;
         %tmp.332 = getv function %tmp.331 :setColor;
         %tmp.333 = getm $.Toybox.Graphics;
@@ -445,27 +445,27 @@ _home_max_git_mines_connectiq_source_MinesView_mc_60_8_for_end:
         %tmp.335 = getm $.Toybox.Graphics;
         %tmp.336 = getv %tmp.335 :COLOR_BLACK;
         invoke %tmp.331 %tmp.332(%tmp.334, %tmp.336);
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 109 8 ]
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 117 8 ]
         %tmp.337 = lgetv %dc;
         %tmp.338 = getv function %tmp.337 :drawRectangle;
-        %tmp.340 = lgetv %position_x.9;
-        %tmp.342 = lgetv %cursor_pos.11;
+        %tmp.340 = getv ? :position_x;
+        %tmp.342 = lgetv %cursor_pos.6;
         %tmp.343 = 0;
         %tmp.344 = agetv %tmp.342 %tmp.343;
-        %tmp.346 = lgetv %cell_size.8;
+        %tmp.346 = getv ? :cell_size;
         %tmp.347 = mul %tmp.344 %tmp.346;
         %tmp.348 = add %tmp.340 %tmp.347;
-        %tmp.350 = lgetv %position_y.10;
-        %tmp.352 = lgetv %cursor_pos.11;
+        %tmp.350 = getv ? :position_y;
+        %tmp.352 = lgetv %cursor_pos.6;
         %tmp.353 = 1;
         %tmp.354 = agetv %tmp.352 %tmp.353;
-        %tmp.356 = lgetv %cell_size.8;
+        %tmp.356 = getv ? :cell_size;
         %tmp.357 = mul %tmp.354 %tmp.356;
         %tmp.358 = add %tmp.350 %tmp.357;
-        %tmp.360 = lgetv %cell_size.8;
-        %tmp.362 = lgetv %cell_size.8;
+        %tmp.360 = getv ? :cell_size;
+        %tmp.362 = getv ? :cell_size;
         invoke %tmp.337 %tmp.338(%tmp.348, %tmp.358, %tmp.360, %tmp.362);
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 113 8 ]
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 121 8 ]
         %tmp.363 = lgetv %dc;
         %tmp.364 = getv function %tmp.363 :setColor;
         %tmp.365 = getm $.Toybox.Graphics;
@@ -473,12 +473,12 @@ _home_max_git_mines_connectiq_source_MinesView_mc_60_8_for_end:
         %tmp.367 = getm $.Toybox.Graphics;
         %tmp.368 = getv %tmp.367 :COLOR_BLACK;
         invoke %tmp.363 %tmp.364(%tmp.366, %tmp.368);
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 114 8 ]
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 122 8 ]
         %tmp.369 = lgetv %dc;
         %tmp.370 = getv function %tmp.369 :drawText;
-        %tmp.372 = lgetv %center_x.4;
-        %tmp.374 = lgetv %position_y.10;
-        %tmp.376 = lgetv %cell_size.8;
+        %tmp.372 = lgetv %center_x.2;
+        %tmp.374 = getv ? :position_y;
+        %tmp.376 = getv ? :cell_size;
         %tmp.378 = lgetv %n_cells.1;
         %tmp.379 = mul %tmp.376 %tmp.378;
         %tmp.380 = add %tmp.374 %tmp.379;
@@ -493,8 +493,8 @@ _home_max_git_mines_connectiq_source_MinesView_mc_60_8_for_end:
         %tmp.389 = getm $.Toybox.Graphics;
         %tmp.390 = getv %tmp.389 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.369 %tmp.370(%tmp.372, %tmp.380, %tmp.382, %tmp.388, %tmp.390);
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 117 8 ]
-_home_max_git_mines_connectiq_source_MinesView_mc_117_8_if_stmt:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 125 8 ]
+_home_max_git_mines_connectiq_source_MinesView_mc_125_8_if_stmt:
         %tmp.391 = self;
         %tmp.392 = getv function %tmp.391 :getApp;
         %tmp.393 = invoke %tmp.391 %tmp.392();
@@ -503,10 +503,10 @@ _home_max_git_mines_connectiq_source_MinesView_mc_117_8_if_stmt:
         %tmp.396 = invoke %tmp.394 %tmp.395();
         %tmp.398 = getv ? :STATUS_LOST;
         %tmp.399 = eq %tmp.396 %tmp.398;
-        bf %tmp.399 @_home_max_git_mines_connectiq_source_MinesView_mc_117_8_if_end;
-_home_max_git_mines_connectiq_source_MinesView_mc_117_8_if_true:
-_home_max_git_mines_connectiq_source_MinesView_mc_118_8_start:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 120 12 ]
+        bf %tmp.399 @_home_max_git_mines_connectiq_source_MinesView_mc_125_8_if_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_125_8_if_true:
+_home_max_git_mines_connectiq_source_MinesView_mc_126_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 128 12 ]
         %tmp.400 = lgetv %dc;
         %tmp.401 = getv function %tmp.400 :setColor;
         %tmp.402 = getm $.Toybox.Graphics;
@@ -514,11 +514,11 @@ _home_max_git_mines_connectiq_source_MinesView_mc_118_8_start:
         %tmp.404 = getm $.Toybox.Graphics;
         %tmp.405 = getv %tmp.404 :COLOR_BLACK;
         invoke %tmp.400 %tmp.401(%tmp.403, %tmp.405);
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 121 12 ]
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 129 12 ]
         %tmp.406 = lgetv %dc;
         %tmp.407 = getv function %tmp.406 :drawText;
-        %tmp.409 = lgetv %center_x.4;
-        %tmp.411 = lgetv %center_y.5;
+        %tmp.409 = lgetv %center_x.2;
+        %tmp.411 = lgetv %center_y.3;
         %tmp.412 = 30;
         %tmp.413 = add %tmp.411 %tmp.412;
         %tmp.414 = getm $.Toybox.Graphics;
@@ -527,11 +527,11 @@ _home_max_git_mines_connectiq_source_MinesView_mc_118_8_start:
         %tmp.417 = getm $.Toybox.Graphics;
         %tmp.418 = getv %tmp.417 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.406 %tmp.407(%tmp.409, %tmp.413, %tmp.415, %tmp.416, %tmp.418);
-_home_max_git_mines_connectiq_source_MinesView_mc_118_8_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesView_mc_117_8_if_end;
-_home_max_git_mines_connectiq_source_MinesView_mc_117_8_if_end:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 125 8 ]
-_home_max_git_mines_connectiq_source_MinesView_mc_125_8_if_stmt:
+_home_max_git_mines_connectiq_source_MinesView_mc_126_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesView_mc_125_8_if_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_125_8_if_end:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 133 8 ]
+_home_max_git_mines_connectiq_source_MinesView_mc_133_8_if_stmt:
         %tmp.419 = self;
         %tmp.420 = getv function %tmp.419 :getApp;
         %tmp.421 = invoke %tmp.419 %tmp.420();
@@ -540,10 +540,10 @@ _home_max_git_mines_connectiq_source_MinesView_mc_125_8_if_stmt:
         %tmp.424 = invoke %tmp.422 %tmp.423();
         %tmp.426 = getv ? :STATUS_WON;
         %tmp.427 = eq %tmp.424 %tmp.426;
-        bf %tmp.427 @_home_max_git_mines_connectiq_source_MinesView_mc_125_8_if_end;
-_home_max_git_mines_connectiq_source_MinesView_mc_125_8_if_true:
-_home_max_git_mines_connectiq_source_MinesView_mc_126_8_start:
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 127 12 ]
+        bf %tmp.427 @_home_max_git_mines_connectiq_source_MinesView_mc_133_8_if_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_133_8_if_true:
+_home_max_git_mines_connectiq_source_MinesView_mc_134_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 135 12 ]
         %tmp.428 = lgetv %dc;
         %tmp.429 = getv function %tmp.428 :setColor;
         %tmp.430 = getm $.Toybox.Graphics;
@@ -551,11 +551,11 @@ _home_max_git_mines_connectiq_source_MinesView_mc_126_8_start:
         %tmp.432 = getm $.Toybox.Graphics;
         %tmp.433 = getv %tmp.432 :COLOR_BLACK;
         invoke %tmp.428 %tmp.429(%tmp.431, %tmp.433);
-[ "/home/max/git/mines-connectiq/source/MinesView.mc" 128 12 ]
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 136 12 ]
         %tmp.434 = lgetv %dc;
         %tmp.435 = getv function %tmp.434 :drawText;
-        %tmp.437 = lgetv %center_x.4;
-        %tmp.439 = lgetv %center_y.5;
+        %tmp.437 = lgetv %center_x.2;
+        %tmp.439 = lgetv %center_y.3;
         %tmp.440 = 30;
         %tmp.441 = add %tmp.439 %tmp.440;
         %tmp.442 = getm $.Toybox.Graphics;
@@ -564,12 +564,185 @@ _home_max_git_mines_connectiq_source_MinesView_mc_126_8_start:
         %tmp.445 = getm $.Toybox.Graphics;
         %tmp.446 = getv %tmp.445 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.434 %tmp.435(%tmp.437, %tmp.441, %tmp.443, %tmp.444, %tmp.446);
-_home_max_git_mines_connectiq_source_MinesView_mc_126_8_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesView_mc_125_8_if_end;
-_home_max_git_mines_connectiq_source_MinesView_mc_125_8_if_end:
-_home_max_git_mines_connectiq_source_MinesView_mc_28_4_stop:
+_home_max_git_mines_connectiq_source_MinesView_mc_134_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesView_mc_133_8_if_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_133_8_if_end:
+_home_max_git_mines_connectiq_source_MinesView_mc_36_4_stop:
     }
-    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 139; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 142; ]
+    public
+    function handleTap(x, y) {
+_home_max_git_mines_connectiq_source_MinesView_mc_143_4_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 144 9 ]
+        [ "_home_max_git_mines_connectiq_source_MinesView_mc_143_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_143_4_stop" ]
+        %n_cells.1 = local;
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = getv %tmp.3 :n_cells;
+        lputv %n_cells.1 %tmp.4;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 145 8 ]
+        [ "_home_max_git_mines_connectiq_source_MinesView_mc_143_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_143_4_stop" ]
+        %curs.2 = local;
+        %tmp.5 = self;
+        %tmp.6 = getv function %tmp.5 :getCursorPosTap;
+        %tmp.8 = lgetv %x;
+        %tmp.10 = lgetv %y;
+        %tmp.11 = invoke %tmp.5 %tmp.6(%tmp.8, %tmp.10);
+        lputv %curs.2 %tmp.11;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 147 8 ]
+_home_max_git_mines_connectiq_source_MinesView_mc_147_8_if_stmt:
+_home_max_git_mines_connectiq_source_MinesView_mc_147_11_begin:
+_home_max_git_mines_connectiq_source_MinesView_mc_147_12_begin:
+        %tmp.13 = lgetv %curs.2;
+        %tmp.14 = 0;
+        %tmp.15 = agetv %tmp.13 %tmp.14;
+        %tmp.17 = lgetv %n_cells.1;
+        %tmp.18 = lt %tmp.15 %tmp.17;
+        %tmp.19 = dup %tmp.18;
+        bf %tmp.19 @_home_max_git_mines_connectiq_source_MinesView_mc_147_33_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_147_33_true:
+        %tmp.21 = lgetv %curs.2;
+        %tmp.22 = 1;
+        %tmp.23 = agetv %tmp.21 %tmp.22;
+        %tmp.25 = lgetv %n_cells.1;
+        %tmp.26 = lt %tmp.23 %tmp.25;
+        %tmp.27 = and %tmp.18 %tmp.26;
+        push %tmp.27;
+_home_max_git_mines_connectiq_source_MinesView_mc_147_33_end:
+        %tmp.28 = phi [%tmp.19 @_home_max_git_mines_connectiq_source_MinesView_mc_147_12_begin] [%tmp.27 @_home_max_git_mines_connectiq_source_MinesView_mc_147_33_true] [%tmp.28 @_home_max_git_mines_connectiq_source_MinesView_mc_147_33_end];
+        %tmp.29 = dup %tmp.28;
+        bf %tmp.29 @_home_max_git_mines_connectiq_source_MinesView_mc_147_55_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_147_55_true:
+_home_max_git_mines_connectiq_source_MinesView_mc_147_56_begin:
+        %tmp.31 = lgetv %curs.2;
+        %tmp.32 = 0;
+        %tmp.33 = agetv %tmp.31 %tmp.32;
+        %tmp.34 = 0;
+        %tmp.35 = gte %tmp.33 %tmp.34;
+        %tmp.36 = dup %tmp.35;
+        bf %tmp.36 @_home_max_git_mines_connectiq_source_MinesView_mc_147_72_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_147_72_true:
+        %tmp.38 = lgetv %curs.2;
+        %tmp.39 = 1;
+        %tmp.40 = agetv %tmp.38 %tmp.39;
+        %tmp.41 = 0;
+        %tmp.42 = gte %tmp.40 %tmp.41;
+        %tmp.43 = and %tmp.35 %tmp.42;
+        push %tmp.43;
+_home_max_git_mines_connectiq_source_MinesView_mc_147_72_end:
+        %tmp.44 = phi [%tmp.36 @_home_max_git_mines_connectiq_source_MinesView_mc_147_56_begin] [%tmp.43 @_home_max_git_mines_connectiq_source_MinesView_mc_147_72_true] [%tmp.44 @_home_max_git_mines_connectiq_source_MinesView_mc_147_72_end];
+        %tmp.45 = and %tmp.28 %tmp.44;
+        push %tmp.45;
+_home_max_git_mines_connectiq_source_MinesView_mc_147_55_end:
+        %tmp.46 = phi [%tmp.29 @_home_max_git_mines_connectiq_source_MinesView_mc_147_11_begin] [%tmp.45 @_home_max_git_mines_connectiq_source_MinesView_mc_147_55_true] [%tmp.46 @_home_max_git_mines_connectiq_source_MinesView_mc_147_55_end];
+        bf %tmp.46 @_home_max_git_mines_connectiq_source_MinesView_mc_147_8_if_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_147_8_if_true:
+_home_max_git_mines_connectiq_source_MinesView_mc_148_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 149 12 ]
+        %tmp.47 = self;
+        %tmp.48 = getv function %tmp.47 :getApp;
+        %tmp.49 = invoke %tmp.47 %tmp.48();
+        %tmp.50 = getv %tmp.49 :engine;
+        %tmp.51 = getv function %tmp.50 :setCursor;
+        %tmp.53 = lgetv %curs.2;
+        %tmp.54 = 0;
+        %tmp.55 = agetv %tmp.53 %tmp.54;
+        %tmp.57 = lgetv %curs.2;
+        %tmp.58 = 1;
+        %tmp.59 = agetv %tmp.57 %tmp.58;
+        invoke %tmp.50 %tmp.51(%tmp.55, %tmp.59);
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 151 12 ]
+        %tmp.60 = getm $.Toybox.WatchUi;
+        %tmp.61 = getv function %tmp.60 :requestUpdate;
+        invoke %tmp.60 %tmp.61();
+_home_max_git_mines_connectiq_source_MinesView_mc_148_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesView_mc_147_8_if_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_147_8_if_end:
+_home_max_git_mines_connectiq_source_MinesView_mc_143_4_stop:
+    }
+    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 155; ]
+    private
+    function getCursorPosTap(x, y) {
+_home_max_git_mines_connectiq_source_MinesView_mc_156_4_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 158 8 ]
+        [ "_home_max_git_mines_connectiq_source_MinesView_mc_156_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_156_4_stop" ]
+        %x_rel.1 = local;
+        %tmp.2 = lgetv %x;
+        %tmp.4 = getv ? :position_x;
+        %tmp.5 = sub %tmp.2 %tmp.4;
+        lputv %x_rel.1 %tmp.5;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 159 8 ]
+        [ "_home_max_git_mines_connectiq_source_MinesView_mc_156_4_start" "_home_max_git_mines_connectiq_source_MinesView_mc_156_4_stop" ]
+        %y_rel.2 = local;
+        %tmp.7 = lgetv %y;
+        %tmp.9 = getv ? :position_y;
+        %tmp.10 = sub %tmp.7 %tmp.9;
+        lputv %y_rel.2 %tmp.10;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 161 8 ]
+_home_max_git_mines_connectiq_source_MinesView_mc_161_8_if_stmt:
+_home_max_git_mines_connectiq_source_MinesView_mc_161_11_begin:
+        %tmp.12 = lgetv %x_rel.1;
+        %tmp.13 = 0;
+        %tmp.14 = lt %tmp.12 %tmp.13;
+        %tmp.15 = dup %tmp.14;
+        bt %tmp.15 @_home_max_git_mines_connectiq_source_MinesView_mc_161_24_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_161_24_false:
+        %tmp.17 = lgetv %y_rel.2;
+        %tmp.18 = 0;
+        %tmp.19 = lt %tmp.17 %tmp.18;
+        %tmp.20 = or %tmp.14 %tmp.19;
+        push %tmp.20;
+_home_max_git_mines_connectiq_source_MinesView_mc_161_24_end:
+        %tmp.21 = phi [%tmp.15 @_home_max_git_mines_connectiq_source_MinesView_mc_161_11_begin] [%tmp.20 @_home_max_git_mines_connectiq_source_MinesView_mc_161_24_false] [%tmp.21 @_home_max_git_mines_connectiq_source_MinesView_mc_161_24_end];
+        bf %tmp.21 @_home_max_git_mines_connectiq_source_MinesView_mc_161_8_if_false;
+_home_max_git_mines_connectiq_source_MinesView_mc_161_8_if_true:
+_home_max_git_mines_connectiq_source_MinesView_mc_162_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 163 12 ]
+        %tmp.22 = newa 2;
+        %tmp.23 = -1;
+        %tmp.24 = dup %tmp.22;
+        %tmp.25 = aputv %tmp.24 0 %tmp.23;
+        %tmp.26 = -1;
+        %tmp.27 = dup %tmp.25;
+        %tmp.28 = aputv %tmp.27 1 %tmp.26;
+        ret %tmp.28;
+_home_max_git_mines_connectiq_source_MinesView_mc_162_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesView_mc_161_8_if_end;
+_home_max_git_mines_connectiq_source_MinesView_mc_161_8_if_false:
+_home_max_git_mines_connectiq_source_MinesView_mc_167_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 168 12 ]
+        [ "_home_max_git_mines_connectiq_source_MinesView_mc_167_8_start" "_home_max_git_mines_connectiq_source_MinesView_mc_167_8_stop" ]
+        %curs_x.3 = local;
+        %tmp.30 = lgetv %x_rel.1;
+        %tmp.32 = getv ? :cell_size;
+        %tmp.33 = div %tmp.30 %tmp.32;
+        %tmp.34 = getv function %tmp.33 :toNumber;
+        %tmp.35 = invoke %tmp.33 %tmp.34();
+        lputv %curs_x.3 %tmp.35;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 169 12 ]
+        [ "_home_max_git_mines_connectiq_source_MinesView_mc_167_8_start" "_home_max_git_mines_connectiq_source_MinesView_mc_167_8_stop" ]
+        %curs_y.4 = local;
+        %tmp.37 = lgetv %y_rel.2;
+        %tmp.39 = getv ? :cell_size;
+        %tmp.40 = div %tmp.37 %tmp.39;
+        %tmp.41 = getv function %tmp.40 :toNumber;
+        %tmp.42 = invoke %tmp.40 %tmp.41();
+        lputv %curs_y.4 %tmp.42;
+[ "/home/max/git/mines-connectiq/source/MinesView.mc" 171 12 ]
+        %tmp.43 = newa 2;
+        %tmp.45 = lgetv %curs_x.3;
+        %tmp.46 = dup %tmp.43;
+        %tmp.47 = aputv %tmp.46 0 %tmp.45;
+        %tmp.49 = lgetv %curs_y.4;
+        %tmp.50 = dup %tmp.47;
+        %tmp.51 = aputv %tmp.50 1 %tmp.49;
+        ret %tmp.51;
+_home_max_git_mines_connectiq_source_MinesView_mc_167_8_stop:
+_home_max_git_mines_connectiq_source_MinesView_mc_161_8_if_end:
+_home_max_git_mines_connectiq_source_MinesView_mc_156_4_stop:
+    }
+    [ @file = "/home/max/git/mines-connectiq/source/MinesView.mc"; @line = 178; ]
     function onHide() as Void {
     }
 }

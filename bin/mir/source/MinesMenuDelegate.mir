@@ -140,212 +140,219 @@ _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_67_8_start:
         %tmp.57 = invoke %tmp.54 %tmp.55(%tmp.56);
         putv %tmp.51 :n_mines %tmp.57;
 [ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 71 12 ]
-        %tmp.58 = getv function self :getApp;
-        %tmp.59 = invoke self %tmp.58();
-        %tmp.60 = null;
-        putv %tmp.59 :engine %tmp.60;
+        %tmp.58 = self;
+        %tmp.59 = getv function %tmp.58 :getApp;
+        %tmp.60 = invoke %tmp.58 %tmp.59();
+        %tmp.61 = getv %tmp.60 :engine;
+        %tmp.62 = getv function %tmp.61 :stop;
+        invoke %tmp.61 %tmp.62();
 [ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 72 12 ]
-        %tmp.61 = getv function self :getApp;
-        %tmp.62 = invoke self %tmp.61();
-        %tmp.66 = getv ? :MinesEngine;
-        %tmp.67 = self;
-        %tmp.68 = getv function %tmp.67 :getApp;
-        %tmp.69 = invoke %tmp.67 %tmp.68();
-        %tmp.70 = getv %tmp.69 :n_cells;
-        %tmp.71 = self;
-        %tmp.72 = getv function %tmp.71 :getApp;
-        %tmp.73 = invoke %tmp.71 %tmp.72();
-        %tmp.74 = getv %tmp.73 :n_mines;
-        %tmp.63 = newc %tmp.66 (%tmp.70, %tmp.74);
-        putv %tmp.62 :engine %tmp.63;
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 74 12 ]
-        %tmp.75 = getm $.Toybox.WatchUi;
-        %tmp.76 = getv function %tmp.75 :popView;
-        %tmp.77 = getm $.Toybox.WatchUi;
-        %tmp.78 = getv %tmp.77 :SLIDE_RIGHT;
-        invoke %tmp.75 %tmp.76(%tmp.78);
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 76 12 ]
-        %tmp.79 = getm $.Toybox.WatchUi;
-        %tmp.80 = getv function %tmp.79 :requestUpdate;
-        invoke %tmp.79 %tmp.80();
+        %tmp.63 = getv function self :getApp;
+        %tmp.64 = invoke self %tmp.63();
+        %tmp.65 = null;
+        putv %tmp.64 :engine %tmp.65;
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 73 12 ]
+        %tmp.66 = getv function self :getApp;
+        %tmp.67 = invoke self %tmp.66();
+        %tmp.71 = getv ? :MinesEngine;
+        %tmp.72 = self;
+        %tmp.73 = getv function %tmp.72 :getApp;
+        %tmp.74 = invoke %tmp.72 %tmp.73();
+        %tmp.75 = getv %tmp.74 :n_cells;
+        %tmp.76 = self;
+        %tmp.77 = getv function %tmp.76 :getApp;
+        %tmp.78 = invoke %tmp.76 %tmp.77();
+        %tmp.79 = getv %tmp.78 :n_mines;
+        %tmp.68 = newc %tmp.71 (%tmp.75, %tmp.79);
+        putv %tmp.67 :engine %tmp.68;
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 75 12 ]
+        %tmp.80 = getm $.Toybox.WatchUi;
+        %tmp.81 = getv function %tmp.80 :popView;
+        %tmp.82 = getm $.Toybox.WatchUi;
+        %tmp.83 = getv %tmp.82 :SLIDE_RIGHT;
+        invoke %tmp.80 %tmp.81(%tmp.83);
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 77 12 ]
+        %tmp.84 = getm $.Toybox.WatchUi;
+        %tmp.85 = getv function %tmp.84 :requestUpdate;
+        invoke %tmp.84 %tmp.85();
 _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_67_8_stop:
         goto @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_66_13_if_end;
 _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_66_13_if_false:
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 79 13 ]
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_79_13_if_stmt:
-        %tmp.81 = lgetv %menuItem;
-        %tmp.82 = getv function %tmp.81 :getId;
-        %tmp.83 = invoke %tmp.81 %tmp.82();
-        %tmp.84 = as %tmp.83 String;
-        %tmp.85 = getv function %tmp.84 :equals;
-        %tmp.86 = "SaveGame";
-        %tmp.87 = invoke %tmp.84 %tmp.85(%tmp.86);
-        bf %tmp.87 @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_79_13_if_false;
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_79_13_if_true:
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_80_8_start:
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 82 12 ]
-        %tmp.88 = self;
-        %tmp.89 = getv function %tmp.88 :getApp;
-        %tmp.90 = invoke %tmp.88 %tmp.89();
-        %tmp.91 = getv function %tmp.90 :saveGame;
-        invoke %tmp.90 %tmp.91();
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 84 12 ]
-        %tmp.92 = getm $.Toybox.WatchUi;
-        %tmp.93 = getv function %tmp.92 :popView;
-        %tmp.94 = getm $.Toybox.WatchUi;
-        %tmp.95 = getv %tmp.94 :SLIDE_RIGHT;
-        invoke %tmp.92 %tmp.93(%tmp.95);
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 86 12 ]
-        %tmp.96 = getm $.Toybox.WatchUi;
-        %tmp.97 = getv function %tmp.96 :requestUpdate;
-        invoke %tmp.96 %tmp.97();
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_80_8_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_79_13_if_end;
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_79_13_if_false:
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 90 13 ]
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_90_13_if_stmt:
-        %tmp.98 = lgetv %menuItem;
-        %tmp.99 = getv function %tmp.98 :getId;
-        %tmp.100 = invoke %tmp.98 %tmp.99();
-        %tmp.101 = as %tmp.100 String;
-        %tmp.102 = getv function %tmp.101 :equals;
-        %tmp.103 = "LoadGame";
-        %tmp.104 = invoke %tmp.101 %tmp.102(%tmp.103);
-        bf %tmp.104 @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_90_13_if_false;
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_90_13_if_true:
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_91_8_start:
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 93 12 ]
-        %tmp.105 = self;
-        %tmp.106 = getv function %tmp.105 :getApp;
-        %tmp.107 = invoke %tmp.105 %tmp.106();
-        %tmp.108 = getv function %tmp.107 :loadGame;
-        invoke %tmp.107 %tmp.108();
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 95 12 ]
-        %tmp.109 = getm $.Toybox.WatchUi;
-        %tmp.110 = getv function %tmp.109 :popView;
-        %tmp.111 = getm $.Toybox.WatchUi;
-        %tmp.112 = getv %tmp.111 :SLIDE_RIGHT;
-        invoke %tmp.109 %tmp.110(%tmp.112);
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 97 12 ]
-        %tmp.113 = getm $.Toybox.WatchUi;
-        %tmp.114 = getv function %tmp.113 :requestUpdate;
-        invoke %tmp.113 %tmp.114();
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_91_8_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_90_13_if_end;
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_90_13_if_false:
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 100 13 ]
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_100_13_if_stmt:
-        %tmp.115 = lgetv %menuItem;
-        %tmp.116 = getv function %tmp.115 :getId;
-        %tmp.117 = invoke %tmp.115 %tmp.116();
-        %tmp.118 = as %tmp.117 String;
-        %tmp.119 = getv function %tmp.118 :equals;
-        %tmp.120 = "SizeField";
-        %tmp.121 = invoke %tmp.118 %tmp.119(%tmp.120);
-        bf %tmp.121 @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_100_13_if_false;
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_100_13_if_true:
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_101_8_start:
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 102 12 ]
-        [ "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_101_8_start" "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_101_8_stop" ]
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 80 13 ]
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_80_13_if_stmt:
+        %tmp.86 = lgetv %menuItem;
+        %tmp.87 = getv function %tmp.86 :getId;
+        %tmp.88 = invoke %tmp.86 %tmp.87();
+        %tmp.89 = as %tmp.88 String;
+        %tmp.90 = getv function %tmp.89 :equals;
+        %tmp.91 = "SaveGame";
+        %tmp.92 = invoke %tmp.89 %tmp.90(%tmp.91);
+        bf %tmp.92 @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_80_13_if_false;
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_80_13_if_true:
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_81_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 83 12 ]
+        %tmp.93 = self;
+        %tmp.94 = getv function %tmp.93 :getApp;
+        %tmp.95 = invoke %tmp.93 %tmp.94();
+        %tmp.96 = getv function %tmp.95 :saveGame;
+        invoke %tmp.95 %tmp.96();
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 85 12 ]
+        %tmp.97 = getm $.Toybox.WatchUi;
+        %tmp.98 = getv function %tmp.97 :popView;
+        %tmp.99 = getm $.Toybox.WatchUi;
+        %tmp.100 = getv %tmp.99 :SLIDE_RIGHT;
+        invoke %tmp.97 %tmp.98(%tmp.100);
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 87 12 ]
+        %tmp.101 = getm $.Toybox.WatchUi;
+        %tmp.102 = getv function %tmp.101 :requestUpdate;
+        invoke %tmp.101 %tmp.102();
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_81_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_80_13_if_end;
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_80_13_if_false:
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 91 13 ]
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_91_13_if_stmt:
+        %tmp.103 = lgetv %menuItem;
+        %tmp.104 = getv function %tmp.103 :getId;
+        %tmp.105 = invoke %tmp.103 %tmp.104();
+        %tmp.106 = as %tmp.105 String;
+        %tmp.107 = getv function %tmp.106 :equals;
+        %tmp.108 = "LoadGame";
+        %tmp.109 = invoke %tmp.106 %tmp.107(%tmp.108);
+        bf %tmp.109 @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_91_13_if_false;
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_91_13_if_true:
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_92_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 94 12 ]
+        %tmp.110 = self;
+        %tmp.111 = getv function %tmp.110 :getApp;
+        %tmp.112 = invoke %tmp.110 %tmp.111();
+        %tmp.113 = getv function %tmp.112 :loadGame;
+        invoke %tmp.112 %tmp.113();
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 96 12 ]
+        %tmp.114 = getm $.Toybox.WatchUi;
+        %tmp.115 = getv function %tmp.114 :popView;
+        %tmp.116 = getm $.Toybox.WatchUi;
+        %tmp.117 = getv %tmp.116 :SLIDE_RIGHT;
+        invoke %tmp.114 %tmp.115(%tmp.117);
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 98 12 ]
+        %tmp.118 = getm $.Toybox.WatchUi;
+        %tmp.119 = getv function %tmp.118 :requestUpdate;
+        invoke %tmp.118 %tmp.119();
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_92_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_91_13_if_end;
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_91_13_if_false:
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 101 13 ]
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_101_13_if_stmt:
+        %tmp.120 = lgetv %menuItem;
+        %tmp.121 = getv function %tmp.120 :getId;
+        %tmp.122 = invoke %tmp.120 %tmp.121();
+        %tmp.123 = as %tmp.122 String;
+        %tmp.124 = getv function %tmp.123 :equals;
+        %tmp.125 = "SizeField";
+        %tmp.126 = invoke %tmp.123 %tmp.124(%tmp.125);
+        bf %tmp.126 @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_101_13_if_false;
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_101_13_if_true:
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_102_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 103 12 ]
+        [ "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_102_8_start" "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_102_8_stop" ]
         %value.1 = local;
-        %tmp.123 = getv ? :Application;
-        %tmp.124 = getv %tmp.123 :Properties;
-        %tmp.125 = getv function %tmp.124 :getValue;
-        %tmp.126 = "SizeField";
-        %tmp.127 = invoke %tmp.124 %tmp.125(%tmp.126);
-        %tmp.128 = as %tmp.127 Number;
-        lputv %value.1 %tmp.128;
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 104 12 ]
-        [ "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_101_8_start" "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_101_8_stop" ]
+        %tmp.128 = getv ? :Application;
+        %tmp.129 = getv %tmp.128 :Properties;
+        %tmp.130 = getv function %tmp.129 :getValue;
+        %tmp.131 = "SizeField";
+        %tmp.132 = invoke %tmp.129 %tmp.130(%tmp.131);
+        %tmp.133 = as %tmp.132 Number;
+        lputv %value.1 %tmp.133;
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 105 12 ]
+        [ "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_102_8_start" "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_102_8_stop" ]
         %new_value.2 = local;
-        %tmp.129 = 2;
-        %tmp.131 = lgetv %value.1;
-        %tmp.132 = 2;
-        %tmp.133 = sub %tmp.131 %tmp.132;
-        %tmp.134 = 1;
-        %tmp.135 = add %tmp.133 %tmp.134;
-        %tmp.136 = 18;
-        %tmp.137 = mod %tmp.135 %tmp.136;
-        %tmp.138 = add %tmp.129 %tmp.137;
-        lputv %new_value.2 %tmp.138;
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 106 12 ]
-        %tmp.140 = getv ? :Application;
-        %tmp.141 = getv %tmp.140 :Properties;
-        %tmp.142 = getv function %tmp.141 :setValue;
-        %tmp.143 = "SizeField";
-        %tmp.145 = lgetv %new_value.2;
-        invoke %tmp.141 %tmp.142(%tmp.143, %tmp.145);
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 108 12 ]
-        %tmp.146 = lgetv %menuItem;
-        %tmp.147 = getv function %tmp.146 :setSubLabel;
-        %tmp.148 = lgetv %new_value.2;
-        %tmp.149 = getv function %tmp.148 :toString;
-        %tmp.150 = invoke %tmp.148 %tmp.149();
-        invoke %tmp.146 %tmp.147(%tmp.150);
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_101_8_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_100_13_if_end;
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_100_13_if_false:
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 113 13 ]
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_113_13_if_stmt:
+        %tmp.134 = 2;
+        %tmp.136 = lgetv %value.1;
+        %tmp.137 = 2;
+        %tmp.138 = sub %tmp.136 %tmp.137;
+        %tmp.139 = 1;
+        %tmp.140 = add %tmp.138 %tmp.139;
+        %tmp.141 = 18;
+        %tmp.142 = mod %tmp.140 %tmp.141;
+        %tmp.143 = add %tmp.134 %tmp.142;
+        lputv %new_value.2 %tmp.143;
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 107 12 ]
+        %tmp.145 = getv ? :Application;
+        %tmp.146 = getv %tmp.145 :Properties;
+        %tmp.147 = getv function %tmp.146 :setValue;
+        %tmp.148 = "SizeField";
+        %tmp.150 = lgetv %new_value.2;
+        invoke %tmp.146 %tmp.147(%tmp.148, %tmp.150);
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 109 12 ]
         %tmp.151 = lgetv %menuItem;
-        %tmp.152 = getv function %tmp.151 :getId;
-        %tmp.153 = invoke %tmp.151 %tmp.152();
-        %tmp.154 = as %tmp.153 String;
-        %tmp.155 = getv function %tmp.154 :equals;
-        %tmp.156 = "NumberMines";
-        %tmp.157 = invoke %tmp.154 %tmp.155(%tmp.156);
-        bf %tmp.157 @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_113_13_if_end;
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_113_13_if_true:
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_8_start:
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 115 12 ]
-        [ "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_8_start" "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_8_stop" ]
+        %tmp.152 = getv function %tmp.151 :setSubLabel;
+        %tmp.153 = lgetv %new_value.2;
+        %tmp.154 = getv function %tmp.153 :toString;
+        %tmp.155 = invoke %tmp.153 %tmp.154();
+        invoke %tmp.151 %tmp.152(%tmp.155);
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_102_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_101_13_if_end;
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_101_13_if_false:
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 114 13 ]
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_13_if_stmt:
+        %tmp.156 = lgetv %menuItem;
+        %tmp.157 = getv function %tmp.156 :getId;
+        %tmp.158 = invoke %tmp.156 %tmp.157();
+        %tmp.159 = as %tmp.158 String;
+        %tmp.160 = getv function %tmp.159 :equals;
+        %tmp.161 = "NumberMines";
+        %tmp.162 = invoke %tmp.159 %tmp.160(%tmp.161);
+        bf %tmp.162 @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_13_if_end;
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_13_if_true:
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 116 12 ]
+        [ "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_start" "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_stop" ]
         %value.3 = local;
-        %tmp.159 = getv ? :Application;
-        %tmp.160 = getv %tmp.159 :Properties;
-        %tmp.161 = getv function %tmp.160 :getValue;
-        %tmp.162 = "NumberMines";
-        %tmp.163 = invoke %tmp.160 %tmp.161(%tmp.162);
-        %tmp.164 = as %tmp.163 Number;
-        lputv %value.3 %tmp.164;
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 117 12 ]
-        [ "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_8_start" "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_8_stop" ]
+        %tmp.164 = getv ? :Application;
+        %tmp.165 = getv %tmp.164 :Properties;
+        %tmp.166 = getv function %tmp.165 :getValue;
+        %tmp.167 = "NumberMines";
+        %tmp.168 = invoke %tmp.165 %tmp.166(%tmp.167);
+        %tmp.169 = as %tmp.168 Number;
+        lputv %value.3 %tmp.169;
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 118 12 ]
+        [ "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_start" "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_stop" ]
         %new_value.4 = local;
-        %tmp.166 = lgetv %value.3;
-        %tmp.167 = 1;
-        %tmp.168 = add %tmp.166 %tmp.167;
-        %tmp.169 = 25;
-        %tmp.170 = mod %tmp.168 %tmp.169;
-        lputv %new_value.4 %tmp.170;
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 119 12 ]
-        %tmp.172 = getv ? :Application;
-        %tmp.173 = getv %tmp.172 :Properties;
-        %tmp.174 = getv function %tmp.173 :setValue;
-        %tmp.175 = "NumberMines";
-        %tmp.177 = lgetv %new_value.4;
-        invoke %tmp.173 %tmp.174(%tmp.175, %tmp.177);
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 121 12 ]
-        %tmp.178 = lgetv %menuItem;
-        %tmp.179 = getv function %tmp.178 :setSubLabel;
-        %tmp.180 = lgetv %new_value.4;
-        %tmp.181 = getv function %tmp.180 :toString;
-        %tmp.182 = invoke %tmp.180 %tmp.181();
-        invoke %tmp.178 %tmp.179(%tmp.182);
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_8_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_113_13_if_end;
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_113_13_if_end:
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_100_13_if_end:
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_90_13_if_end:
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_79_13_if_end:
+        %tmp.171 = lgetv %value.3;
+        %tmp.172 = 1;
+        %tmp.173 = add %tmp.171 %tmp.172;
+        %tmp.174 = 25;
+        %tmp.175 = mod %tmp.173 %tmp.174;
+        lputv %new_value.4 %tmp.175;
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 120 12 ]
+        %tmp.177 = getv ? :Application;
+        %tmp.178 = getv %tmp.177 :Properties;
+        %tmp.179 = getv function %tmp.178 :setValue;
+        %tmp.180 = "NumberMines";
+        %tmp.182 = lgetv %new_value.4;
+        invoke %tmp.178 %tmp.179(%tmp.180, %tmp.182);
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 122 12 ]
+        %tmp.183 = lgetv %menuItem;
+        %tmp.184 = getv function %tmp.183 :setSubLabel;
+        %tmp.185 = lgetv %new_value.4;
+        %tmp.186 = getv function %tmp.185 :toString;
+        %tmp.187 = invoke %tmp.185 %tmp.186();
+        invoke %tmp.183 %tmp.184(%tmp.187);
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_13_if_end;
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_13_if_end:
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_101_13_if_end:
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_91_13_if_end:
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_80_13_if_end:
 _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_66_13_if_end:
 _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_57_8_if_end:
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 126 8 ]
-        %tmp.183 = getm $.Toybox.System;
-        %tmp.184 = getv function %tmp.183 :println;
-        %tmp.185 = lgetv %menuItem;
-        %tmp.186 = getv function %tmp.185 :getId;
-        %tmp.187 = invoke %tmp.185 %tmp.186();
-        %tmp.188 = as %tmp.187 String;
-        invoke %tmp.183 %tmp.184(%tmp.188);
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 127 8 ]
+        %tmp.188 = getm $.Toybox.System;
+        %tmp.189 = getv function %tmp.188 :println;
+        %tmp.190 = lgetv %menuItem;
+        %tmp.191 = getv function %tmp.190 :getId;
+        %tmp.192 = invoke %tmp.190 %tmp.191();
+        %tmp.193 = as %tmp.192 String;
+        invoke %tmp.188 %tmp.189(%tmp.193);
 _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_51_4_stop:
     }
 }

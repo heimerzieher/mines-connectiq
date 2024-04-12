@@ -23,6 +23,11 @@ class MinesDelegate extends WatchUi.BehaviorDelegate
         val = Application.Properties.getValue("SizeField") as Number;
         menu.addItem(new WatchUi.MenuItem("Size", val.toString(), "SizeField", null));
 
+        val = Application.Properties.getValue("UseTouchTap") ? true : false;
+        menu.addItem(new WatchUi.ToggleMenuItem("Touch", "Tap screen to select cell", "UseTouchTap", val, null));
+
+        val = Application.Properties.getValue("UseTouchHold") ? true : false;
+        menu.addItem(new WatchUi.ToggleMenuItem("Long press flag", "Long press screen to place flag", "UseTouchHold", val, null));
 
         menu.addItem(new WatchUi.MenuItem("Save Game", null, "SaveGame", null));
         menu.addItem(new WatchUi.MenuItem("Load Game", null, "LoadGame", null));
@@ -149,6 +154,43 @@ class MinesDelegate extends WatchUi.BehaviorDelegate
         
 
         return true;
+    }
+
+    function onTap(clickEvent)
+    {
+        if(Application.Properties.getValue("UseTouchTap") as Boolean == true)
+        {
+            var x = clickEvent.getCoordinates()[0];
+            var y = clickEvent.getCoordinates()[1];
+
+            System.println("tap" + clickEvent.getCoordinates());
+
+            getApp().view.handleTap(x, y);
+
+            return true;
+        }
+
+        return false;
+    }
+
+    function onHold(clickEvent)
+    {
+        if(Application.Properties.getValue("UseTouchHold") as Boolean == true)
+        {
+            //do a set flag
+            if(getApp().engine.getStatus() == STATUS_ACTIVE)
+            {
+                var cursor_pos = getApp().engine.getCursor();
+
+                getApp().engine.setFlag(cursor_pos[0], cursor_pos[1]);
+
+                WatchUi.requestUpdate();
+            }
+
+            return true;
+        }
+
+        return false;
     }
     
     // function onBack()

@@ -37,6 +37,18 @@ class MinesEngine
             seconds_count += 1;
             WatchUi.requestUpdate();
         }
+
+        else
+        {
+            timer.stop();
+        }
+
+    }
+
+    public function stop()
+    {
+        game_status = STATUS_INACTIVE;
+        timer.stop(); //avoid timer errors
     }
 
 
@@ -365,6 +377,7 @@ enum
 {
   STATUS_ACTIVE = 0,
   STATUS_LOST = 1,
-  STATUS_WON = 2
+  STATUS_WON = 2,
+  STATUS_INACTIVE
 
 }

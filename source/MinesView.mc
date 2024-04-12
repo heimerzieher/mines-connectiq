@@ -5,6 +5,14 @@ using Toybox.WatchUi;
 
 class MinesView extends WatchUi.View 
 {
+    var screen_width;
+    var screen_height;
+
+    var position_x;
+    var position_y;
+
+    var cell_size;
+    
     function initialize() 
     {
         View.initialize();
@@ -33,8 +41,8 @@ class MinesView extends WatchUi.View
         
         var n_cells = getApp().n_cells;
 
-        var screen_width = dc.getWidth();
-        var screen_height = dc.getHeight();
+        screen_width = dc.getWidth();
+        screen_height = dc.getHeight();
         var center_x = screen_width/2;
         var center_y = screen_height/2;
 
@@ -43,13 +51,13 @@ class MinesView extends WatchUi.View
 
         //var cell_size = 25;
 
-        var cell_size = (target_field_width/n_cells).toNumber();
+        cell_size = (target_field_width/n_cells).toNumber();
 
         // System.println(target_field_width);
         // System.println(cell_size);
 
-        var position_x = center_x - (cell_size*n_cells)/2;
-        var position_y = center_y - (cell_size*n_cells)/2;
+        position_x = center_x - (cell_size*n_cells)/2;
+        position_y = center_y - (cell_size*n_cells)/2;
 
         //draw cursor
         var cursor_pos = getApp().engine.getCursor();
@@ -129,8 +137,39 @@ class MinesView extends WatchUi.View
 
         }
 
+    }
 
+    public function handleTap(x, y)
+    {
+         var n_cells = getApp().n_cells;
+        var curs = getCursorPosTap(x,y);
 
+        if((curs[0] < n_cells && curs[1] < n_cells) && (curs[0] >= 0 && curs[1] >= 0))
+        {
+            getApp().engine.setCursor(curs[0] , curs[1]);
+
+            WatchUi.requestUpdate();
+        }
+    }
+
+    private function getCursorPosTap(x, y)
+    {
+
+        var x_rel = x - position_x;
+        var y_rel = y - position_y;
+
+        if(x_rel < 0 || y_rel < 0)
+        {
+            return [-1,-1];
+        }
+
+        else
+        {
+            var curs_x = (x_rel / cell_size).toNumber();
+            var curs_y = (y_rel / cell_size).toNumber();
+
+            return [curs_x, curs_y];
+        }
     }
 
     // Called when this View is removed from the screen. Save the
