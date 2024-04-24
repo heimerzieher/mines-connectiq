@@ -101,6 +101,23 @@ class MinesEngine
         }
     }
 
+    public function update()
+    {
+        for (var x  = 0; x < field.getSize(); x++)
+        {
+            for (var y = 0; y < field.getSize(); y++)
+            {
+                if(field.getDiscoveredCell(x, y) == CELL_TO_DISCOVER)
+                {
+                    field.discoverCell(x, y);
+                    // System.println("triggered discovered cell");
+                }
+            }
+        }
+
+        // System.println("update");
+    }
+
     public function cellExists(x,y)
     {
         return field.cellExists(x, y);
@@ -233,11 +250,13 @@ class Field
         }
     }
 
+
+    //originally this should just resolve everythign recursivelyt by calling itself. However, more than 30 nested recursive calls lead to stack overflows.
     public function discoverCell(x,y)
     {
         if(cellExists(x,y))
         {
-            if(getDiscoveredCell(x,y) == CELL_UNDISCOVERED || getDiscoveredCell(x,y) == CELL_UNDISCOVERED_FLAGGED)
+            if(getDiscoveredCell(x,y) == CELL_UNDISCOVERED || getDiscoveredCell(x,y) == CELL_UNDISCOVERED_FLAGGED || getDiscoveredCell(x,y) == CELL_TO_DISCOVER)
             {
                 setDiscoveredCell(x,y,getCell(x,y));
             }
@@ -251,11 +270,12 @@ class Field
                             {
                                 if((i != 0 || j != 0)&&((getDiscoveredCell(x+i,y+j) == CELL_UNDISCOVERED || getDiscoveredCell(x,y) == CELL_UNDISCOVERED_FLAGGED)))
                                 {
-                                    setDiscoveredCell(x+i,y+j,getCell(x+i,y+j));
+                                    // setDiscoveredCell(x+i,y+j,getCell(x+i,y+j));
+                                    setDiscoveredCell(x+i,y+j, CELL_TO_DISCOVER);
                                     // if(getCell(x+i,y+j) == CELL_EMPTY)
                                     // {
                                     //     
-                                        discoverCell(x+i,y+j);
+                                        //discoverCell(x+i,y+j);
                                     // }
 
                                     // // else 
@@ -296,6 +316,9 @@ class Field
             
             
         }
+
+        System.print("discover cell triggered");
+        WatchUi.requestUpdate();
     }
 
     public function uncover()
@@ -369,6 +392,7 @@ enum
     CELL_7 = 7,
     CELL_8 = 8,
     CELL_MINE = 9,
+    CELL_TO_DISCOVER = 66,
     CELL_UNDISCOVERED = 88,
     CELL_UNDISCOVERED_FLAGGED= 77
 }
