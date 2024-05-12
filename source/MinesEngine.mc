@@ -1,4 +1,3 @@
-
 using Toybox.Timer;
 
 class MinesEngine
@@ -52,14 +51,14 @@ class MinesEngine
     }
 
 
-    public function loadState(size, c_cells, c_cellsdisc, seconds_elapsed)
+    public function loadState(size, c_cells, c_cellsdisc, seconds_elapsed, status)
     {
         cursor_pos[0] = 0;
         cursor_pos[1] = 0;
 
         field.loadState(size, c_cells, c_cellsdisc);
 
-        game_status = STATUS_ACTIVE;
+        game_status = status;
 
         seconds_count = seconds_elapsed;
 
@@ -134,6 +133,11 @@ class MinesEngine
         return cursor_pos;
     }
 
+    public function setStatus(status)
+    {
+        game_status = status;
+    }
+
     public function getStatus()
     {
         return game_status;
@@ -167,23 +171,31 @@ class Field
 
         discovered_cells = new [size*size];
 
-        var prob_mine = (n_mines.toFloat()/(size*size).toFloat())*100.0f;
+        // var prob_mine = (n_mines.toFloat()/(size*size).toFloat())*100.0f;
 
-        System.println(prob_mine);
+        // System.println(prob_mine);
 
         for (var i = 0; i < size*size; i++)
         {
-            if(Math.rand() % 100 < prob_mine)
-            {
-                cells[i] = CELL_MINE;
-            }
+            // if(Math.rand() % 100 < prob_mine)
+            // {
+            //     cells[i] = CELL_MINE;
+            // }
 
-            else 
-            {
-                cells[i] = CELL_EMPTY;
-            }
+            // else 
+            // {
+            //     cells[i] = CELL_EMPTY;
+            // }
 
+            cells[i] = CELL_EMPTY;
+            
             discovered_cells[i] = CELL_UNDISCOVERED;
+        }
+
+        for (var i = 0; i < n_mines; i++)
+        {
+            var c = (Math.rand() % (size*size)).toNumber();
+            cells[c] = CELL_MINE;
         }
 
         for (var x  = 0; x < size; x++)
@@ -317,7 +329,7 @@ class Field
             
         }
 
-        System.print("discover cell triggered");
+        //System.print("discover cell triggered");
         WatchUi.requestUpdate();
     }
 

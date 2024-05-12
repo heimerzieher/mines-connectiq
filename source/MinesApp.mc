@@ -39,6 +39,8 @@ class MinesApp extends Application.AppBase
         Application.Properties.setValue("SaveFieldCells", field.getCells() as Array<Number>);
         Application.Properties.setValue("SaveFieldDiscoveredCells", field.getDiscoveredCells() as Array<Number>);
         Application.Properties.setValue("SaveSecondsElapsed", engine.getSecondsElapsed() as Number);
+        Application.Properties.setValue("SaveStatus", engine.getStatus() as Number);
+
     }
 
     public function loadGame()
@@ -47,9 +49,10 @@ class MinesApp extends Application.AppBase
         var cells = Application.Properties.getValue("SaveFieldCells") as Array<Number>;
         var cells_disc = Application.Properties.getValue("SaveFieldDiscoveredCells") as Array<Number>;
         var secs_elapsed = Application.Properties.getValue("SaveSecondsElapsed") as Number;
+        var status = Application.Properties.getValue("SaveStatus") as Number;
 
 
-        engine.loadState(size, cells, cells_disc, secs_elapsed);           
+        engine.loadState(size, cells, cells_disc, secs_elapsed, status);           
     }
 
     // onStart() is called on application start up

@@ -2,531 +2,552 @@
 <debugInfo>
     <manifest filename="/home/max/git/mines-connectiq/manifest.xml"/>
     <pcToLineNum>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="1" lineNum="5" parent="globals/MinesApp" pc="268435460" symbol="&lt;init&gt;"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="2" lineNum="44" parent="globals/MinesApp" pc="268435479" symbol="loadGame"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="2" lineNum="46" parent="globals/MinesApp" pc="268435483" symbol="loadGame"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="2" lineNum="47" parent="globals/MinesApp" pc="268435511" symbol="loadGame"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="2" lineNum="48" parent="globals/MinesApp" pc="268435539" symbol="loadGame"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="2" lineNum="49" parent="globals/MinesApp" pc="268435567" symbol="loadGame"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="2" lineNum="52" parent="globals/MinesApp" pc="268435595" symbol="loadGame"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="3" lineNum="56" parent="globals/MinesApp" pc="268435622" symbol="onStart"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="4" lineNum="67" parent="globals/MinesApp" pc="268435625" symbol="getInitialView"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="4" lineNum="69" parent="globals/MinesApp" pc="268435627" symbol="getInitialView"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="4" lineNum="70" parent="globals/MinesApp" pc="268435661" symbol="getInitialView"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="5" lineNum="16" parent="globals/MinesApp" pc="268435718" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="5" lineNum="18" parent="globals/MinesApp" pc="268435720" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="5" lineNum="20" parent="globals/MinesApp" pc="268435738" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="5" lineNum="21" parent="globals/MinesApp" pc="268435772" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="5" lineNum="24" parent="globals/MinesApp" pc="268435806" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="5" lineNum="26" parent="globals/MinesApp" pc="268435856" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="5" lineNum="28" parent="globals/MinesApp" pc="268435993" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="6" lineNum="61" parent="globals/MinesApp" pc="268436009" symbol="onStop"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="6" lineNum="63" parent="globals/MinesApp" pc="268436011" symbol="onStop"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="7" lineNum="34" parent="globals/MinesApp" pc="268436024" symbol="saveGame"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="7" lineNum="36" parent="globals/MinesApp" pc="268436028" symbol="saveGame"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="7" lineNum="38" parent="globals/MinesApp" pc="268436047" symbol="saveGame"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="7" lineNum="39" parent="globals/MinesApp" pc="268436085" symbol="saveGame"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="7" lineNum="40" parent="globals/MinesApp" pc="268436123" symbol="saveGame"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="7" lineNum="41" parent="globals/MinesApp" pc="268436161" symbol="saveGame"/>
-        <entry filename="/home/max/git/mines-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="8" lineNum="7" parent="globals/Rez" pc="268436206" symbol="&lt;init&gt;"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="9" lineNum="329" parent="globals/Field" pc="268436230" symbol="loadState"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="9" lineNum="331" parent="globals/Field" pc="268436232" symbol="loadState"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="9" lineNum="332" parent="globals/Field" pc="268436242" symbol="loadState"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="9" lineNum="333" parent="globals/Field" pc="268436252" symbol="loadState"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="10" lineNum="351" parent="globals/Field" pc="268436263" symbol="setCells"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="10" lineNum="353" parent="globals/Field" pc="268436265" symbol="setCells"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="11" lineNum="255" parent="globals/Field" pc="268436276" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="11" lineNum="257" parent="globals/Field" pc="268436280" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="11" lineNum="259" parent="globals/Field" pc="268436298" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="11" lineNum="261" parent="globals/Field" pc="268436376" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="11" lineNum="263" parent="globals/Field" pc="268436410" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="11" lineNum="265" parent="globals/Field" pc="268436434" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="11" lineNum="267" parent="globals/Field" pc="268436452" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="11" lineNum="269" parent="globals/Field" pc="268436470" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="11" lineNum="271" parent="globals/Field" pc="268436494" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="11" lineNum="274" parent="globals/Field" pc="268436579" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="11" lineNum="320" parent="globals/Field" pc="268436644" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="11" lineNum="321" parent="globals/Field" pc="268436667" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="12" lineNum="213" parent="globals/Field" pc="268436686" symbol="checkWinCondition"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="12" lineNum="215" parent="globals/Field" pc="268436690" symbol="checkWinCondition"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="12" lineNum="217" parent="globals/Field" pc="268436720" symbol="checkWinCondition"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="12" lineNum="219" parent="globals/Field" pc="268436786" symbol="checkWinCondition"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="12" lineNum="223" parent="globals/Field" pc="268436805" symbol="checkWinCondition"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="13" lineNum="238" parent="globals/Field" pc="268436808" symbol="setFlag"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="13" lineNum="240" parent="globals/Field" pc="268436810" symbol="setFlag"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="13" lineNum="242" parent="globals/Field" pc="268436828" symbol="setFlag"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="13" lineNum="244" parent="globals/Field" pc="268436852" symbol="setFlag"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="13" lineNum="246" parent="globals/Field" pc="268436876" symbol="setFlag"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="13" lineNum="248" parent="globals/Field" pc="268436900" symbol="setFlag"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="14" lineNum="336" parent="globals/Field" pc="268436928" symbol="getCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="14" lineNum="338" parent="globals/Field" pc="268436930" symbol="getCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="15" lineNum="324" parent="globals/Field" pc="268436954" symbol="uncover"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="15" lineNum="326" parent="globals/Field" pc="268436956" symbol="uncover"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="16" lineNum="362" parent="globals/Field" pc="268436973" symbol="setDiscoveredCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="16" lineNum="364" parent="globals/Field" pc="268436975" symbol="setDiscoveredCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="17" lineNum="341" parent="globals/Field" pc="268437001" symbol="setCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="17" lineNum="343" parent="globals/Field" pc="268437003" symbol="setCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="18" lineNum="226" parent="globals/Field" pc="268437029" symbol="cellExists"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="18" lineNum="228" parent="globals/Field" pc="268437031" symbol="cellExists"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="18" lineNum="230" parent="globals/Field" pc="268437090" symbol="cellExists"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="18" lineNum="235" parent="globals/Field" pc="268437096" symbol="cellExists"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="19" lineNum="372" parent="globals/Field" pc="268437100" symbol="setDiscoveredCells"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="19" lineNum="374" parent="globals/Field" pc="268437102" symbol="setDiscoveredCells"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="20" lineNum="356" parent="globals/Field" pc="268437113" symbol="getDiscoveredCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="20" lineNum="358" parent="globals/Field" pc="268437115" symbol="getDiscoveredCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="21" lineNum="367" parent="globals/Field" pc="268437139" symbol="getDiscoveredCells"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="21" lineNum="369" parent="globals/Field" pc="268437141" symbol="getDiscoveredCells"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="22" lineNum="377" parent="globals/Field" pc="268437150" symbol="getSize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="22" lineNum="379" parent="globals/Field" pc="268437152" symbol="getSize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="162" parent="globals/Field" pc="268437161" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="164" parent="globals/Field" pc="268437165" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="166" parent="globals/Field" pc="268437175" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="168" parent="globals/Field" pc="268437201" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="170" parent="globals/Field" pc="268437227" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="172" parent="globals/Field" pc="268437273" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="174" parent="globals/Field" pc="268437293" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="176" parent="globals/Field" pc="268437323" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="178" parent="globals/Field" pc="268437352" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="183" parent="globals/Field" pc="268437371" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="186" parent="globals/Field" pc="268437387" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="189" parent="globals/Field" pc="268437416" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="191" parent="globals/Field" pc="268437437" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="193" parent="globals/Field" pc="268437458" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="195" parent="globals/Field" pc="268437482" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="197" parent="globals/Field" pc="268437500" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="199" parent="globals/Field" pc="268437518" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="201" parent="globals/Field" pc="268437542" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="203" parent="globals/Field" pc="268437600" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="24" lineNum="346" parent="globals/Field" pc="268437711" symbol="getCells"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="24" lineNum="348" parent="globals/Field" pc="268437713" symbol="getCells"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="25" lineNum="6" parent="globals/MinesView" pc="268437722" symbol="&lt;init&gt;"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="26" lineNum="157" parent="globals/MinesView" pc="268437741" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="26" lineNum="160" parent="globals/MinesView" pc="268437745" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="26" lineNum="161" parent="globals/MinesView" pc="268437758" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="26" lineNum="163" parent="globals/MinesView" pc="268437771" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="26" lineNum="165" parent="globals/MinesView" pc="268437796" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="26" lineNum="170" parent="globals/MinesView" pc="268437832" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="26" lineNum="171" parent="globals/MinesView" pc="268437854" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="26" lineNum="173" parent="globals/MinesView" pc="268437876" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="28" lineNum="22" parent="globals/MinesView" pc="268437904" symbol="onLayout"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="28" lineNum="24" parent="globals/MinesView" pc="268437906" symbol="onLayout"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="29" lineNum="144" parent="globals/MinesView" pc="268437948" symbol="handleTap"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="29" lineNum="146" parent="globals/MinesView" pc="268437952" symbol="handleTap"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="29" lineNum="147" parent="globals/MinesView" pc="268437971" symbol="handleTap"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="29" lineNum="149" parent="globals/MinesView" pc="268437988" symbol="handleTap"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="29" lineNum="151" parent="globals/MinesView" pc="268438059" symbol="handleTap"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="29" lineNum="153" parent="globals/MinesView" pc="268438102" symbol="handleTap"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="30" lineNum="16" parent="globals/MinesView" pc="268438122" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="30" lineNum="18" parent="globals/MinesView" pc="268438124" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="35" parent="globals/MinesView" pc="268438143" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="38" parent="globals/MinesView" pc="268438147" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="39" parent="globals/MinesView" pc="268438167" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="42" parent="globals/MinesView" pc="268438179" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="44" parent="globals/MinesView" pc="268438206" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="46" parent="globals/MinesView" pc="268438225" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="47" parent="globals/MinesView" pc="268438244" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="48" parent="globals/MinesView" pc="268438263" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="49" parent="globals/MinesView" pc="268438279" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="51" parent="globals/MinesView" pc="268438295" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="52" parent="globals/MinesView" pc="268438328" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="56" parent="globals/MinesView" pc="268438361" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="61" parent="globals/MinesView" pc="268438383" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="62" parent="globals/MinesView" pc="268438411" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="65" parent="globals/MinesView" pc="268438439" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="67" parent="globals/MinesView" pc="268438467" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="70" parent="globals/MinesView" pc="268438484" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="72" parent="globals/MinesView" pc="268438499" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="74" parent="globals/MinesView" pc="268438514" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="76" parent="globals/MinesView" pc="268438546" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="78" parent="globals/MinesView" pc="268438571" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="79" parent="globals/MinesView" pc="268438593" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="82" parent="globals/MinesView" pc="268438664" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="84" parent="globals/MinesView" pc="268438675" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="85" parent="globals/MinesView" pc="268438697" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="87" parent="globals/MinesView" pc="268438765" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="88" parent="globals/MinesView" pc="268438787" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="92" parent="globals/MinesView" pc="268438872" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="98" parent="globals/MinesView" pc="268438886" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="100" parent="globals/MinesView" pc="268438897" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="101" parent="globals/MinesView" pc="268438919" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="106" parent="globals/MinesView" pc="268439004" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="107" parent="globals/MinesView" pc="268439026" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="111" parent="globals/MinesView" pc="268439133" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="112" parent="globals/MinesView" pc="268439155" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="118" parent="globals/MinesView" pc="268439249" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="119" parent="globals/MinesView" pc="268439271" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="123" parent="globals/MinesView" pc="268439351" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="124" parent="globals/MinesView" pc="268439373" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="127" parent="globals/MinesView" pc="268439443" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="130" parent="globals/MinesView" pc="268439478" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="131" parent="globals/MinesView" pc="268439500" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="135" parent="globals/MinesView" pc="268439540" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="137" parent="globals/MinesView" pc="268439575" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="138" parent="globals/MinesView" pc="268439597" symbol="onUpdate"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="33" lineNum="55" parent="globals/MinesEngine" pc="268439638" symbol="loadState"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="33" lineNum="57" parent="globals/MinesEngine" pc="268439640" symbol="loadState"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="33" lineNum="58" parent="globals/MinesEngine" pc="268439659" symbol="loadState"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="33" lineNum="60" parent="globals/MinesEngine" pc="268439678" symbol="loadState"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="33" lineNum="62" parent="globals/MinesEngine" pc="268439702" symbol="loadState"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="33" lineNum="64" parent="globals/MinesEngine" pc="268439715" symbol="loadState"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="34" lineNum="132" parent="globals/MinesEngine" pc="268439726" symbol="getCursor"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="34" lineNum="134" parent="globals/MinesEngine" pc="268439728" symbol="getCursor"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="35" lineNum="83" parent="globals/MinesEngine" pc="268439737" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="35" lineNum="85" parent="globals/MinesEngine" pc="268439739" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="35" lineNum="87" parent="globals/MinesEngine" pc="268439761" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="35" lineNum="89" parent="globals/MinesEngine" pc="268439791" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="35" lineNum="90" parent="globals/MinesEngine" pc="268439804" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="35" lineNum="96" parent="globals/MinesEngine" pc="268439825" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="35" lineNum="98" parent="globals/MinesEngine" pc="268439845" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="35" lineNum="99" parent="globals/MinesEngine" pc="268439858" symbol="discoverCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="36" lineNum="78" parent="globals/MinesEngine" pc="268439880" symbol="setFlag"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="36" lineNum="80" parent="globals/MinesEngine" pc="268439882" symbol="setFlag"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="37" lineNum="73" parent="globals/MinesEngine" pc="268439905" symbol="getCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="37" lineNum="75" parent="globals/MinesEngine" pc="268439907" symbol="getCell"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="38" lineNum="142" parent="globals/MinesEngine" pc="268439929" symbol="getField"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="38" lineNum="144" parent="globals/MinesEngine" pc="268439931" symbol="getField"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="39" lineNum="104" parent="globals/MinesEngine" pc="268439940" symbol="update"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="39" lineNum="106" parent="globals/MinesEngine" pc="268439944" symbol="update"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="39" lineNum="108" parent="globals/MinesEngine" pc="268439974" symbol="update"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="39" lineNum="110" parent="globals/MinesEngine" pc="268440004" symbol="update"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="39" lineNum="112" parent="globals/MinesEngine" pc="268440034" symbol="update"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="40" lineNum="137" parent="globals/MinesEngine" pc="268440086" symbol="getStatus"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="40" lineNum="139" parent="globals/MinesEngine" pc="268440088" symbol="getStatus"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="41" lineNum="147" parent="globals/MinesEngine" pc="268440097" symbol="getSecondsElapsed"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="41" lineNum="149" parent="globals/MinesEngine" pc="268440099" symbol="getSecondsElapsed"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="42" lineNum="33" parent="globals/MinesEngine" pc="268440108" symbol="timerCallback"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="42" lineNum="35" parent="globals/MinesEngine" pc="268440110" symbol="timerCallback"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="42" lineNum="37" parent="globals/MinesEngine" pc="268440127" symbol="timerCallback"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="42" lineNum="38" parent="globals/MinesEngine" pc="268440146" symbol="timerCallback"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="42" lineNum="43" parent="globals/MinesEngine" pc="268440167" symbol="timerCallback"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="43" lineNum="121" parent="globals/MinesEngine" pc="268440186" symbol="cellExists"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="43" lineNum="123" parent="globals/MinesEngine" pc="268440188" symbol="cellExists"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="44" lineNum="68" parent="globals/MinesEngine" pc="268440210" symbol="getFieldSize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="44" lineNum="70" parent="globals/MinesEngine" pc="268440212" symbol="getFieldSize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="45" lineNum="48" parent="globals/MinesEngine" pc="268440230" symbol="stop"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="45" lineNum="50" parent="globals/MinesEngine" pc="268440232" symbol="stop"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="45" lineNum="51" parent="globals/MinesEngine" pc="268440245" symbol="stop"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="46" lineNum="126" parent="globals/MinesEngine" pc="268440264" symbol="setCursor"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="46" lineNum="128" parent="globals/MinesEngine" pc="268440266" symbol="setCursor"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="46" lineNum="129" parent="globals/MinesEngine" pc="268440282" symbol="setCursor"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="47" lineNum="16" parent="globals/MinesEngine" pc="268440299" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="47" lineNum="18" parent="globals/MinesEngine" pc="268440301" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="47" lineNum="20" parent="globals/MinesEngine" pc="268440339" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="47" lineNum="22" parent="globals/MinesEngine" pc="268440353" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="47" lineNum="23" parent="globals/MinesEngine" pc="268440372" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="47" lineNum="25" parent="globals/MinesEngine" pc="268440391" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="47" lineNum="27" parent="globals/MinesEngine" pc="268440404" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="47" lineNum="29" parent="globals/MinesEngine" pc="268440417" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="47" lineNum="30" parent="globals/MinesEngine" pc="268440451" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="48" lineNum="75" parent="globals" pc="268440493" symbol="getApp"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="48" lineNum="77" parent="globals" pc="268440503" symbol="getApp"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="49" lineNum="28" parent="globals/MinesMenu" pc="268440519" symbol="&lt;init&gt;"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="50" lineNum="32" parent="globals/MinesMenu" pc="268440538" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="50" lineNum="34" parent="globals/MinesMenu" pc="268440540" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="51" lineNum="6" parent="globals/MinesDelegate" pc="268440578" symbol="&lt;init&gt;"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="14" parent="globals/MinesDelegate" pc="268440597" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="16" parent="globals/MinesDelegate" pc="268440601" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="18" parent="globals/MinesDelegate" pc="268440629" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="20" parent="globals/MinesDelegate" pc="268440679" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="21" parent="globals/MinesDelegate" pc="268440709" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="23" parent="globals/MinesDelegate" pc="268440769" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="24" parent="globals/MinesDelegate" pc="268440799" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="26" parent="globals/MinesDelegate" pc="268440859" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="27" parent="globals/MinesDelegate" pc="268440899" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="29" parent="globals/MinesDelegate" pc="268440955" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="30" parent="globals/MinesDelegate" pc="268440995" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="32" parent="globals/MinesDelegate" pc="268441051" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="33" parent="globals/MinesDelegate" pc="268441101" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="36" parent="globals/MinesDelegate" pc="268441151" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="38" parent="globals/MinesDelegate" pc="268441201" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="52" lineNum="40" parent="globals/MinesDelegate" pc="268441250" symbol="onMenu"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="53" lineNum="176" parent="globals/MinesDelegate" pc="268441253" symbol="onHold"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="53" lineNum="178" parent="globals/MinesDelegate" pc="268441257" symbol="onHold"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="53" lineNum="181" parent="globals/MinesDelegate" pc="268441291" symbol="onHold"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="53" lineNum="183" parent="globals/MinesDelegate" pc="268441326" symbol="onHold"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="53" lineNum="185" parent="globals/MinesDelegate" pc="268441354" symbol="onHold"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="53" lineNum="187" parent="globals/MinesDelegate" pc="268441397" symbol="onHold"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="53" lineNum="190" parent="globals/MinesDelegate" pc="268441416" symbol="onHold"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="53" lineNum="193" parent="globals/MinesDelegate" pc="268441422" symbol="onHold"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="120" parent="globals/MinesDelegate" pc="268441425" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="122" parent="globals/MinesDelegate" pc="268441429" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="124" parent="globals/MinesDelegate" pc="268441450" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="126" parent="globals/MinesDelegate" pc="268441478" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="128" parent="globals/MinesDelegate" pc="268441513" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="130" parent="globals/MinesDelegate" pc="268441533" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="132" parent="globals/MinesDelegate" pc="268441561" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="135" parent="globals/MinesDelegate" pc="268441616" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="137" parent="globals/MinesDelegate" pc="268441636" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="138" parent="globals/MinesDelegate" pc="268441664" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="141" parent="globals/MinesDelegate" pc="268441722" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="143" parent="globals/MinesDelegate" pc="268441742" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="144" parent="globals/MinesDelegate" pc="268441770" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="147" parent="globals/MinesDelegate" pc="268441828" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="149" parent="globals/MinesDelegate" pc="268441848" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="150" parent="globals/MinesDelegate" pc="268441876" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="153" parent="globals/MinesDelegate" pc="268441934" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="54" lineNum="156" parent="globals/MinesDelegate" pc="268441950" symbol="onSwipe"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="55" lineNum="9" parent="globals/MinesDelegate" pc="268441953" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="55" lineNum="11" parent="globals/MinesDelegate" pc="268441955" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="56" lineNum="159" parent="globals/MinesDelegate" pc="268441974" symbol="onTap"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="56" lineNum="161" parent="globals/MinesDelegate" pc="268441978" symbol="onTap"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="56" lineNum="163" parent="globals/MinesDelegate" pc="268442012" symbol="onTap"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="56" lineNum="164" parent="globals/MinesDelegate" pc="268442031" symbol="onTap"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="56" lineNum="166" parent="globals/MinesDelegate" pc="268442050" symbol="onTap"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="56" lineNum="168" parent="globals/MinesDelegate" pc="268442083" symbol="onTap"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="56" lineNum="170" parent="globals/MinesDelegate" pc="268442114" symbol="onTap"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="56" lineNum="173" parent="globals/MinesDelegate" pc="268442120" symbol="onTap"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="57" lineNum="43" parent="globals/MinesDelegate" pc="268442123" symbol="onKey"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="57" lineNum="47" parent="globals/MinesDelegate" pc="268442127" symbol="onKey"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="57" lineNum="49" parent="globals/MinesDelegate" pc="268442147" symbol="onKey"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="57" lineNum="52" parent="globals/MinesDelegate" pc="268442182" symbol="onKey"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="57" lineNum="53" parent="globals/MinesDelegate" pc="268442210" symbol="onKey"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="57" lineNum="55" parent="globals/MinesDelegate" pc="268442253" symbol="onKey"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="57" lineNum="60" parent="globals/MinesDelegate" pc="268442275" symbol="onKey"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="57" lineNum="62" parent="globals/MinesDelegate" pc="268442295" symbol="onKey"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="57" lineNum="65" parent="globals/MinesDelegate" pc="268442330" symbol="onKey"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="57" lineNum="67" parent="globals/MinesDelegate" pc="268442358" symbol="onKey"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="57" lineNum="69" parent="globals/MinesDelegate" pc="268442401" symbol="onKey"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="57" lineNum="74" parent="globals/MinesDelegate" pc="268442423" symbol="onKey"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="57" lineNum="76" parent="globals/MinesDelegate" pc="268442443" symbol="onKey"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="57" lineNum="104" parent="globals/MinesDelegate" pc="268442467" symbol="onKey"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="57" lineNum="105" parent="globals/MinesDelegate" pc="268442500" symbol="onKey"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="58" lineNum="39" parent="globals/MinesMenuDelegate" pc="268442503" symbol="&lt;init&gt;"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="59" lineNum="43" parent="globals/MinesMenuDelegate" pc="268442522" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="59" lineNum="45" parent="globals/MinesMenuDelegate" pc="268442524" symbol="initialize"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="50" parent="globals/MinesMenuDelegate" pc="268442543" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="52" parent="globals/MinesMenuDelegate" pc="268442547" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="54" parent="globals/MinesMenuDelegate" pc="268442565" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="57" parent="globals/MinesMenuDelegate" pc="268442614" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="60" parent="globals/MinesMenuDelegate" pc="268442642" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="61" parent="globals/MinesMenuDelegate" pc="268442663" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="66" parent="globals/MinesMenuDelegate" pc="268442687" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="68" parent="globals/MinesMenuDelegate" pc="268442715" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="69" parent="globals/MinesMenuDelegate" pc="268442760" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="71" parent="globals/MinesMenuDelegate" pc="268442805" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="72" parent="globals/MinesMenuDelegate" pc="268442832" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="73" parent="globals/MinesMenuDelegate" pc="268442850" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="75" parent="globals/MinesMenuDelegate" pc="268442927" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="77" parent="globals/MinesMenuDelegate" pc="268442948" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="80" parent="globals/MinesMenuDelegate" pc="268442967" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="83" parent="globals/MinesMenuDelegate" pc="268442995" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="85" parent="globals/MinesMenuDelegate" pc="268443016" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="87" parent="globals/MinesMenuDelegate" pc="268443037" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="91" parent="globals/MinesMenuDelegate" pc="268443056" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="94" parent="globals/MinesMenuDelegate" pc="268443084" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="96" parent="globals/MinesMenuDelegate" pc="268443105" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="98" parent="globals/MinesMenuDelegate" pc="268443126" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="101" parent="globals/MinesMenuDelegate" pc="268443145" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="103" parent="globals/MinesMenuDelegate" pc="268443173" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="105" parent="globals/MinesMenuDelegate" pc="268443203" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="107" parent="globals/MinesMenuDelegate" pc="268443231" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="109" parent="globals/MinesMenuDelegate" pc="268443262" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="114" parent="globals/MinesMenuDelegate" pc="268443288" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="116" parent="globals/MinesMenuDelegate" pc="268443316" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="118" parent="globals/MinesMenuDelegate" pc="268443346" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="120" parent="globals/MinesMenuDelegate" pc="268443362" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="122" parent="globals/MinesMenuDelegate" pc="268443393" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="60" lineNum="127" parent="globals/MinesMenuDelegate" pc="268443419" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="61" lineNum="19" parent="globals/Rez/Layouts" pc="268443447" symbol="MainLayout"/>
-        <entry filename="/home/max/git/mines-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="61" lineNum="20" parent="globals/Rez/Layouts" pc="268443457" symbol="MainLayout"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="5" lineNum="207" parent="globals" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="7" lineNum="5" parent="globals/MinesApp" pc="268435592" symbol="&lt;init&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="8" lineNum="46" parent="globals/MinesApp" pc="268435611" symbol="loadGame"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="8" lineNum="48" parent="globals/MinesApp" pc="268435615" symbol="loadGame"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="8" lineNum="49" parent="globals/MinesApp" pc="268435643" symbol="loadGame"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="8" lineNum="50" parent="globals/MinesApp" pc="268435671" symbol="loadGame"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="8" lineNum="51" parent="globals/MinesApp" pc="268435699" symbol="loadGame"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="8" lineNum="52" parent="globals/MinesApp" pc="268435727" symbol="loadGame"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="8" lineNum="55" parent="globals/MinesApp" pc="268435755" symbol="loadGame"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="9" lineNum="59" parent="globals/MinesApp" pc="268435784" symbol="onStart"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="10" lineNum="70" parent="globals/MinesApp" pc="268435787" symbol="getInitialView"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="10" lineNum="72" parent="globals/MinesApp" pc="268435789" symbol="getInitialView"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="10" lineNum="73" parent="globals/MinesApp" pc="268435823" symbol="getInitialView"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="11" lineNum="16" parent="globals/MinesApp" pc="268435880" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="11" lineNum="18" parent="globals/MinesApp" pc="268435882" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="11" lineNum="20" parent="globals/MinesApp" pc="268435900" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="11" lineNum="21" parent="globals/MinesApp" pc="268435934" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="11" lineNum="24" parent="globals/MinesApp" pc="268435968" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="11" lineNum="26" parent="globals/MinesApp" pc="268436018" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="11" lineNum="28" parent="globals/MinesApp" pc="268436155" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="12" lineNum="64" parent="globals/MinesApp" pc="268436171" symbol="onStop"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="12" lineNum="66" parent="globals/MinesApp" pc="268436173" symbol="onStop"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="13" lineNum="34" parent="globals/MinesApp" pc="268436186" symbol="saveGame"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="13" lineNum="36" parent="globals/MinesApp" pc="268436190" symbol="saveGame"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="13" lineNum="38" parent="globals/MinesApp" pc="268436209" symbol="saveGame"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="13" lineNum="39" parent="globals/MinesApp" pc="268436247" symbol="saveGame"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="13" lineNum="40" parent="globals/MinesApp" pc="268436285" symbol="saveGame"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="13" lineNum="41" parent="globals/MinesApp" pc="268436323" symbol="saveGame"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="13" lineNum="42" parent="globals/MinesApp" pc="268436367" symbol="saveGame"/>
+        <entry filename="/home/max/git/mines-connectiq/bin/gen/006-B3906-00/source/Rez.mcgen" id="14" lineNum="7" parent="globals/Rez" pc="268436412" symbol="&lt;init&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="15" lineNum="341" parent="globals/Field" pc="268436436" symbol="loadState"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="15" lineNum="343" parent="globals/Field" pc="268436438" symbol="loadState"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="15" lineNum="344" parent="globals/Field" pc="268436448" symbol="loadState"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="15" lineNum="345" parent="globals/Field" pc="268436458" symbol="loadState"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="16" lineNum="363" parent="globals/Field" pc="268436469" symbol="setCells"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="16" lineNum="365" parent="globals/Field" pc="268436471" symbol="setCells"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="17" lineNum="267" parent="globals/Field" pc="268436482" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="17" lineNum="269" parent="globals/Field" pc="268436486" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="17" lineNum="271" parent="globals/Field" pc="268436504" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="17" lineNum="273" parent="globals/Field" pc="268436582" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="17" lineNum="275" parent="globals/Field" pc="268436616" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="17" lineNum="277" parent="globals/Field" pc="268436640" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="17" lineNum="279" parent="globals/Field" pc="268436658" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="17" lineNum="281" parent="globals/Field" pc="268436676" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="17" lineNum="283" parent="globals/Field" pc="268436700" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="17" lineNum="286" parent="globals/Field" pc="268436785" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="17" lineNum="333" parent="globals/Field" pc="268436850" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="18" lineNum="225" parent="globals/Field" pc="268436869" symbol="checkWinCondition"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="18" lineNum="227" parent="globals/Field" pc="268436873" symbol="checkWinCondition"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="18" lineNum="229" parent="globals/Field" pc="268436903" symbol="checkWinCondition"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="18" lineNum="231" parent="globals/Field" pc="268436969" symbol="checkWinCondition"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="18" lineNum="235" parent="globals/Field" pc="268436988" symbol="checkWinCondition"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="19" lineNum="250" parent="globals/Field" pc="268436991" symbol="setFlag"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="19" lineNum="252" parent="globals/Field" pc="268436993" symbol="setFlag"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="19" lineNum="254" parent="globals/Field" pc="268437011" symbol="setFlag"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="19" lineNum="256" parent="globals/Field" pc="268437035" symbol="setFlag"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="19" lineNum="258" parent="globals/Field" pc="268437059" symbol="setFlag"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="19" lineNum="260" parent="globals/Field" pc="268437083" symbol="setFlag"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="20" lineNum="348" parent="globals/Field" pc="268437111" symbol="getCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="20" lineNum="350" parent="globals/Field" pc="268437113" symbol="getCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="21" lineNum="336" parent="globals/Field" pc="268437137" symbol="uncover"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="21" lineNum="338" parent="globals/Field" pc="268437139" symbol="uncover"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="22" lineNum="374" parent="globals/Field" pc="268437156" symbol="setDiscoveredCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="22" lineNum="376" parent="globals/Field" pc="268437158" symbol="setDiscoveredCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="353" parent="globals/Field" pc="268437184" symbol="setCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="23" lineNum="355" parent="globals/Field" pc="268437186" symbol="setCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="24" lineNum="238" parent="globals/Field" pc="268437212" symbol="cellExists"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="24" lineNum="240" parent="globals/Field" pc="268437214" symbol="cellExists"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="24" lineNum="242" parent="globals/Field" pc="268437273" symbol="cellExists"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="24" lineNum="247" parent="globals/Field" pc="268437279" symbol="cellExists"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="25" lineNum="384" parent="globals/Field" pc="268437283" symbol="setDiscoveredCells"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="25" lineNum="386" parent="globals/Field" pc="268437285" symbol="setDiscoveredCells"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="26" lineNum="368" parent="globals/Field" pc="268437296" symbol="getDiscoveredCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="26" lineNum="370" parent="globals/Field" pc="268437298" symbol="getDiscoveredCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="27" lineNum="379" parent="globals/Field" pc="268437322" symbol="getDiscoveredCells"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="27" lineNum="381" parent="globals/Field" pc="268437324" symbol="getDiscoveredCells"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="28" lineNum="389" parent="globals/Field" pc="268437333" symbol="getSize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="28" lineNum="391" parent="globals/Field" pc="268437335" symbol="getSize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="166" parent="globals/Field" pc="268437344" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="168" parent="globals/Field" pc="268437348" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="170" parent="globals/Field" pc="268437358" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="172" parent="globals/Field" pc="268437384" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="178" parent="globals/Field" pc="268437410" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="190" parent="globals/Field" pc="268437440" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="192" parent="globals/Field" pc="268437456" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="195" parent="globals/Field" pc="268437485" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="197" parent="globals/Field" pc="268437500" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="198" parent="globals/Field" pc="268437546" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="201" parent="globals/Field" pc="268437575" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="203" parent="globals/Field" pc="268437596" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="205" parent="globals/Field" pc="268437617" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="207" parent="globals/Field" pc="268437641" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="209" parent="globals/Field" pc="268437659" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="211" parent="globals/Field" pc="268437677" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="213" parent="globals/Field" pc="268437701" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="29" lineNum="215" parent="globals/Field" pc="268437759" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="30" lineNum="358" parent="globals/Field" pc="268437870" symbol="getCells"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="30" lineNum="360" parent="globals/Field" pc="268437872" symbol="getCells"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="31" lineNum="6" parent="globals/MinesView" pc="268437881" symbol="&lt;init&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="177" parent="globals/MinesView" pc="268437900" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="180" parent="globals/MinesView" pc="268437904" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="181" parent="globals/MinesView" pc="268437917" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="183" parent="globals/MinesView" pc="268437930" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="185" parent="globals/MinesView" pc="268437955" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="190" parent="globals/MinesView" pc="268437991" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="191" parent="globals/MinesView" pc="268438013" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="32" lineNum="193" parent="globals/MinesView" pc="268438035" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="34" lineNum="22" parent="globals/MinesView" pc="268438063" symbol="onLayout"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="34" lineNum="24" parent="globals/MinesView" pc="268438065" symbol="onLayout"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="35" lineNum="164" parent="globals/MinesView" pc="268438107" symbol="handleTap"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="35" lineNum="166" parent="globals/MinesView" pc="268438111" symbol="handleTap"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="35" lineNum="167" parent="globals/MinesView" pc="268438130" symbol="handleTap"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="35" lineNum="169" parent="globals/MinesView" pc="268438147" symbol="handleTap"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="35" lineNum="171" parent="globals/MinesView" pc="268438218" symbol="handleTap"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="35" lineNum="173" parent="globals/MinesView" pc="268438261" symbol="handleTap"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="36" lineNum="16" parent="globals/MinesView" pc="268438281" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="36" lineNum="18" parent="globals/MinesView" pc="268438283" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="35" parent="globals/MinesView" pc="268438302" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="38" parent="globals/MinesView" pc="268438306" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="39" parent="globals/MinesView" pc="268438326" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="42" parent="globals/MinesView" pc="268438338" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="44" parent="globals/MinesView" pc="268438365" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="46" parent="globals/MinesView" pc="268438384" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="47" parent="globals/MinesView" pc="268438403" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="48" parent="globals/MinesView" pc="268438422" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="49" parent="globals/MinesView" pc="268438438" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="51" parent="globals/MinesView" pc="268438454" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="52" parent="globals/MinesView" pc="268438487" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="56" parent="globals/MinesView" pc="268438520" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="61" parent="globals/MinesView" pc="268438542" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="62" parent="globals/MinesView" pc="268438570" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="65" parent="globals/MinesView" pc="268438598" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="67" parent="globals/MinesView" pc="268438626" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="70" parent="globals/MinesView" pc="268438643" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="72" parent="globals/MinesView" pc="268438658" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="74" parent="globals/MinesView" pc="268438673" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="76" parent="globals/MinesView" pc="268438705" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="79" parent="globals/MinesView" pc="268438760" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="81" parent="globals/MinesView" pc="268438806" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="83" parent="globals/MinesView" pc="268438831" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="84" parent="globals/MinesView" pc="268438853" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="87" parent="globals/MinesView" pc="268438924" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="89" parent="globals/MinesView" pc="268438935" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="90" parent="globals/MinesView" pc="268438957" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="92" parent="globals/MinesView" pc="268439025" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="93" parent="globals/MinesView" pc="268439047" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="97" parent="globals/MinesView" pc="268439129" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="102" parent="globals/MinesView" pc="268439140" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="103" parent="globals/MinesView" pc="268439162" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="107" parent="globals/MinesView" pc="268439233" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="109" parent="globals/MinesView" pc="268439244" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="110" parent="globals/MinesView" pc="268439266" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="112" parent="globals/MinesView" pc="268439334" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="113" parent="globals/MinesView" pc="268439356" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="120" parent="globals/MinesView" pc="268439438" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="121" parent="globals/MinesView" pc="268439460" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="123" parent="globals/MinesView" pc="268439528" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="124" parent="globals/MinesView" pc="268439560" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="126" parent="globals/MinesView" pc="268439573" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="127" parent="globals/MinesView" pc="268439592" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="131" parent="globals/MinesView" pc="268439696" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="132" parent="globals/MinesView" pc="268439718" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="138" parent="globals/MinesView" pc="268439812" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="139" parent="globals/MinesView" pc="268439834" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="143" parent="globals/MinesView" pc="268439914" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="144" parent="globals/MinesView" pc="268439936" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="147" parent="globals/MinesView" pc="268440006" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="150" parent="globals/MinesView" pc="268440041" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="151" parent="globals/MinesView" pc="268440063" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="155" parent="globals/MinesView" pc="268440103" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="157" parent="globals/MinesView" pc="268440138" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesView.mc" id="38" lineNum="158" parent="globals/MinesView" pc="268440160" symbol="onUpdate"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="39" lineNum="54" parent="globals/MinesEngine" pc="268440201" symbol="loadState"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="39" lineNum="56" parent="globals/MinesEngine" pc="268440203" symbol="loadState"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="39" lineNum="57" parent="globals/MinesEngine" pc="268440222" symbol="loadState"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="39" lineNum="59" parent="globals/MinesEngine" pc="268440241" symbol="loadState"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="39" lineNum="61" parent="globals/MinesEngine" pc="268440265" symbol="loadState"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="39" lineNum="63" parent="globals/MinesEngine" pc="268440275" symbol="loadState"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="40" lineNum="131" parent="globals/MinesEngine" pc="268440286" symbol="getCursor"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="40" lineNum="133" parent="globals/MinesEngine" pc="268440288" symbol="getCursor"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="41" lineNum="82" parent="globals/MinesEngine" pc="268440297" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="41" lineNum="84" parent="globals/MinesEngine" pc="268440299" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="41" lineNum="86" parent="globals/MinesEngine" pc="268440321" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="41" lineNum="88" parent="globals/MinesEngine" pc="268440351" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="41" lineNum="89" parent="globals/MinesEngine" pc="268440364" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="41" lineNum="95" parent="globals/MinesEngine" pc="268440385" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="41" lineNum="97" parent="globals/MinesEngine" pc="268440405" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="41" lineNum="98" parent="globals/MinesEngine" pc="268440418" symbol="discoverCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="42" lineNum="77" parent="globals/MinesEngine" pc="268440440" symbol="setFlag"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="42" lineNum="79" parent="globals/MinesEngine" pc="268440442" symbol="setFlag"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="43" lineNum="72" parent="globals/MinesEngine" pc="268440465" symbol="getCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="43" lineNum="74" parent="globals/MinesEngine" pc="268440467" symbol="getCell"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="44" lineNum="146" parent="globals/MinesEngine" pc="268440489" symbol="getField"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="44" lineNum="148" parent="globals/MinesEngine" pc="268440491" symbol="getField"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="45" lineNum="103" parent="globals/MinesEngine" pc="268440500" symbol="update"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="45" lineNum="105" parent="globals/MinesEngine" pc="268440504" symbol="update"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="45" lineNum="107" parent="globals/MinesEngine" pc="268440534" symbol="update"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="45" lineNum="109" parent="globals/MinesEngine" pc="268440564" symbol="update"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="45" lineNum="111" parent="globals/MinesEngine" pc="268440594" symbol="update"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="46" lineNum="141" parent="globals/MinesEngine" pc="268440646" symbol="getStatus"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="46" lineNum="143" parent="globals/MinesEngine" pc="268440648" symbol="getStatus"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="47" lineNum="136" parent="globals/MinesEngine" pc="268440657" symbol="setStatus"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="47" lineNum="138" parent="globals/MinesEngine" pc="268440659" symbol="setStatus"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="48" lineNum="151" parent="globals/MinesEngine" pc="268440670" symbol="getSecondsElapsed"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="48" lineNum="153" parent="globals/MinesEngine" pc="268440672" symbol="getSecondsElapsed"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="49" lineNum="32" parent="globals/MinesEngine" pc="268440681" symbol="timerCallback"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="49" lineNum="34" parent="globals/MinesEngine" pc="268440683" symbol="timerCallback"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="49" lineNum="36" parent="globals/MinesEngine" pc="268440700" symbol="timerCallback"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="49" lineNum="37" parent="globals/MinesEngine" pc="268440719" symbol="timerCallback"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="49" lineNum="42" parent="globals/MinesEngine" pc="268440740" symbol="timerCallback"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="50" lineNum="120" parent="globals/MinesEngine" pc="268440759" symbol="cellExists"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="50" lineNum="122" parent="globals/MinesEngine" pc="268440761" symbol="cellExists"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="51" lineNum="67" parent="globals/MinesEngine" pc="268440783" symbol="getFieldSize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="51" lineNum="69" parent="globals/MinesEngine" pc="268440785" symbol="getFieldSize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="52" lineNum="47" parent="globals/MinesEngine" pc="268440803" symbol="stop"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="52" lineNum="49" parent="globals/MinesEngine" pc="268440805" symbol="stop"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="52" lineNum="50" parent="globals/MinesEngine" pc="268440818" symbol="stop"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="53" lineNum="125" parent="globals/MinesEngine" pc="268440837" symbol="setCursor"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="53" lineNum="127" parent="globals/MinesEngine" pc="268440839" symbol="setCursor"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="53" lineNum="128" parent="globals/MinesEngine" pc="268440855" symbol="setCursor"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="54" lineNum="15" parent="globals/MinesEngine" pc="268440872" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="54" lineNum="17" parent="globals/MinesEngine" pc="268440874" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="54" lineNum="19" parent="globals/MinesEngine" pc="268440912" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="54" lineNum="21" parent="globals/MinesEngine" pc="268440926" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="54" lineNum="22" parent="globals/MinesEngine" pc="268440945" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="54" lineNum="24" parent="globals/MinesEngine" pc="268440964" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="54" lineNum="26" parent="globals/MinesEngine" pc="268440977" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="54" lineNum="28" parent="globals/MinesEngine" pc="268440990" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="54" lineNum="29" parent="globals/MinesEngine" pc="268441024" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="55" lineNum="78" parent="globals" pc="268441066" symbol="getApp"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="55" lineNum="80" parent="globals" pc="268441076" symbol="getApp"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="56" lineNum="28" parent="globals/MinesMenu" pc="268441092" symbol="&lt;init&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="57" lineNum="32" parent="globals/MinesMenu" pc="268441111" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="57" lineNum="34" parent="globals/MinesMenu" pc="268441113" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="58" lineNum="6" parent="globals/MinesDelegate" pc="268441151" symbol="&lt;init&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="14" parent="globals/MinesDelegate" pc="268441170" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="16" parent="globals/MinesDelegate" pc="268441174" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="18" parent="globals/MinesDelegate" pc="268441202" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="20" parent="globals/MinesDelegate" pc="268441252" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="21" parent="globals/MinesDelegate" pc="268441282" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="23" parent="globals/MinesDelegate" pc="268441342" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="24" parent="globals/MinesDelegate" pc="268441372" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="26" parent="globals/MinesDelegate" pc="268441432" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="27" parent="globals/MinesDelegate" pc="268441472" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="29" parent="globals/MinesDelegate" pc="268441528" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="30" parent="globals/MinesDelegate" pc="268441568" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="32" parent="globals/MinesDelegate" pc="268441624" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="33" parent="globals/MinesDelegate" pc="268441674" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="36" parent="globals/MinesDelegate" pc="268441724" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="38" parent="globals/MinesDelegate" pc="268441774" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="59" lineNum="40" parent="globals/MinesDelegate" pc="268441823" symbol="onMenu"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="60" lineNum="176" parent="globals/MinesDelegate" pc="268441826" symbol="onHold"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="60" lineNum="178" parent="globals/MinesDelegate" pc="268441830" symbol="onHold"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="60" lineNum="181" parent="globals/MinesDelegate" pc="268441864" symbol="onHold"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="60" lineNum="183" parent="globals/MinesDelegate" pc="268441899" symbol="onHold"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="60" lineNum="185" parent="globals/MinesDelegate" pc="268441927" symbol="onHold"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="60" lineNum="187" parent="globals/MinesDelegate" pc="268441970" symbol="onHold"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="60" lineNum="190" parent="globals/MinesDelegate" pc="268441989" symbol="onHold"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="60" lineNum="193" parent="globals/MinesDelegate" pc="268441995" symbol="onHold"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="120" parent="globals/MinesDelegate" pc="268441998" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="124" parent="globals/MinesDelegate" pc="268442002" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="126" parent="globals/MinesDelegate" pc="268442030" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="128" parent="globals/MinesDelegate" pc="268442065" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="130" parent="globals/MinesDelegate" pc="268442085" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="132" parent="globals/MinesDelegate" pc="268442113" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="135" parent="globals/MinesDelegate" pc="268442168" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="137" parent="globals/MinesDelegate" pc="268442188" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="138" parent="globals/MinesDelegate" pc="268442216" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="141" parent="globals/MinesDelegate" pc="268442274" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="143" parent="globals/MinesDelegate" pc="268442294" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="144" parent="globals/MinesDelegate" pc="268442322" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="147" parent="globals/MinesDelegate" pc="268442380" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="149" parent="globals/MinesDelegate" pc="268442400" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="150" parent="globals/MinesDelegate" pc="268442428" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="153" parent="globals/MinesDelegate" pc="268442486" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="61" lineNum="156" parent="globals/MinesDelegate" pc="268442502" symbol="onSwipe"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="62" lineNum="9" parent="globals/MinesDelegate" pc="268442505" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="62" lineNum="11" parent="globals/MinesDelegate" pc="268442507" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="63" lineNum="159" parent="globals/MinesDelegate" pc="268442526" symbol="onTap"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="63" lineNum="161" parent="globals/MinesDelegate" pc="268442530" symbol="onTap"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="63" lineNum="163" parent="globals/MinesDelegate" pc="268442564" symbol="onTap"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="63" lineNum="164" parent="globals/MinesDelegate" pc="268442583" symbol="onTap"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="63" lineNum="168" parent="globals/MinesDelegate" pc="268442602" symbol="onTap"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="63" lineNum="170" parent="globals/MinesDelegate" pc="268442633" symbol="onTap"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="63" lineNum="173" parent="globals/MinesDelegate" pc="268442639" symbol="onTap"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="64" lineNum="43" parent="globals/MinesDelegate" pc="268442642" symbol="onKey"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="64" lineNum="47" parent="globals/MinesDelegate" pc="268442646" symbol="onKey"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="64" lineNum="49" parent="globals/MinesDelegate" pc="268442666" symbol="onKey"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="64" lineNum="52" parent="globals/MinesDelegate" pc="268442701" symbol="onKey"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="64" lineNum="53" parent="globals/MinesDelegate" pc="268442729" symbol="onKey"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="64" lineNum="55" parent="globals/MinesDelegate" pc="268442772" symbol="onKey"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="64" lineNum="60" parent="globals/MinesDelegate" pc="268442794" symbol="onKey"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="64" lineNum="62" parent="globals/MinesDelegate" pc="268442814" symbol="onKey"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="64" lineNum="65" parent="globals/MinesDelegate" pc="268442849" symbol="onKey"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="64" lineNum="67" parent="globals/MinesDelegate" pc="268442877" symbol="onKey"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="64" lineNum="69" parent="globals/MinesDelegate" pc="268442920" symbol="onKey"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="64" lineNum="74" parent="globals/MinesDelegate" pc="268442942" symbol="onKey"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="64" lineNum="76" parent="globals/MinesDelegate" pc="268442962" symbol="onKey"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesDelegate.mc" id="64" lineNum="105" parent="globals/MinesDelegate" pc="268442986" symbol="onKey"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="65" lineNum="39" parent="globals/MinesMenuDelegate" pc="268442989" symbol="&lt;init&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="66" lineNum="43" parent="globals/MinesMenuDelegate" pc="268443008" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="66" lineNum="45" parent="globals/MinesMenuDelegate" pc="268443010" symbol="initialize"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="50" parent="globals/MinesMenuDelegate" pc="268443029" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="52" parent="globals/MinesMenuDelegate" pc="268443033" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="54" parent="globals/MinesMenuDelegate" pc="268443051" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="57" parent="globals/MinesMenuDelegate" pc="268443100" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="60" parent="globals/MinesMenuDelegate" pc="268443128" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="61" parent="globals/MinesMenuDelegate" pc="268443149" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="66" parent="globals/MinesMenuDelegate" pc="268443173" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="68" parent="globals/MinesMenuDelegate" pc="268443201" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="69" parent="globals/MinesMenuDelegate" pc="268443246" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="71" parent="globals/MinesMenuDelegate" pc="268443291" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="72" parent="globals/MinesMenuDelegate" pc="268443318" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="73" parent="globals/MinesMenuDelegate" pc="268443336" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="75" parent="globals/MinesMenuDelegate" pc="268443413" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="77" parent="globals/MinesMenuDelegate" pc="268443434" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="80" parent="globals/MinesMenuDelegate" pc="268443453" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="83" parent="globals/MinesMenuDelegate" pc="268443481" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="85" parent="globals/MinesMenuDelegate" pc="268443502" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="87" parent="globals/MinesMenuDelegate" pc="268443523" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="91" parent="globals/MinesMenuDelegate" pc="268443542" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="94" parent="globals/MinesMenuDelegate" pc="268443570" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="96" parent="globals/MinesMenuDelegate" pc="268443591" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="98" parent="globals/MinesMenuDelegate" pc="268443612" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="101" parent="globals/MinesMenuDelegate" pc="268443631" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="103" parent="globals/MinesMenuDelegate" pc="268443659" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="105" parent="globals/MinesMenuDelegate" pc="268443689" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="107" parent="globals/MinesMenuDelegate" pc="268443717" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="109" parent="globals/MinesMenuDelegate" pc="268443748" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="114" parent="globals/MinesMenuDelegate" pc="268443774" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="116" parent="globals/MinesMenuDelegate" pc="268443802" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="118" parent="globals/MinesMenuDelegate" pc="268443832" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="120" parent="globals/MinesMenuDelegate" pc="268443848" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="67" lineNum="122" parent="globals/MinesMenuDelegate" pc="268443879" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/bin/gen/006-B3906-00/source/Rez.mcgen" id="68" lineNum="19" parent="globals/Rez/Layouts" pc="268443906" symbol="MainLayout"/>
+        <entry filename="/home/max/git/mines-connectiq/bin/gen/006-B3906-00/source/Rez.mcgen" id="68" lineNum="20" parent="globals/Rez/Layouts" pc="268443916" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="13" object="true" symbol="MinesMenuDelegate"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry id="52" method="true" symbol="getFieldSize"/>
-        <entry id="34" method="true" symbol="setCells"/>
+        <entry id="53" method="true" symbol="getFieldSize"/>
+        <entry id="35" method="true" symbol="setCells"/>
         <entry id="12" object="true" symbol="MinesMenu"/>
-        <entry id="33" method="true" symbol="setCell"/>
+        <entry id="34" method="true" symbol="setCell"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="7" module="true" symbol="globals/Rez/Menus"/>
-        <entry field="true" id="15" symbol="engine"/>
-        <entry id="60" method="true" symbol="MainLayout"/>
-        <entry id="30" method="true" symbol="getDiscoveredCell"/>
-        <entry id="31" method="true" symbol="getDiscoveredCells"/>
-        <entry field="true" id="24" symbol="&lt;globals/Field/&lt;&gt;cells&gt;"/>
-        <entry id="41" method="true" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
+        <entry field="true" id="16" symbol="engine"/>
+        <entry id="62" method="true" symbol="MainLayout"/>
+        <entry id="58" method="true" symbol="setStatus"/>
+        <entry id="31" method="true" symbol="getDiscoveredCell"/>
+        <entry id="32" method="true" symbol="getDiscoveredCells"/>
+        <entry field="true" id="25" symbol="&lt;globals/Field/&lt;&gt;cells&gt;"/>
+        <entry id="42" method="true" symbol="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry id="54" method="true" symbol="getStatus"/>
-        <entry id="29" method="true" symbol="getCells"/>
-        <entry field="true" id="61" symbol="AppName"/>
+        <entry field="true" id="8388782" method="true" symbol="size"/>
+        <entry id="55" method="true" symbol="getStatus"/>
+        <entry id="30" method="true" symbol="getCells"/>
+        <entry field="true" id="63" symbol="AppName"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry id="23" method="true" symbol="cellExists"/>
-        <entry id="42" method="true" symbol="handleTap"/>
-        <entry field="true" id="55" symbol="&lt;globals/MinesEngine/&lt;&gt;seconds_count&gt;"/>
+        <entry id="24" method="true" symbol="cellExists"/>
+        <entry id="43" method="true" symbol="handleTap"/>
+        <entry field="true" id="56" symbol="&lt;globals/MinesEngine/&lt;&gt;seconds_count&gt;"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="11" object="true" symbol="MinesEngine"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry id="16" method="true" symbol="loadGame"/>
+        <entry id="17" method="true" symbol="loadGame"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-        <entry field="true" id="46" symbol="screen_width"/>
+        <entry field="true" id="47" symbol="screen_width"/>
         <entry id="8389630" method="true" symbol="getSize"/>
-        <entry field="true" id="49" symbol="&lt;globals/MinesEngine/&lt;&gt;game_status&gt;"/>
-        <entry id="22" module="true" symbol="Menus"/>
+        <entry field="true" id="50" symbol="&lt;globals/MinesEngine/&lt;&gt;game_status&gt;"/>
+        <entry id="23" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry id="37" method="true" symbol="setFlag"/>
+        <entry id="38" method="true" symbol="setFlag"/>
         <entry id="8389098" method="true" symbol="onTap"/>
-        <entry id="35" method="true" symbol="setDiscoveredCell"/>
+        <entry id="36" method="true" symbol="setDiscoveredCell"/>
         <entry id="9" object="true" symbol="MinesApp"/>
-        <entry field="true" id="27" symbol="&lt;globals/Field/&lt;&gt;discovered_cells&gt;"/>
+        <entry field="true" id="28" symbol="&lt;globals/Field/&lt;&gt;discovered_cells&gt;"/>
         <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="19" method="true" symbol="saveGame"/>
+        <entry id="20" method="true" symbol="saveGame"/>
         <entry id="8388699" method="true" symbol="stop"/>
-        <entry field="true" id="40" symbol="cell_size"/>
+        <entry field="true" id="41" symbol="cell_size"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8389619" method="true" symbol="onSelect"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry id="58" method="true" symbol="timerCallback"/>
+        <entry id="8392219" symbol="face"/>
+        <entry id="60" method="true" symbol="timerCallback"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry id="25" method="true" symbol="checkWinCondition"/>
+        <entry id="26" method="true" symbol="checkWinCondition"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry id="28" method="true" symbol="getCell"/>
-        <entry field="true" id="59" symbol="LauncherIcon"/>
+        <entry id="29" method="true" symbol="getCell"/>
+        <entry field="true" id="61" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
-        <entry field="true" id="57" symbol="&lt;globals/MinesEngine/&lt;&gt;timer&gt;"/>
-        <entry id="56" method="true" symbol="setCursor"/>
-        <entry id="36" method="true" symbol="setDiscoveredCells"/>
+        <entry field="true" id="59" symbol="&lt;globals/MinesEngine/&lt;&gt;timer&gt;"/>
+        <entry id="57" method="true" symbol="setCursor"/>
+        <entry id="37" method="true" symbol="setDiscoveredCells"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry id="53" method="true" symbol="getSecondsElapsed"/>
-        <entry field="true" id="38" symbol="&lt;globals/Field/&lt;&gt;size&gt;"/>
+        <entry id="54" method="true" symbol="getSecondsElapsed"/>
+        <entry field="true" id="39" symbol="&lt;globals/Field/&lt;&gt;size&gt;"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry id="26" method="true" symbol="discoverCell"/>
+        <entry id="27" method="true" symbol="discoverCell"/>
+        <entry field="true" id="15" symbol="field_colors"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry field="true" id="44" symbol="position_y"/>
-        <entry field="true" id="43" symbol="position_x"/>
-        <entry field="true" id="20" symbol="view"/>
+        <entry field="true" id="45" symbol="position_y"/>
+        <entry field="true" id="44" symbol="position_x"/>
+        <entry field="true" id="21" symbol="view"/>
         <entry id="14" object="true" symbol="MinesView"/>
-        <entry field="true" id="48" symbol="&lt;globals/MinesEngine/&lt;&gt;field&gt;"/>
+        <entry field="true" id="49" symbol="&lt;globals/MinesEngine/&lt;&gt;field&gt;"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389863" object="true" symbol="Field"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry id="32" method="true" symbol="loadState"/>
+        <entry id="33" method="true" symbol="loadState"/>
         <entry id="8389097" method="true" symbol="onKey"/>
-        <entry id="50" method="true" symbol="getCursor"/>
-        <entry field="true" id="47" symbol="&lt;globals/MinesEngine/&lt;&gt;cursor_pos&gt;"/>
+        <entry id="51" method="true" symbol="getCursor"/>
+        <entry field="true" id="48" symbol="&lt;globals/MinesEngine/&lt;&gt;cursor_pos&gt;"/>
         <entry id="8388646" module="true" object="true" symbol="Timer"/>
-        <entry id="21" module="true" symbol="Layouts"/>
-        <entry field="true" id="45" symbol="screen_height"/>
+        <entry id="22" module="true" symbol="Layouts"/>
+        <entry field="true" id="46" symbol="screen_height"/>
         <entry id="10" object="true" symbol="MinesDelegate"/>
-        <entry field="true" id="18" symbol="n_mines"/>
+        <entry field="true" id="19" symbol="n_mines"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
-        <entry id="51" method="true" symbol="getField"/>
+        <entry id="52" method="true" symbol="getField"/>
         <entry id="8389125" method="true" symbol="onHide"/>
-        <entry field="true" id="17" symbol="n_cells"/>
+        <entry field="true" id="18" symbol="n_cells"/>
         <entry id="8390514" method="true" symbol="update"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="8389642" symbol="title"/>
-        <entry id="39" method="true" symbol="uncover"/>
+        <entry id="40" method="true" symbol="uncover"/>
         <entry id="8389099" method="true" symbol="onHold"/>
         <entry id="8389101" method="true" symbol="onSwipe"/>
     </symbolTable>
     <localVars>
-        <entry endPc="268435620" name="size" stackId="1" startPc="268435483"/>
-        <entry endPc="268435620" name="cells" stackId="2" startPc="268435483"/>
-        <entry endPc="268435620" name="cells_disc" stackId="3" startPc="268435483"/>
-        <entry endPc="268435620" name="secs_elapsed" stackId="4" startPc="268435483"/>
-        <entry arg="true" endPc="268436023" name="state" stackId="1" startPc="268436009"/>
-        <entry endPc="268436204" name="field" stackId="1" startPc="268436028"/>
-        <entry arg="true" endPc="268436262" name="s" stackId="1" startPc="268436230"/>
-        <entry arg="true" endPc="268436262" name="c_cells" stackId="2" startPc="268436230"/>
-        <entry arg="true" endPc="268436262" name="c_cellsdisc" stackId="3" startPc="268436230"/>
-        <entry arg="true" endPc="268436275" name="c" stackId="1" startPc="268436263"/>
-        <entry arg="true" endPc="268436685" name="x" stackId="1" startPc="268436276"/>
-        <entry arg="true" endPc="268436685" name="y" stackId="2" startPc="268436276"/>
-        <entry endPc="268436637" name="i" stackId="3" startPc="268436452"/>
-        <entry endPc="268436624" name="j" stackId="4" startPc="268436470"/>
-        <entry endPc="268436804" name="i" stackId="1" startPc="268436720"/>
-        <entry arg="true" endPc="268436927" name="x" stackId="1" startPc="268436808"/>
-        <entry arg="true" endPc="268436927" name="y" stackId="2" startPc="268436808"/>
-        <entry arg="true" endPc="268436953" name="x" stackId="1" startPc="268436928"/>
-        <entry arg="true" endPc="268436953" name="y" stackId="2" startPc="268436928"/>
-        <entry arg="true" endPc="268437000" name="x" stackId="1" startPc="268436973"/>
-        <entry arg="true" endPc="268437000" name="y" stackId="2" startPc="268436973"/>
-        <entry arg="true" endPc="268437000" name="val" stackId="3" startPc="268436973"/>
-        <entry arg="true" endPc="268437028" name="x" stackId="1" startPc="268437001"/>
-        <entry arg="true" endPc="268437028" name="y" stackId="2" startPc="268437001"/>
-        <entry arg="true" endPc="268437028" name="val" stackId="3" startPc="268437001"/>
-        <entry arg="true" endPc="268437099" name="x" stackId="1" startPc="268437029"/>
-        <entry arg="true" endPc="268437099" name="y" stackId="2" startPc="268437029"/>
-        <entry arg="true" endPc="268437112" name="c" stackId="1" startPc="268437100"/>
-        <entry arg="true" endPc="268437138" name="x" stackId="1" startPc="268437113"/>
-        <entry arg="true" endPc="268437138" name="y" stackId="2" startPc="268437113"/>
-        <entry arg="true" endPc="268437710" name="s_field" stackId="1" startPc="268437161"/>
-        <entry arg="true" endPc="268437710" name="n_mines" stackId="2" startPc="268437161"/>
-        <entry endPc="268437709" name="prob_mine" stackId="3" startPc="268437165"/>
-        <entry endPc="268437415" name="i" stackId="4" startPc="268437323"/>
-        <entry endPc="268437709" name="x" stackId="5" startPc="268437437"/>
-        <entry endPc="268437696" name="y" stackId="6" startPc="268437458"/>
-        <entry endPc="268437680" name="i" stackId="7" startPc="268437500"/>
-        <entry endPc="268437667" name="j" stackId="8" startPc="268437518"/>
-        <entry arg="true" endPc="268437903" name="x" stackId="1" startPc="268437741"/>
-        <entry arg="true" endPc="268437903" name="y" stackId="2" startPc="268437741"/>
-        <entry endPc="268437902" name="x_rel" stackId="3" startPc="268437745"/>
-        <entry endPc="268437902" name="y_rel" stackId="4" startPc="268437745"/>
-        <entry endPc="268437902" name="curs_x" stackId="5" startPc="268437832"/>
-        <entry endPc="268437902" name="curs_y" stackId="6" startPc="268437832"/>
-        <entry arg="true" endPc="268437947" name="dc" stackId="1" startPc="268437904"/>
-        <entry arg="true" endPc="268438121" name="x" stackId="1" startPc="268437948"/>
-        <entry arg="true" endPc="268438121" name="y" stackId="2" startPc="268437948"/>
-        <entry endPc="268438120" name="n_cells" stackId="3" startPc="268437952"/>
-        <entry endPc="268438120" name="curs" stackId="4" startPc="268437952"/>
-        <entry arg="true" endPc="268439637" name="dc" stackId="1" startPc="268438143"/>
-        <entry endPc="268439636" name="n_cells" stackId="2" startPc="268438147"/>
-        <entry endPc="268439636" name="center_x" stackId="3" startPc="268438147"/>
-        <entry endPc="268439636" name="center_y" stackId="4" startPc="268438147"/>
-        <entry endPc="268439636" name="target_field_width" stackId="5" startPc="268438147"/>
-        <entry endPc="268439636" name="target_field_height" stackId="6" startPc="268438147"/>
-        <entry endPc="268439636" name="cursor_pos" stackId="7" startPc="268438147"/>
-        <entry endPc="268439248" name="x" stackId="8" startPc="268438499"/>
-        <entry endPc="268439235" name="y" stackId="9" startPc="268438514"/>
-        <entry endPc="268439222" name="cell" stackId="10" startPc="268438514"/>
-        <entry arg="true" endPc="268439725" name="size" stackId="1" startPc="268439638"/>
-        <entry arg="true" endPc="268439725" name="c_cells" stackId="2" startPc="268439638"/>
-        <entry arg="true" endPc="268439725" name="c_cellsdisc" stackId="3" startPc="268439638"/>
-        <entry arg="true" endPc="268439725" name="seconds_elapsed" stackId="4" startPc="268439638"/>
-        <entry arg="true" endPc="268439879" name="x" stackId="1" startPc="268439737"/>
-        <entry arg="true" endPc="268439879" name="y" stackId="2" startPc="268439737"/>
-        <entry arg="true" endPc="268439904" name="x" stackId="1" startPc="268439880"/>
-        <entry arg="true" endPc="268439904" name="y" stackId="2" startPc="268439880"/>
-        <entry arg="true" endPc="268439928" name="x" stackId="1" startPc="268439905"/>
-        <entry arg="true" endPc="268439928" name="y" stackId="2" startPc="268439905"/>
-        <entry endPc="268440084" name="x" stackId="1" startPc="268439974"/>
-        <entry endPc="268440071" name="y" stackId="2" startPc="268440004"/>
-        <entry arg="true" endPc="268440209" name="x" stackId="1" startPc="268440186"/>
-        <entry arg="true" endPc="268440209" name="y" stackId="2" startPc="268440186"/>
-        <entry arg="true" endPc="268440298" name="x" stackId="1" startPc="268440264"/>
-        <entry arg="true" endPc="268440298" name="y" stackId="2" startPc="268440264"/>
-        <entry arg="true" endPc="268440492" name="s_field" stackId="1" startPc="268440299"/>
-        <entry arg="true" endPc="268440492" name="n_mines" stackId="2" startPc="268440299"/>
-        <entry endPc="268441252" name="menu" stackId="1" startPc="268440601"/>
-        <entry endPc="268441252" name="val" stackId="2" startPc="268440601"/>
-        <entry arg="true" endPc="268441424" name="clickEvent" stackId="1" startPc="268441253"/>
-        <entry endPc="268441412" name="cursor_pos" stackId="2" startPc="268441326"/>
-        <entry arg="true" endPc="268441952" name="swipeEvent" stackId="1" startPc="268441425"/>
-        <entry endPc="268441952" name="size" stackId="2" startPc="268441429"/>
-        <entry endPc="268441612" name="cursor_pos" stackId="3" startPc="268441533"/>
-        <entry endPc="268441718" name="cursor_pos" stackId="4" startPc="268441636"/>
-        <entry endPc="268441824" name="cursor_pos" stackId="5" startPc="268441742"/>
-        <entry endPc="268441927" name="cursor_pos" stackId="6" startPc="268441848"/>
-        <entry arg="true" endPc="268442122" name="clickEvent" stackId="1" startPc="268441974"/>
-        <entry endPc="268442116" name="x" stackId="2" startPc="268442012"/>
-        <entry endPc="268442116" name="y" stackId="3" startPc="268442012"/>
-        <entry arg="true" endPc="268442502" name="keyEvent" stackId="1" startPc="268442123"/>
-        <entry endPc="268442268" name="cursor_pos" stackId="2" startPc="268442182"/>
-        <entry endPc="268442416" name="cursor_pos" stackId="3" startPc="268442330"/>
-        <entry arg="true" endPc="268443446" name="menuItem" stackId="1" startPc="268442543"/>
-        <entry endPc="268443284" name="value" stackId="2" startPc="268443173"/>
-        <entry endPc="268443284" name="new_value" stackId="3" startPc="268443173"/>
-        <entry endPc="268443415" name="value" stackId="4" startPc="268443316"/>
-        <entry endPc="268443415" name="new_value" stackId="5" startPc="268443316"/>
-        <entry arg="true" endPc="268443463" name="dc" stackId="1" startPc="268443447"/>
+        <entry endPc="268435782" name="size" stackId="1" startPc="268435615"/>
+        <entry endPc="268435782" name="cells" stackId="2" startPc="268435615"/>
+        <entry endPc="268435782" name="cells_disc" stackId="3" startPc="268435615"/>
+        <entry endPc="268435782" name="secs_elapsed" stackId="4" startPc="268435615"/>
+        <entry endPc="268435782" name="status" stackId="5" startPc="268435615"/>
+        <entry arg="true" endPc="268436185" name="state" stackId="1" startPc="268436171"/>
+        <entry endPc="268436410" name="field" stackId="1" startPc="268436190"/>
+        <entry arg="true" endPc="268436468" name="s" stackId="1" startPc="268436436"/>
+        <entry arg="true" endPc="268436468" name="c_cells" stackId="2" startPc="268436436"/>
+        <entry arg="true" endPc="268436468" name="c_cellsdisc" stackId="3" startPc="268436436"/>
+        <entry arg="true" endPc="268436481" name="c" stackId="1" startPc="268436469"/>
+        <entry arg="true" endPc="268436868" name="x" stackId="1" startPc="268436482"/>
+        <entry arg="true" endPc="268436868" name="y" stackId="2" startPc="268436482"/>
+        <entry endPc="268436843" name="i" stackId="3" startPc="268436658"/>
+        <entry endPc="268436830" name="j" stackId="4" startPc="268436676"/>
+        <entry endPc="268436987" name="i" stackId="1" startPc="268436903"/>
+        <entry arg="true" endPc="268437110" name="x" stackId="1" startPc="268436991"/>
+        <entry arg="true" endPc="268437110" name="y" stackId="2" startPc="268436991"/>
+        <entry arg="true" endPc="268437136" name="x" stackId="1" startPc="268437111"/>
+        <entry arg="true" endPc="268437136" name="y" stackId="2" startPc="268437111"/>
+        <entry arg="true" endPc="268437183" name="x" stackId="1" startPc="268437156"/>
+        <entry arg="true" endPc="268437183" name="y" stackId="2" startPc="268437156"/>
+        <entry arg="true" endPc="268437183" name="val" stackId="3" startPc="268437156"/>
+        <entry arg="true" endPc="268437211" name="x" stackId="1" startPc="268437184"/>
+        <entry arg="true" endPc="268437211" name="y" stackId="2" startPc="268437184"/>
+        <entry arg="true" endPc="268437211" name="val" stackId="3" startPc="268437184"/>
+        <entry arg="true" endPc="268437282" name="x" stackId="1" startPc="268437212"/>
+        <entry arg="true" endPc="268437282" name="y" stackId="2" startPc="268437212"/>
+        <entry arg="true" endPc="268437295" name="c" stackId="1" startPc="268437283"/>
+        <entry arg="true" endPc="268437321" name="x" stackId="1" startPc="268437296"/>
+        <entry arg="true" endPc="268437321" name="y" stackId="2" startPc="268437296"/>
+        <entry arg="true" endPc="268437869" name="s_field" stackId="1" startPc="268437344"/>
+        <entry arg="true" endPc="268437869" name="n_mines" stackId="2" startPc="268437344"/>
+        <entry endPc="268437484" name="i" stackId="3" startPc="268437440"/>
+        <entry endPc="268437574" name="i" stackId="4" startPc="268437500"/>
+        <entry endPc="268437561" name="c" stackId="5" startPc="268437500"/>
+        <entry endPc="268437868" name="x" stackId="6" startPc="268437596"/>
+        <entry endPc="268437855" name="y" stackId="7" startPc="268437617"/>
+        <entry endPc="268437839" name="i" stackId="8" startPc="268437659"/>
+        <entry endPc="268437826" name="j" stackId="9" startPc="268437677"/>
+        <entry arg="true" endPc="268438062" name="x" stackId="1" startPc="268437900"/>
+        <entry arg="true" endPc="268438062" name="y" stackId="2" startPc="268437900"/>
+        <entry endPc="268438061" name="x_rel" stackId="3" startPc="268437904"/>
+        <entry endPc="268438061" name="y_rel" stackId="4" startPc="268437904"/>
+        <entry endPc="268438061" name="curs_x" stackId="5" startPc="268437991"/>
+        <entry endPc="268438061" name="curs_y" stackId="6" startPc="268437991"/>
+        <entry arg="true" endPc="268438106" name="dc" stackId="1" startPc="268438063"/>
+        <entry arg="true" endPc="268438280" name="x" stackId="1" startPc="268438107"/>
+        <entry arg="true" endPc="268438280" name="y" stackId="2" startPc="268438107"/>
+        <entry endPc="268438279" name="n_cells" stackId="3" startPc="268438111"/>
+        <entry endPc="268438279" name="curs" stackId="4" startPc="268438111"/>
+        <entry arg="true" endPc="268440200" name="dc" stackId="1" startPc="268438302"/>
+        <entry endPc="268440199" name="n_cells" stackId="2" startPc="268438306"/>
+        <entry endPc="268440199" name="center_x" stackId="3" startPc="268438306"/>
+        <entry endPc="268440199" name="center_y" stackId="4" startPc="268438306"/>
+        <entry endPc="268440199" name="target_field_width" stackId="5" startPc="268438306"/>
+        <entry endPc="268440199" name="target_field_height" stackId="6" startPc="268438306"/>
+        <entry endPc="268440199" name="cursor_pos" stackId="7" startPc="268438306"/>
+        <entry endPc="268439811" name="x" stackId="8" startPc="268438658"/>
+        <entry endPc="268439798" name="y" stackId="9" startPc="268438673"/>
+        <entry endPc="268439785" name="cell" stackId="10" startPc="268438673"/>
+        <entry endPc="268439785" name="font_size" stackId="11" startPc="268438673"/>
+        <entry endPc="268439785" name="font" stackId="12" startPc="268438673"/>
+        <entry endPc="268439695" name="current_cell" stackId="13" startPc="268439438"/>
+        <entry endPc="268439695" name="text_color" stackId="14" startPc="268439438"/>
+        <entry arg="true" endPc="268440285" name="size" stackId="1" startPc="268440201"/>
+        <entry arg="true" endPc="268440285" name="c_cells" stackId="2" startPc="268440201"/>
+        <entry arg="true" endPc="268440285" name="c_cellsdisc" stackId="3" startPc="268440201"/>
+        <entry arg="true" endPc="268440285" name="seconds_elapsed" stackId="4" startPc="268440201"/>
+        <entry arg="true" endPc="268440285" name="status" stackId="5" startPc="268440201"/>
+        <entry arg="true" endPc="268440439" name="x" stackId="1" startPc="268440297"/>
+        <entry arg="true" endPc="268440439" name="y" stackId="2" startPc="268440297"/>
+        <entry arg="true" endPc="268440464" name="x" stackId="1" startPc="268440440"/>
+        <entry arg="true" endPc="268440464" name="y" stackId="2" startPc="268440440"/>
+        <entry arg="true" endPc="268440488" name="x" stackId="1" startPc="268440465"/>
+        <entry arg="true" endPc="268440488" name="y" stackId="2" startPc="268440465"/>
+        <entry endPc="268440644" name="x" stackId="1" startPc="268440534"/>
+        <entry endPc="268440631" name="y" stackId="2" startPc="268440564"/>
+        <entry arg="true" endPc="268440669" name="status" stackId="1" startPc="268440657"/>
+        <entry arg="true" endPc="268440782" name="x" stackId="1" startPc="268440759"/>
+        <entry arg="true" endPc="268440782" name="y" stackId="2" startPc="268440759"/>
+        <entry arg="true" endPc="268440871" name="x" stackId="1" startPc="268440837"/>
+        <entry arg="true" endPc="268440871" name="y" stackId="2" startPc="268440837"/>
+        <entry arg="true" endPc="268441065" name="s_field" stackId="1" startPc="268440872"/>
+        <entry arg="true" endPc="268441065" name="n_mines" stackId="2" startPc="268440872"/>
+        <entry endPc="268441825" name="menu" stackId="1" startPc="268441174"/>
+        <entry endPc="268441825" name="val" stackId="2" startPc="268441174"/>
+        <entry arg="true" endPc="268441997" name="clickEvent" stackId="1" startPc="268441826"/>
+        <entry endPc="268441985" name="cursor_pos" stackId="2" startPc="268441899"/>
+        <entry arg="true" endPc="268442504" name="swipeEvent" stackId="1" startPc="268441998"/>
+        <entry endPc="268442504" name="size" stackId="2" startPc="268442002"/>
+        <entry endPc="268442164" name="cursor_pos" stackId="3" startPc="268442085"/>
+        <entry endPc="268442270" name="cursor_pos" stackId="4" startPc="268442188"/>
+        <entry endPc="268442376" name="cursor_pos" stackId="5" startPc="268442294"/>
+        <entry endPc="268442479" name="cursor_pos" stackId="6" startPc="268442400"/>
+        <entry arg="true" endPc="268442641" name="clickEvent" stackId="1" startPc="268442526"/>
+        <entry endPc="268442635" name="x" stackId="2" startPc="268442564"/>
+        <entry endPc="268442635" name="y" stackId="3" startPc="268442564"/>
+        <entry arg="true" endPc="268442988" name="keyEvent" stackId="1" startPc="268442642"/>
+        <entry endPc="268442787" name="cursor_pos" stackId="2" startPc="268442701"/>
+        <entry endPc="268442935" name="cursor_pos" stackId="3" startPc="268442849"/>
+        <entry arg="true" endPc="268443905" name="menuItem" stackId="1" startPc="268443029"/>
+        <entry endPc="268443770" name="value" stackId="2" startPc="268443659"/>
+        <entry endPc="268443770" name="new_value" stackId="3" startPc="268443659"/>
+        <entry endPc="268443901" name="value" stackId="4" startPc="268443802"/>
+        <entry endPc="268443901" name="new_value" stackId="5" startPc="268443802"/>
+        <entry arg="true" endPc="268443922" name="dc" stackId="1" startPc="268443906"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -534,126 +555,126 @@
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/MinesApp" offset="198" parentId="globals" symbolId="MinesApp" type="class"/>
-        <dataEntry label="globals/Rez" offset="317" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/Field" offset="396" parentId="globals" symbolId="Field" type="class"/>
-        <dataEntry label="globals/MinesView" offset="587" parentId="globals" symbolId="MinesView" type="class"/>
-        <dataEntry label="globals/MinesEngine" offset="722" parentId="globals" symbolId="MinesEngine" type="class"/>
-        <dataEntry label="globals/MinesMenu" offset="921" parentId="globals" symbolId="MinesMenu" type="class"/>
-        <dataEntry label="globals/MinesDelegate" offset="968" parentId="globals" symbolId="MinesDelegate" type="class"/>
-        <dataEntry label="globals/MinesMenuDelegate" offset="1055" parentId="globals" symbolId="MinesMenuDelegate" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="1110" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="1149" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="1188" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="1219" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1250" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="1289" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/MinesApp" offset="565" parentId="globals" symbolId="MinesApp" type="class"/>
+        <dataEntry label="globals/Rez" offset="684" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Field" offset="763" parentId="globals" symbolId="Field" type="class"/>
+        <dataEntry label="globals/MinesView" offset="954" parentId="globals" symbolId="MinesView" type="class"/>
+        <dataEntry label="globals/MinesEngine" offset="1089" parentId="globals" symbolId="MinesEngine" type="class"/>
+        <dataEntry label="globals/MinesMenu" offset="1296" parentId="globals" symbolId="MinesMenu" type="class"/>
+        <dataEntry label="globals/MinesDelegate" offset="1343" parentId="globals" symbolId="MinesDelegate" type="class"/>
+        <dataEntry label="globals/MinesMenuDelegate" offset="1430" parentId="globals" symbolId="MinesMenuDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1485" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1524" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1563" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="1594" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1625" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1664" parentId="Rez" symbolId="JsonData" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
-        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="MinesApp" startPc="268435460">
+        <functionEntry accessMode="public" endPc="268435610" name="&lt;init&gt;" parent="MinesApp" startPc="268435592">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435621" name="loadGame" parent="MinesApp" startPc="268435479">
+        <functionEntry accessMode="public" endPc="268435783" name="loadGame" parent="MinesApp" startPc="268435611">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435624" name="onStart" parent="MinesApp" startPc="268435622">
+        <functionEntry accessMode="public" endPc="268435786" name="onStart" parent="MinesApp" startPc="268435784">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435717" name="getInitialView" parent="MinesApp" startPc="268435625">
+        <functionEntry accessMode="public" endPc="268435879" name="getInitialView" parent="MinesApp" startPc="268435787">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436008" name="initialize" parent="MinesApp" startPc="268435718">
+        <functionEntry accessMode="public" endPc="268436170" name="initialize" parent="MinesApp" startPc="268435880">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436023" name="onStop" parent="MinesApp" startPc="268436009">
+        <functionEntry accessMode="public" endPc="268436185" name="onStop" parent="MinesApp" startPc="268436171">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436205" name="saveGame" parent="MinesApp" startPc="268436024">
+        <functionEntry accessMode="public" endPc="268436411" name="saveGame" parent="MinesApp" startPc="268436186">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436229" name="&lt;init&gt;" parent="Rez" startPc="268436206">
+        <functionEntry accessMode="public" endPc="268436435" name="&lt;init&gt;" parent="Rez" startPc="268436412">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Field">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436262" name="loadState" parent="Field" startPc="268436230">
+        <functionEntry accessMode="public" endPc="268436468" name="loadState" parent="Field" startPc="268436436">
             <param id="s"/>
             <param id="c_cells"/>
             <param id="c_cellsdisc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436275" name="setCells" parent="Field" startPc="268436263">
+        <functionEntry accessMode="public" endPc="268436481" name="setCells" parent="Field" startPc="268436469">
             <param id="c"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436685" name="discoverCell" parent="Field" startPc="268436276">
+        <functionEntry accessMode="public" endPc="268436868" name="discoverCell" parent="Field" startPc="268436482">
             <param id="x"/>
             <param id="y"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436807" name="checkWinCondition" parent="Field" startPc="268436686">
+        <functionEntry accessMode="public" endPc="268436990" name="checkWinCondition" parent="Field" startPc="268436869">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436927" name="setFlag" parent="Field" startPc="268436808">
+        <functionEntry accessMode="public" endPc="268437110" name="setFlag" parent="Field" startPc="268436991">
             <param id="x"/>
             <param id="y"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436953" name="getCell" parent="Field" startPc="268436928">
+        <functionEntry accessMode="public" endPc="268437136" name="getCell" parent="Field" startPc="268437111">
             <param id="x"/>
             <param id="y"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436972" name="uncover" parent="Field" startPc="268436954">
+        <functionEntry accessMode="public" endPc="268437155" name="uncover" parent="Field" startPc="268437137">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437000" name="setDiscoveredCell" parent="Field" startPc="268436973">
+        <functionEntry accessMode="public" endPc="268437183" name="setDiscoveredCell" parent="Field" startPc="268437156">
             <param id="x"/>
             <param id="y"/>
             <param id="val"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437028" name="setCell" parent="Field" startPc="268437001">
+        <functionEntry accessMode="public" endPc="268437211" name="setCell" parent="Field" startPc="268437184">
             <param id="x"/>
             <param id="y"/>
             <param id="val"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437099" name="cellExists" parent="Field" startPc="268437029">
+        <functionEntry accessMode="public" endPc="268437282" name="cellExists" parent="Field" startPc="268437212">
             <param id="x"/>
             <param id="y"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437112" name="setDiscoveredCells" parent="Field" startPc="268437100">
+        <functionEntry accessMode="public" endPc="268437295" name="setDiscoveredCells" parent="Field" startPc="268437283">
             <param id="c"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437138" name="getDiscoveredCell" parent="Field" startPc="268437113">
+        <functionEntry accessMode="public" endPc="268437321" name="getDiscoveredCell" parent="Field" startPc="268437296">
             <param id="x"/>
             <param id="y"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437149" name="getDiscoveredCells" parent="Field" startPc="268437139">
+        <functionEntry accessMode="public" endPc="268437332" name="getDiscoveredCells" parent="Field" startPc="268437322">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437160" name="getSize" parent="Field" startPc="268437150">
+        <functionEntry accessMode="public" endPc="268437343" name="getSize" parent="Field" startPc="268437333">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437710" name="initialize" parent="Field" startPc="268437161">
+        <functionEntry accessMode="public" endPc="268437869" name="initialize" parent="Field" startPc="268437344">
             <param id="s_field"/>
             <param id="n_mines"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437721" name="getCells" parent="Field" startPc="268437711">
+        <functionEntry accessMode="public" endPc="268437880" name="getCells" parent="Field" startPc="268437870">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437740" name="&lt;init&gt;" parent="MinesView" startPc="268437722">
+        <functionEntry accessMode="public" endPc="268437899" name="&lt;init&gt;" parent="MinesView" startPc="268437881">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268437903" name="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;" parent="MinesView" startPc="268437741">
+        <functionEntry accessMode="private" endPc="268438062" name="&lt;globals/MinesView/&lt;&gt;getCursorPosTap&gt;" parent="MinesView" startPc="268437900">
             <param id="x"/>
             <param id="y"/>
             <documentation/>
@@ -661,134 +682,139 @@
         <functionEntry accessMode="public" name="onShow" parent="MinesView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437947" name="onLayout" parent="MinesView" startPc="268437904">
+        <functionEntry accessMode="public" endPc="268438106" name="onLayout" parent="MinesView" startPc="268438063">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438121" name="handleTap" parent="MinesView" startPc="268437948">
+        <functionEntry accessMode="public" endPc="268438280" name="handleTap" parent="MinesView" startPc="268438107">
             <param id="x"/>
             <param id="y"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438142" name="initialize" parent="MinesView" startPc="268438122">
+        <functionEntry accessMode="public" endPc="268438301" name="initialize" parent="MinesView" startPc="268438281">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="MinesView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439637" name="onUpdate" parent="MinesView" startPc="268438143">
+        <functionEntry accessMode="public" endPc="268440200" name="onUpdate" parent="MinesView" startPc="268438302">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="MinesEngine">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439725" name="loadState" parent="MinesEngine" startPc="268439638">
+        <functionEntry accessMode="public" endPc="268440285" name="loadState" parent="MinesEngine" startPc="268440201">
             <param id="size"/>
             <param id="c_cells"/>
             <param id="c_cellsdisc"/>
             <param id="seconds_elapsed"/>
+            <param id="status"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439736" name="getCursor" parent="MinesEngine" startPc="268439726">
+        <functionEntry accessMode="public" endPc="268440296" name="getCursor" parent="MinesEngine" startPc="268440286">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439879" name="discoverCell" parent="MinesEngine" startPc="268439737">
+        <functionEntry accessMode="public" endPc="268440439" name="discoverCell" parent="MinesEngine" startPc="268440297">
             <param id="x"/>
             <param id="y"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439904" name="setFlag" parent="MinesEngine" startPc="268439880">
+        <functionEntry accessMode="public" endPc="268440464" name="setFlag" parent="MinesEngine" startPc="268440440">
             <param id="x"/>
             <param id="y"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439928" name="getCell" parent="MinesEngine" startPc="268439905">
+        <functionEntry accessMode="public" endPc="268440488" name="getCell" parent="MinesEngine" startPc="268440465">
             <param id="x"/>
             <param id="y"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439939" name="getField" parent="MinesEngine" startPc="268439929">
+        <functionEntry accessMode="public" endPc="268440499" name="getField" parent="MinesEngine" startPc="268440489">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440085" name="update" parent="MinesEngine" startPc="268439940">
+        <functionEntry accessMode="public" endPc="268440645" name="update" parent="MinesEngine" startPc="268440500">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440096" name="getStatus" parent="MinesEngine" startPc="268440086">
+        <functionEntry accessMode="public" endPc="268440656" name="getStatus" parent="MinesEngine" startPc="268440646">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440107" name="getSecondsElapsed" parent="MinesEngine" startPc="268440097">
+        <functionEntry accessMode="public" endPc="268440669" name="setStatus" parent="MinesEngine" startPc="268440657">
+            <param id="status"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440185" name="timerCallback" parent="MinesEngine" startPc="268440108">
+        <functionEntry accessMode="public" endPc="268440680" name="getSecondsElapsed" parent="MinesEngine" startPc="268440670">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440209" name="cellExists" parent="MinesEngine" startPc="268440186">
+        <functionEntry accessMode="public" endPc="268440758" name="timerCallback" parent="MinesEngine" startPc="268440681">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440782" name="cellExists" parent="MinesEngine" startPc="268440759">
             <param id="x"/>
             <param id="y"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440229" name="getFieldSize" parent="MinesEngine" startPc="268440210">
+        <functionEntry accessMode="public" endPc="268440802" name="getFieldSize" parent="MinesEngine" startPc="268440783">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440263" name="stop" parent="MinesEngine" startPc="268440230">
+        <functionEntry accessMode="public" endPc="268440836" name="stop" parent="MinesEngine" startPc="268440803">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440298" name="setCursor" parent="MinesEngine" startPc="268440264">
+        <functionEntry accessMode="public" endPc="268440871" name="setCursor" parent="MinesEngine" startPc="268440837">
             <param id="x"/>
             <param id="y"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440492" name="initialize" parent="MinesEngine" startPc="268440299">
+        <functionEntry accessMode="public" endPc="268441065" name="initialize" parent="MinesEngine" startPc="268440872">
             <param id="s_field"/>
             <param id="n_mines"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440518" name="getApp" startPc="268440493">
+        <functionEntry accessMode="public" endPc="268441091" name="getApp" startPc="268441066">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440537" name="&lt;init&gt;" parent="MinesMenu" startPc="268440519">
+        <functionEntry accessMode="public" endPc="268441110" name="&lt;init&gt;" parent="MinesMenu" startPc="268441092">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440577" name="initialize" parent="MinesMenu" startPc="268440538">
+        <functionEntry accessMode="public" endPc="268441150" name="initialize" parent="MinesMenu" startPc="268441111">
             <documentation>
                 <![CDATA[<div class="description"> Constructor<br/></div>]]>
             </documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440596" name="&lt;init&gt;" parent="MinesDelegate" startPc="268440578">
+        <functionEntry accessMode="public" endPc="268441169" name="&lt;init&gt;" parent="MinesDelegate" startPc="268441151">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441252" name="onMenu" parent="MinesDelegate" startPc="268440597">
+        <functionEntry accessMode="public" endPc="268441825" name="onMenu" parent="MinesDelegate" startPc="268441170">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441424" name="onHold" parent="MinesDelegate" startPc="268441253">
+        <functionEntry accessMode="public" endPc="268441997" name="onHold" parent="MinesDelegate" startPc="268441826">
             <param id="clickEvent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441952" name="onSwipe" parent="MinesDelegate" startPc="268441425">
+        <functionEntry accessMode="public" endPc="268442504" name="onSwipe" parent="MinesDelegate" startPc="268441998">
             <param id="swipeEvent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441973" name="initialize" parent="MinesDelegate" startPc="268441953">
+        <functionEntry accessMode="public" endPc="268442525" name="initialize" parent="MinesDelegate" startPc="268442505">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442122" name="onTap" parent="MinesDelegate" startPc="268441974">
+        <functionEntry accessMode="public" endPc="268442641" name="onTap" parent="MinesDelegate" startPc="268442526">
             <param id="clickEvent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442502" name="onKey" parent="MinesDelegate" startPc="268442123">
+        <functionEntry accessMode="public" endPc="268442988" name="onKey" parent="MinesDelegate" startPc="268442642">
             <param id="keyEvent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442521" name="&lt;init&gt;" parent="MinesMenuDelegate" startPc="268442503">
+        <functionEntry accessMode="public" endPc="268443007" name="&lt;init&gt;" parent="MinesMenuDelegate" startPc="268442989">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442542" name="initialize" parent="MinesMenuDelegate" startPc="268442522">
+        <functionEntry accessMode="public" endPc="268443028" name="initialize" parent="MinesMenuDelegate" startPc="268443008">
             <documentation>
                 <![CDATA[<div class="description"> Constructor<br/></div>]]>
             </documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443446" name="onSelect" parent="MinesMenuDelegate" startPc="268442543">
+        <functionEntry accessMode="public" endPc="268443905" name="onSelect" parent="MinesMenuDelegate" startPc="268443029">
             <param id="menuItem"/>
             <documentation>
                 <![CDATA[<div class="description"> Handle a menu item being selected<br/> <div class="param"> menuItem The menu item selected</div><br/></div>]]>
@@ -812,7 +838,7 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443463" name="MainLayout" parent="Layouts" startPc="268443447">
+        <functionEntry accessMode="public" endPc="268443922" name="MainLayout" parent="Layouts" startPc="268443906">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

@@ -1,5 +1,5 @@
 <properties>
-    <property id="NumberMines" type="number">15</property>
+    <property id="NumberMines" type="number">10</property>
     <property id="SizeField" type="number">8</property>
     <property id="UseTouchTap" type="boolean">True</property>
     <property id="UseTouchHold" type="boolean">True</property>
@@ -7,4 +7,5 @@
     <property id="SaveFieldCells" type="array"></property>
     <property id="SaveFieldDiscoveredCells" type="array"></property>
     <property id="SaveSecondsElapsed" type="number">0</property>
+    <property id="SaveStatus" type="number">0</property>
 </properties>

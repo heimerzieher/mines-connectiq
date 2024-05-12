@@ -73,6 +73,11 @@ class MinesView extends WatchUi.View
             {
                 var cell = getApp().engine.getCell(x, y);
 
+                var font_size = (4.0f + 12.0f*(12.0f / getApp().engine.getFieldSize())).toNumber();
+                // System.println(5.0f + 10.0f*(10.0f / getApp().engine.getFieldSize()));
+
+                var font = Graphics.getVectorFont({:face => "RobotoCondensedBold", :size => font_size});
+
                 if(cell == CELL_UNDISCOVERED || cell == CELL_TO_DISCOVER)
                 {
                     dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_BLACK);
@@ -85,7 +90,7 @@ class MinesView extends WatchUi.View
                     dc.fillRectangle(position_x + x*cell_size, position_y + y*cell_size, cell_size, cell_size);
                     
                     dc.setColor(Graphics.COLOR_DK_RED, Graphics.COLOR_LT_GRAY);
-                    dc.drawText(position_x + x*cell_size + cell_size/2, position_y + y*cell_size, Graphics.FONT_XTINY, "F", Graphics.TEXT_JUSTIFY_CENTER);
+                    dc.drawText(position_x + x*cell_size + cell_size/2, position_y + y*cell_size, font, "F", Graphics.TEXT_JUSTIFY_CENTER);
 
                 }
 
@@ -93,18 +98,33 @@ class MinesView extends WatchUi.View
                 {
                     // dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_BLACK);
                     // dc.fillRectangle(position_x + cursor_pos[0]*cell_size, position_y + cursor_pos[1]*cell_size, cell_size, cell_size);
+                    
+                    dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_BLACK);
+                    dc.fillRectangle(position_x + x*cell_size, position_y + y*cell_size, cell_size, cell_size);
+                    
                 }
 
                 else if(cell == CELL_MINE)
                 {
-                    dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_BLACK);
-                    dc.drawText(position_x + x*cell_size + cell_size/2, position_y + y*cell_size, Graphics.FONT_XTINY, "x", Graphics.TEXT_JUSTIFY_CENTER);
+                    dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_BLACK);
+                    dc.fillRectangle(position_x + x*cell_size, position_y + y*cell_size, cell_size, cell_size);
+
+                    dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_DK_GRAY);
+                    dc.drawText(position_x + x*cell_size + cell_size/2, position_y + y*cell_size, font, "x", Graphics.TEXT_JUSTIFY_CENTER);
                 }
 
+                //Graphics.getVectorFont({"#BionicBold:12,Roboto" => 12})
+                
                 else
-                {
-                    dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-                    dc.drawText(position_x + x*cell_size + cell_size/2, position_y + y*cell_size, Graphics.FONT_XTINY, getApp().engine.getCell(x, y), Graphics.TEXT_JUSTIFY_CENTER);
+                {   
+                    dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_BLACK);
+                    dc.fillRectangle(position_x + x*cell_size, position_y + y*cell_size, cell_size, cell_size);
+
+                    var current_cell = getApp().engine.getCell(x, y);
+                    var text_color = field_colors[current_cell];
+                    
+                    dc.setColor(text_color, Graphics.COLOR_DK_GRAY);
+                    dc.drawText(position_x + x*cell_size + cell_size/2, position_y + y*cell_size, font, getApp().engine.getCell(x, y), Graphics.TEXT_JUSTIFY_CENTER);
                 }
 
                 //draw the frame
@@ -183,3 +203,5 @@ class MinesView extends WatchUi.View
     }
 
 }
+
+var field_colors = [Graphics.COLOR_WHITE, Graphics.COLOR_BLUE,Graphics.COLOR_GREEN, Graphics.COLOR_RED,Graphics.COLOR_DK_BLUE,Graphics.COLOR_DK_RED,Graphics.COLOR_DK_GREEN,Graphics.COLOR_BLACK, Graphics.COLOR_LT_GRAY];

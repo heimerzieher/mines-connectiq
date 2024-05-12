@@ -271,7 +271,7 @@ _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_102_8_start:
         %tmp.138 = sub %tmp.136 %tmp.137;
         %tmp.139 = 1;
         %tmp.140 = add %tmp.138 %tmp.139;
-        %tmp.141 = 18;
+        %tmp.141 = 15;
         %tmp.142 = mod %tmp.140 %tmp.141;
         %tmp.143 = add %tmp.134 %tmp.142;
         lputv %new_value.2 %tmp.143;
@@ -318,9 +318,9 @@ _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_start:
         [ "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_start" "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_stop" ]
         %new_value.4 = local;
         %tmp.171 = lgetv %value.3;
-        %tmp.172 = 1;
+        %tmp.172 = 2;
         %tmp.173 = add %tmp.171 %tmp.172;
-        %tmp.174 = 25;
+        %tmp.174 = 50;
         %tmp.175 = mod %tmp.173 %tmp.174;
         lputv %new_value.4 %tmp.175;
 [ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 120 12 ]
@@ -345,14 +345,6 @@ _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_91_13_if_end:
 _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_80_13_if_end:
 _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_66_13_if_end:
 _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_57_8_if_end:
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 127 8 ]
-        %tmp.188 = getm $.Toybox.System;
-        %tmp.189 = getv function %tmp.188 :println;
-        %tmp.190 = lgetv %menuItem;
-        %tmp.191 = getv function %tmp.190 :getId;
-        %tmp.192 = invoke %tmp.190 %tmp.191();
-        %tmp.193 = as %tmp.192 String;
-        invoke %tmp.188 %tmp.189(%tmp.193);
 _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_51_4_stop:
     }
 }

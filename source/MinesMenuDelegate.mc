@@ -102,7 +102,7 @@ class MinesMenuDelegate extends WatchUi.Menu2InputDelegate
         {
             var value = Application.Properties.getValue("SizeField") as Number;
 
-            var new_value = 2 + (((value-2) + 1) % 18);
+            var new_value = 2 + (((value-2) + 1) % 15);
 
             Application.Properties.setValue("SizeField", new_value);
 
@@ -115,7 +115,7 @@ class MinesMenuDelegate extends WatchUi.Menu2InputDelegate
         {
             var value = Application.Properties.getValue("NumberMines") as Number;
 
-            var new_value = (value + 1) % 25;
+            var new_value = (value + 2) % 50;
 
             Application.Properties.setValue("NumberMines", new_value);
 
@@ -124,7 +124,7 @@ class MinesMenuDelegate extends WatchUi.Menu2InputDelegate
             // WatchUi.requestUpdate();
         }
 
-        System.println(menuItem.getId() as String);
+        // System.println(menuItem.getId() as String);
         
 
         // else

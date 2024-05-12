@@ -101,7 +101,7 @@ class MinesDelegate extends WatchUi.BehaviorDelegate
 
         // }
 
-        System.println("Key: " + keyEvent.getKey());
+        //System.println("Key: " + keyEvent.getKey());
         return true;
     }
 
@@ -119,7 +119,7 @@ class MinesDelegate extends WatchUi.BehaviorDelegate
 
     function onSwipe(swipeEvent) 
     {
-        System.println("swipe"); // e.g. SWIPE_DOWN = 2
+        //System.println("swipe"); // e.g. SWIPE_DOWN = 2
 
         var size = getApp().engine.getFieldSize();
 
@@ -163,7 +163,7 @@ class MinesDelegate extends WatchUi.BehaviorDelegate
             var x = clickEvent.getCoordinates()[0];
             var y = clickEvent.getCoordinates()[1];
 
-            System.println("tap" + clickEvent.getCoordinates());
+            //System.println("tap" + clickEvent.getCoordinates());
 
             getApp().view.handleTap(x, y);
 
