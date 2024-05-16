@@ -45,6 +45,10 @@ class MinesView extends WatchUi.View
 
         screen_width = dc.getWidth();
         screen_height = dc.getHeight();
+
+        var ratio = screen_width / 260.0f;
+
+
         var center_x = screen_width/2;
         var center_y = screen_height/2;
 
@@ -64,7 +68,9 @@ class MinesView extends WatchUi.View
         //draw cursor
         var cursor_pos = getApp().engine.getCursor();
 
-        dc.setPenWidth(2);
+        var frame_width = Math.round(1*ratio).toNumber();
+
+        dc.setPenWidth(frame_width);
 
         //draw the cells
         for(var x = 0; x < n_cells; x++)
@@ -73,10 +79,32 @@ class MinesView extends WatchUi.View
             {
                 var cell = getApp().engine.getCell(x, y);
 
-                var font_size = (4.0f + 12.0f*(12.0f / getApp().engine.getFieldSize())).toNumber();
+                //we scale the font according to the cell size
+                var font_size = (ratio*(4.0f + 12.0f*(12.0f / getApp().engine.getFieldSize()))).toNumber();
                 // System.println(5.0f + 10.0f*(10.0f / getApp().engine.getFieldSize()));
 
-                var font = Graphics.getVectorFont({:face => "RobotoCondensedBold", :size => font_size});
+                var font = null;
+                
+                //not all devices support scaling of fonts
+                if(Graphics has :getVectorFont)
+                {
+                    font = Graphics.getVectorFont({:face => ["RobotoCondensedBold","RobotoRegular"], :size => font_size});
+                }
+
+                else
+                {   
+                    if(font_size > 25)
+                    {
+                        font = Graphics.FONT_XTINY;
+                    }
+
+                    
+                    else 
+                    {
+                        font = WatchUi.loadResource(Rez.Fonts.custom_font_small);
+                    }
+
+                }
 
                 if(cell == CELL_UNDISCOVERED || cell == CELL_TO_DISCOVER)
                 {
@@ -109,11 +137,9 @@ class MinesView extends WatchUi.View
                     dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_BLACK);
                     dc.fillRectangle(position_x + x*cell_size, position_y + y*cell_size, cell_size, cell_size);
 
-                    dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_DK_GRAY);
+                    dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_DK_GRAY);
                     dc.drawText(position_x + x*cell_size + cell_size/2, position_y + y*cell_size, font, "x", Graphics.TEXT_JUSTIFY_CENTER);
                 }
-
-                //Graphics.getVectorFont({"#BionicBold:12,Roboto" => 12})
                 
                 else
                 {   
@@ -123,6 +149,7 @@ class MinesView extends WatchUi.View
                     var current_cell = getApp().engine.getCell(x, y);
                     var text_color = field_colors[current_cell];
                     
+                    //dc.setColor(text_color, Graphics.COLOR_TRANSPARENT);
                     dc.setColor(text_color, Graphics.COLOR_DK_GRAY);
                     dc.drawText(position_x + x*cell_size + cell_size/2, position_y + y*cell_size, font, getApp().engine.getCell(x, y), Graphics.TEXT_JUSTIFY_CENTER);
                 }
@@ -148,14 +175,14 @@ class MinesView extends WatchUi.View
         {
         
             dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
-            dc.drawText(center_x,center_y+30, Graphics.FONT_TINY,"Lost!",Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(center_x, 10 , Graphics.FONT_TINY,"Lost!",Graphics.TEXT_JUSTIFY_CENTER);
 
         }
 
         if(getApp().engine.getStatus() == STATUS_WON)
         {
             dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_BLACK);
-            dc.drawText(center_x,center_y+30, Graphics.FONT_TINY,"Won!",Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(center_x,10 , Graphics.FONT_TINY,"Won!",Graphics.TEXT_JUSTIFY_CENTER);
 
         }
 
@@ -204,4 +231,4 @@ class MinesView extends WatchUi.View
 
 }
 
-var field_colors = [Graphics.COLOR_WHITE, Graphics.COLOR_BLUE,Graphics.COLOR_GREEN, Graphics.COLOR_RED,Graphics.COLOR_DK_BLUE,Graphics.COLOR_DK_RED,Graphics.COLOR_DK_GREEN,Graphics.COLOR_BLACK, Graphics.COLOR_LT_GRAY];
+var field_colors = [Graphics.COLOR_WHITE, Graphics.COLOR_BLUE, Graphics.COLOR_GREEN, Graphics.COLOR_ORANGE, Graphics.COLOR_DK_BLUE, Graphics.COLOR_DK_RED, Graphics.COLOR_DK_GREEN, Graphics.COLOR_BLACK, Graphics.COLOR_LT_GRAY];

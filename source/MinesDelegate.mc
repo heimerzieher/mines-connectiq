@@ -21,13 +21,13 @@ class MinesDelegate extends WatchUi.BehaviorDelegate
         menu.addItem(new WatchUi.MenuItem("Number of Mines", val.toString(), "NumberMines", null));
         
         val = Application.Properties.getValue("SizeField") as Number;
-        menu.addItem(new WatchUi.MenuItem("Size", val.toString(), "SizeField", null));
+        menu.addItem(new WatchUi.MenuItem("Board Size", val.toString(), "SizeField", null));
 
         val = Application.Properties.getValue("UseTouchTap") ? true : false;
-        menu.addItem(new WatchUi.ToggleMenuItem("Touch", "Tap screen to select cell", "UseTouchTap", val, null));
+        menu.addItem(new WatchUi.ToggleMenuItem("Tap to Select", null, "UseTouchTap", val, null));
 
         val = Application.Properties.getValue("UseTouchHold") ? true : false;
-        menu.addItem(new WatchUi.ToggleMenuItem("Long press flag", "Long press screen to place flag", "UseTouchHold", val, null));
+        menu.addItem(new WatchUi.ToggleMenuItem("Long Press Flag", null, "UseTouchHold", val, null));
 
         menu.addItem(new WatchUi.MenuItem("Save Game", null, "SaveGame", null));
         menu.addItem(new WatchUi.MenuItem("Load Game", null, "LoadGame", null));
@@ -43,6 +43,8 @@ class MinesDelegate extends WatchUi.BehaviorDelegate
     function onKey(keyEvent) 
     {
         // System.println("key");         // e.g. KEY_MENU = 7
+
+
         //start/stop key
         if(keyEvent.getKey() == 4)
         {
@@ -51,6 +53,15 @@ class MinesDelegate extends WatchUi.BehaviorDelegate
                 // System.println("key");         // e.g. KEY_MENU = 7
                 var cursor_pos = getApp().engine.getCursor();
                 getApp().engine.discoverCell(cursor_pos[0], cursor_pos[1]);
+
+                WatchUi.requestUpdate();
+            }
+
+            else if ((getApp().engine.getStatus() == STATUS_WON) || (getApp().engine.getStatus() == STATUS_LOST))
+            {
+                getApp().engine.stop(); //avoid timer errors
+                getApp().engine = null; // free the memory
+                getApp().engine = new MinesEngine(getApp().n_cells,getApp().n_mines);
 
                 WatchUi.requestUpdate();
             }

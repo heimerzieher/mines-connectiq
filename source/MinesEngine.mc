@@ -101,15 +101,20 @@ class MinesEngine
     }
 
     public function update()
-    {
+    {   
+        //complete unfinished discover work, we cannot do this recurisvely because the available space on the stack is too small (otherwise stack overflow)
+        //due to hardware restrictions we discover at maximum 10 cells per call (otherwise "Code Executed Too Long" error)
+        var counter = 0;
+
         for (var x  = 0; x < field.getSize(); x++)
         {
             for (var y = 0; y < field.getSize(); y++)
             {
-                if(field.getDiscoveredCell(x, y) == CELL_TO_DISCOVER)
+                if((field.getDiscoveredCell(x, y) == CELL_TO_DISCOVER)&&(counter < 10))
                 {
                     field.discoverCell(x, y);
                     // System.println("triggered discovered cell");
+                    counter++;
                 }
             }
         }
