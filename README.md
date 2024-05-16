@@ -10,7 +10,7 @@ Swipe in any direction on the screen to move the cursor and adjust the selection
 
 Press the physical physical 'Start' button to open the selected cell (right upper button on most watches).
 
-Long press anywhere on the screen to place/remove a flag on the currect cursor position (can be disbaled).
+Long press anywhere on the screen to place/remove a flag on the currect cursor position (can be disbaled). It does not matter where you press as the flag will be always placed/removed at the current cursor position.
 
 Alternatively: Press the physical 'Down' button to place/remove a flag (button not available on all watches).
 
