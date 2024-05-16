@@ -29,8 +29,8 @@ class MinesDelegate extends WatchUi.BehaviorDelegate
         val = Application.Properties.getValue("UseTouchHold") ? true : false;
         menu.addItem(new WatchUi.ToggleMenuItem("Long Press Flag", null, "UseTouchHold", val, null));
 
-        menu.addItem(new WatchUi.MenuItem("Save Game", null, "SaveGame", null));
-        menu.addItem(new WatchUi.MenuItem("Load Game", null, "LoadGame", null));
+        // menu.addItem(new WatchUi.MenuItem("Save Game", null, "SaveGame", null));
+        // menu.addItem(new WatchUi.MenuItem("Load Game", null, "LoadGame", null));
 
 
         menu.addItem(new WatchUi.MenuItem("Exit", null, "Exit", null));

@@ -320,7 +320,7 @@ _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_start:
         %tmp.171 = lgetv %value.3;
         %tmp.172 = 2;
         %tmp.173 = add %tmp.171 %tmp.172;
-        %tmp.174 = 50;
+        %tmp.174 = 51;
         %tmp.175 = mod %tmp.173 %tmp.174;
         lputv %new_value.4 %tmp.175;
 [ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 120 12 ]

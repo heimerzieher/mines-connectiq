@@ -115,7 +115,7 @@ class MinesMenuDelegate extends WatchUi.Menu2InputDelegate
         {
             var value = Application.Properties.getValue("NumberMines") as Number;
 
-            var new_value = (value + 2) % 50;
+            var new_value = (value + 2) % 51;
 
             Application.Properties.setValue("NumberMines", new_value);
 
