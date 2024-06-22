@@ -24,9 +24,13 @@ The game will be automatically saved when closing and loaded when reopening the 
 To open the settings press and hold the 'Menu' button (Fenix/Epix/Forerunner etc.: left middle button, Venu/vivoactive: right lower (upper on Venu 2 Sq) botton).
 
 In the settings you can 
+
     - start a new game
+
     - adjust the board size (2x2 to 16x16).
+
     - set the number of mines on the board (0 - 50).
+    
     - enable/disable some of the touch controls.
 
 Unfortunately, Venu 2 and Vivoactive 5 do not have scalable fonts. For larger board sizes the font size and quality are therefore not optimal on these watches.
