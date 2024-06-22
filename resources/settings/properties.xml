@@ -8,4 +8,5 @@
     <property id="SaveFieldDiscoveredCells" type="array"></property>
     <property id="SaveSecondsElapsed" type="number">0</property>
     <property id="SaveStatus" type="number">0</property>
+    <property id="SaveRecords" type="array"></property>
 </properties>

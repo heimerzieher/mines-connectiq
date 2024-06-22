@@ -106,7 +106,7 @@ class MinesMenuDelegate extends WatchUi.Menu2InputDelegate
 
             Application.Properties.setValue("SizeField", new_value);
 
-            menuItem.setSubLabel(new_value.toString());
+            menuItem.setSubLabel(new_value.toString()+"x"+new_value.toString());
 
             // WatchUi.requestUpdate();
         }

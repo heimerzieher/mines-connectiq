@@ -6,10 +6,11 @@
         to update the application attributes.
     -->
     <!-- THIS IS THE BETA ID !-->
-    <!-- <iq:application id="d46356fd-e511-490d-9d9c-b1c7e2797180" type="watch-app" name="@Strings.AppName" entry="MinesApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="4.2.0"> -->
-    
-    <!-- THIS IS THE PUBLISHED ID !-->
-    <iq:application id="f0525abe-1799-452f-a966-cfa8df95f76d" type="watch-app" name="@Strings.AppName" entry="MinesApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="4.2.0">
+    <iq:application id="d46356fd-e511-490d-9d9c-b1c7e2797180" type="watch-app" name="@Strings.AppName" entry="MinesApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="4.2.0">
+        
+        <!-- THIS IS THE PUBLISHED ID !-->
+        <!-- <iq:application id="f0525abe-1799-452f-a966-cfa8df95f76d" type="watch-app" name="@Strings.AppName" entry="MinesApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="4.2.0"> -->
+        
         <!--
             Use the following from the Visual Studio Code comand palette to edit
             the build targets:

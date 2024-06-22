@@ -2,7 +2,7 @@
 
 A Minesweeper clone for Garmin watches. Adjustable number of mines and board size. The game requires a touch screen.
 
-Usage:
+## Usage
 
 Tap on a cell to select it (can be disabled).
 
@@ -19,7 +19,7 @@ After a round is finished press the physical button 'Start' to start a new game.
 The game will be automatically saved when closing and loaded when reopening the app. You can also start a new game in the settings. 
 
 
-Settings:
+## Settings
 
 To open the settings press and hold the 'Menu' button (Fenix/Epix/Forerunner etc.: left middle button, Venu/vivoactive: right lower (upper on Venu 2 Sq) botton).
 
@@ -38,3 +38,9 @@ Please report any bugs and send me suggestions for improvements.
 <img src="board-size.png" width="120">
 
 <img src="settings.png" width="120">
+
+## Installation
+
+The game is available on the ConnectIQ store: https://apps.garmin.com/apps/15747050-c97a-4eef-bcc0-6b3950ccd2fe
+
+A precompiled .iq file can be found in the 'builds' folder.

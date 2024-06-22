@@ -21,7 +21,8 @@ class MinesDelegate extends WatchUi.BehaviorDelegate
         menu.addItem(new WatchUi.MenuItem("Number of Mines", val.toString(), "NumberMines", null));
         
         val = Application.Properties.getValue("SizeField") as Number;
-        menu.addItem(new WatchUi.MenuItem("Board Size", val.toString(), "SizeField", null));
+        menu.addItem(new WatchUi.MenuItem("Board Size", val.toString()+"x"+val.toString(), "SizeField", null));
+        
 
         val = Application.Properties.getValue("UseTouchTap") ? true : false;
         menu.addItem(new WatchUi.ToggleMenuItem("Tap to Select", null, "UseTouchTap", val, null));
@@ -29,8 +30,22 @@ class MinesDelegate extends WatchUi.BehaviorDelegate
         val = Application.Properties.getValue("UseTouchHold") ? true : false;
         menu.addItem(new WatchUi.ToggleMenuItem("Long Press Flag", null, "UseTouchHold", val, null));
 
+        if(Application.Properties.getValue("SaveRecords") != null)
+        {
+            var records = Application.Properties.getValue("SaveRecords") as Array<Array<Number>>;
+
+            for(var i = 0; i < records.size(); i++)
+            {
+                if((records[i][0] == Application.Properties.getValue("SizeField")) && (records[i][1] == Application.Properties.getValue("NumberMines")))
+                {
+                    menu.addItem(new WatchUi.MenuItem("Record: "+records[i][0]+"x"+records[i][0]+", "+records[i][1]+" Mines", records[i][2] + "s", "Records", null));
+                }
+            }
+        }
+
         // menu.addItem(new WatchUi.MenuItem("Save Game", null, "SaveGame", null));
         // menu.addItem(new WatchUi.MenuItem("Load Game", null, "LoadGame", null));
+
 
 
         menu.addItem(new WatchUi.MenuItem("Exit", null, "Exit", null));

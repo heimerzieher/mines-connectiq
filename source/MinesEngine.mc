@@ -1,4 +1,6 @@
 using Toybox.Timer;
+import Toybox.Lang;
+
 
 class MinesEngine
 {
@@ -92,10 +94,65 @@ class MinesEngine
         //check win condition
         else 
         {
+            checkWinCondition();
+        }
+    }
+
+    public function checkWinCondition()
+    {
+        if(game_status == STATUS_ACTIVE)
+        {
             if(field.checkWinCondition())
             {
                 game_status = STATUS_WON;
                 field.uncover();
+
+                var records;
+
+                //no records so far
+                if(Application.Properties.getValue("SaveRecords") == null)
+                {
+                    records = new [1];
+
+                    records[0] = [field.getSize(), field.getNMines(), getSecondsElapsed()];
+                }
+
+
+                else
+                {
+                    //check records
+                    records = Application.Properties.getValue("SaveRecords") as Array<Array<Number>>;
+
+                    var is_set =false;
+
+                    for(var i = 0; i < records.size(); i++)
+                    {
+                        if((records[i][0].toNumber() == field.getSize().toNumber())&& (records[i][1].toNumber() == field.getNMines().toNumber()))
+                        {
+                            
+                            is_set = true;
+
+                            if(records[i][2] > getSecondsElapsed())
+                            {
+                                records[i][2] =  getSecondsElapsed();
+
+                            }   
+                        }
+
+                    }
+
+
+                    //board size or number of mines was never played
+                    if(is_set == false) 
+                    {
+                        records.add([field.getSize(), field.getNMines(), getSecondsElapsed()]);
+                        System.println("adding record");
+                    }
+
+                }
+
+                Application.Properties.setValue("SaveRecords", records);
+
             }
         }
     }
@@ -114,6 +171,8 @@ class MinesEngine
                 {
                     field.discoverCell(x, y);
                     // System.println("triggered discovered cell");
+
+                    checkWinCondition();
                     counter++;
                 }
             }
@@ -168,30 +227,19 @@ class Field
 
     private var size;
 
+    private var number_mines;
+
     public function initialize(s_field, n_mines)
     {
+        number_mines = n_mines;
         size = s_field;
 
         cells = new [size*size];
 
         discovered_cells = new [size*size];
 
-        // var prob_mine = (n_mines.toFloat()/(size*size).toFloat())*100.0f;
-
-        // System.println(prob_mine);
-
         for (var i = 0; i < size*size; i++)
         {
-            // if(Math.rand() % 100 < prob_mine)
-            // {
-            //     cells[i] = CELL_MINE;
-            // }
-
-            // else 
-            // {
-            //     cells[i] = CELL_EMPTY;
-            // }
-
             cells[i] = CELL_EMPTY;
             
             discovered_cells[i] = CELL_UNDISCOVERED;
@@ -200,6 +248,13 @@ class Field
         for (var i = 0; i < n_mines; i++)
         {
             var c = (Math.rand() % (size*size)).toNumber();
+
+            //bounded search is primitive recursive so always decideable...
+            while((cells[c] == CELL_MINE) && (c < (size*size-1)))
+            {
+                c++;
+            }
+
             cells[c] = CELL_MINE;
         }
 
@@ -394,6 +449,11 @@ class Field
     public function getSize()
     {
         return size;
+    }
+
+    public function getNMines()
+    {
+        return number_mines;
     }
 }
 

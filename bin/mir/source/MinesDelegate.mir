@@ -83,111 +83,245 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_15_4_start:
         %tmp.49 = lgetv %val.2;
         %tmp.50 = getv function %tmp.49 :toString;
         %tmp.51 = invoke %tmp.49 %tmp.50();
-        %tmp.52 = "SizeField";
-        %tmp.53 = null;
-        %tmp.44 = newc %tmp.47 (%tmp.48, %tmp.51, %tmp.52, %tmp.53);
+        %tmp.52 = "x";
+        %tmp.53 = add %tmp.51 %tmp.52;
+        %tmp.54 = lgetv %val.2;
+        %tmp.55 = getv function %tmp.54 :toString;
+        %tmp.56 = invoke %tmp.54 %tmp.55();
+        %tmp.57 = add %tmp.53 %tmp.56;
+        %tmp.58 = "SizeField";
+        %tmp.59 = null;
+        %tmp.44 = newc %tmp.47 (%tmp.48, %tmp.57, %tmp.58, %tmp.59);
         invoke %tmp.42 %tmp.43(%tmp.44);
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 26 8 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_26_14_begin:
-        %tmp.55 = getv ? :Application;
-        %tmp.56 = getv %tmp.55 :Properties;
-        %tmp.57 = getv function %tmp.56 :getValue;
-        %tmp.58 = "UseTouchTap";
-        %tmp.59 = invoke %tmp.56 %tmp.57(%tmp.58);
-        bf %tmp.59 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_26_14_false;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_26_14_true:
-        %tmp.60 = true;
-        push %tmp.60;
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_26_14_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_26_14_false:
-        %tmp.61 = false;
-        push %tmp.61;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_26_14_end:
-        %tmp.62 = phi [%tmp.59 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_26_14_begin] [%tmp.60 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_26_14_true] [%tmp.61 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_26_14_false] [%tmp.62 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_26_14_end];
-        lputv %val.2 %tmp.62;
 [ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 27 8 ]
-        %tmp.63 = lgetv %menu.1;
-        %tmp.64 = getv function %tmp.63 :addItem;
-        %tmp.67 = getm $.Toybox.WatchUi;
-        %tmp.68 = getv function ? %tmp.67 :ToggleMenuItem;
-        %tmp.69 = "Tap to Select";
-        %tmp.70 = null;
-        %tmp.71 = "UseTouchTap";
-        %tmp.73 = lgetv %val.2;
-        %tmp.74 = null;
-        %tmp.65 = newc %tmp.68 (%tmp.69, %tmp.70, %tmp.71, %tmp.73, %tmp.74);
-        invoke %tmp.63 %tmp.64(%tmp.65);
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 29 8 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_29_14_begin:
-        %tmp.76 = getv ? :Application;
-        %tmp.77 = getv %tmp.76 :Properties;
-        %tmp.78 = getv function %tmp.77 :getValue;
-        %tmp.79 = "UseTouchHold";
-        %tmp.80 = invoke %tmp.77 %tmp.78(%tmp.79);
-        bf %tmp.80 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_29_14_false;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_29_14_true:
-        %tmp.81 = true;
-        push %tmp.81;
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_29_14_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_29_14_false:
-        %tmp.82 = false;
-        push %tmp.82;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_29_14_end:
-        %tmp.83 = phi [%tmp.80 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_29_14_begin] [%tmp.81 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_29_14_true] [%tmp.82 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_29_14_false] [%tmp.83 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_29_14_end];
-        lputv %val.2 %tmp.83;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_27_14_begin:
+        %tmp.61 = getv ? :Application;
+        %tmp.62 = getv %tmp.61 :Properties;
+        %tmp.63 = getv function %tmp.62 :getValue;
+        %tmp.64 = "UseTouchTap";
+        %tmp.65 = invoke %tmp.62 %tmp.63(%tmp.64);
+        bf %tmp.65 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_27_14_false;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_27_14_true:
+        %tmp.66 = true;
+        push %tmp.66;
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_27_14_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_27_14_false:
+        %tmp.67 = false;
+        push %tmp.67;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_27_14_end:
+        %tmp.68 = phi [%tmp.65 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_27_14_begin] [%tmp.66 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_27_14_true] [%tmp.67 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_27_14_false] [%tmp.68 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_27_14_end];
+        lputv %val.2 %tmp.68;
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 28 8 ]
+        %tmp.69 = lgetv %menu.1;
+        %tmp.70 = getv function %tmp.69 :addItem;
+        %tmp.73 = getm $.Toybox.WatchUi;
+        %tmp.74 = getv function ? %tmp.73 :ToggleMenuItem;
+        %tmp.75 = "Tap to Select";
+        %tmp.76 = null;
+        %tmp.77 = "UseTouchTap";
+        %tmp.79 = lgetv %val.2;
+        %tmp.80 = null;
+        %tmp.71 = newc %tmp.74 (%tmp.75, %tmp.76, %tmp.77, %tmp.79, %tmp.80);
+        invoke %tmp.69 %tmp.70(%tmp.71);
 [ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 30 8 ]
-        %tmp.84 = lgetv %menu.1;
-        %tmp.85 = getv function %tmp.84 :addItem;
-        %tmp.88 = getm $.Toybox.WatchUi;
-        %tmp.89 = getv function ? %tmp.88 :ToggleMenuItem;
-        %tmp.90 = "Long Press Flag";
-        %tmp.91 = null;
-        %tmp.92 = "UseTouchHold";
-        %tmp.94 = lgetv %val.2;
-        %tmp.95 = null;
-        %tmp.86 = newc %tmp.89 (%tmp.90, %tmp.91, %tmp.92, %tmp.94, %tmp.95);
-        invoke %tmp.84 %tmp.85(%tmp.86);
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 36 8 ]
-        %tmp.96 = lgetv %menu.1;
-        %tmp.97 = getv function %tmp.96 :addItem;
-        %tmp.100 = getm $.Toybox.WatchUi;
-        %tmp.101 = getv function ? %tmp.100 :MenuItem;
-        %tmp.102 = "Exit";
-        %tmp.103 = null;
-        %tmp.104 = "Exit";
-        %tmp.105 = null;
-        %tmp.98 = newc %tmp.101 (%tmp.102, %tmp.103, %tmp.104, %tmp.105);
-        invoke %tmp.96 %tmp.97(%tmp.98);
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 38 8 ]
-        %tmp.106 = getm $.Toybox.WatchUi;
-        %tmp.107 = getv function %tmp.106 :pushView;
-        %tmp.109 = lgetv %menu.1;
-        %tmp.113 = getm $;
-        %tmp.114 = getv %tmp.113 :MinesMenuDelegate;
-        %tmp.110 = newc %tmp.114 ();
-        %tmp.115 = getm $.Toybox.WatchUi;
-        %tmp.116 = getv %tmp.115 :SLIDE_UP;
-        invoke %tmp.106 %tmp.107(%tmp.109, %tmp.110, %tmp.116);
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 40 8 ]
-        %tmp.117 = true;
-        ret %tmp.117;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_30_14_begin:
+        %tmp.82 = getv ? :Application;
+        %tmp.83 = getv %tmp.82 :Properties;
+        %tmp.84 = getv function %tmp.83 :getValue;
+        %tmp.85 = "UseTouchHold";
+        %tmp.86 = invoke %tmp.83 %tmp.84(%tmp.85);
+        bf %tmp.86 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_30_14_false;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_30_14_true:
+        %tmp.87 = true;
+        push %tmp.87;
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_30_14_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_30_14_false:
+        %tmp.88 = false;
+        push %tmp.88;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_30_14_end:
+        %tmp.89 = phi [%tmp.86 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_30_14_begin] [%tmp.87 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_30_14_true] [%tmp.88 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_30_14_false] [%tmp.89 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_30_14_end];
+        lputv %val.2 %tmp.89;
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 31 8 ]
+        %tmp.90 = lgetv %menu.1;
+        %tmp.91 = getv function %tmp.90 :addItem;
+        %tmp.94 = getm $.Toybox.WatchUi;
+        %tmp.95 = getv function ? %tmp.94 :ToggleMenuItem;
+        %tmp.96 = "Long Press Flag";
+        %tmp.97 = null;
+        %tmp.98 = "UseTouchHold";
+        %tmp.100 = lgetv %val.2;
+        %tmp.101 = null;
+        %tmp.92 = newc %tmp.95 (%tmp.96, %tmp.97, %tmp.98, %tmp.100, %tmp.101);
+        invoke %tmp.90 %tmp.91(%tmp.92);
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 33 8 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_33_8_if_stmt:
+        %tmp.103 = getv ? :Application;
+        %tmp.104 = getv %tmp.103 :Properties;
+        %tmp.105 = getv function %tmp.104 :getValue;
+        %tmp.106 = "SaveRecords";
+        %tmp.107 = invoke %tmp.104 %tmp.105(%tmp.106);
+        %tmp.108 = null;
+        %tmp.109 = ne %tmp.107 %tmp.108;
+        bf %tmp.109 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_33_8_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_33_8_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_34_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 35 12 ]
+        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_34_8_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_34_8_stop" ]
+        %records.3 = local;
+        %tmp.111 = getv ? :Application;
+        %tmp.112 = getv %tmp.111 :Properties;
+        %tmp.113 = getv function %tmp.112 :getValue;
+        %tmp.114 = "SaveRecords";
+        %tmp.115 = invoke %tmp.112 %tmp.113(%tmp.114);
+        %tmp.116 = as %tmp.115 Array<Array<Number>>;
+        lputv %records.3 %tmp.116;
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 37 12 ]
+        for @_home_max_git_mines_connectiq_source_MinesDelegate_mc_37_12_for_test @_home_max_git_mines_connectiq_source_MinesDelegate_mc_37_12_for_incr @_home_max_git_mines_connectiq_source_MinesDelegate_mc_37_12_for_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_37_12_for_init:
+        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_37_12_for_begin" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_37_12_for_end" ]
+        %i.4 = local;
+        %tmp.117 = 0;
+        lputv %i.4 %tmp.117;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_37_12_for_test:
+        %tmp.119 = lgetv %i.4;
+        %tmp.120 = lgetv %records.3;
+        %tmp.121 = getv function %tmp.120 :size;
+        %tmp.122 = invoke %tmp.120 %tmp.121();
+        %tmp.123 = lt %tmp.119 %tmp.122;
+        bf %tmp.123 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_37_12_for_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_37_12_for_begin:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_38_12_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 39 16 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_39_16_if_stmt:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_39_19_begin:
+        %tmp.125 = lgetv %records.3;
+        %tmp.127 = lgetv %i.4;
+        %tmp.128 = agetv %tmp.125 %tmp.127;
+        %tmp.129 = 0;
+        %tmp.130 = agetv %tmp.128 %tmp.129;
+        %tmp.132 = getv ? :Application;
+        %tmp.133 = getv %tmp.132 :Properties;
+        %tmp.134 = getv function %tmp.133 :getValue;
+        %tmp.135 = "SizeField";
+        %tmp.136 = invoke %tmp.133 %tmp.134(%tmp.135);
+        %tmp.137 = eq %tmp.130 %tmp.136;
+        %tmp.138 = dup %tmp.137;
+        bf %tmp.138 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_39_86_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_39_86_true:
+        %tmp.140 = lgetv %records.3;
+        %tmp.142 = lgetv %i.4;
+        %tmp.143 = agetv %tmp.140 %tmp.142;
+        %tmp.144 = 1;
+        %tmp.145 = agetv %tmp.143 %tmp.144;
+        %tmp.147 = getv ? :Application;
+        %tmp.148 = getv %tmp.147 :Properties;
+        %tmp.149 = getv function %tmp.148 :getValue;
+        %tmp.150 = "NumberMines";
+        %tmp.151 = invoke %tmp.148 %tmp.149(%tmp.150);
+        %tmp.152 = eq %tmp.145 %tmp.151;
+        %tmp.153 = and %tmp.137 %tmp.152;
+        push %tmp.153;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_39_86_end:
+        %tmp.154 = phi [%tmp.138 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_39_19_begin] [%tmp.153 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_39_86_true] [%tmp.154 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_39_86_end];
+        bf %tmp.154 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_39_16_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_39_16_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_40_16_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 41 20 ]
+        %tmp.155 = lgetv %menu.1;
+        %tmp.156 = getv function %tmp.155 :addItem;
+        %tmp.159 = getm $.Toybox.WatchUi;
+        %tmp.160 = getv function ? %tmp.159 :MenuItem;
+        %tmp.161 = "Record: ";
+        %tmp.163 = lgetv %records.3;
+        %tmp.165 = lgetv %i.4;
+        %tmp.166 = agetv %tmp.163 %tmp.165;
+        %tmp.167 = 0;
+        %tmp.168 = agetv %tmp.166 %tmp.167;
+        %tmp.169 = add %tmp.161 %tmp.168;
+        %tmp.170 = "x";
+        %tmp.171 = add %tmp.169 %tmp.170;
+        %tmp.173 = lgetv %records.3;
+        %tmp.175 = lgetv %i.4;
+        %tmp.176 = agetv %tmp.173 %tmp.175;
+        %tmp.177 = 0;
+        %tmp.178 = agetv %tmp.176 %tmp.177;
+        %tmp.179 = add %tmp.171 %tmp.178;
+        %tmp.180 = ", ";
+        %tmp.181 = add %tmp.179 %tmp.180;
+        %tmp.183 = lgetv %records.3;
+        %tmp.185 = lgetv %i.4;
+        %tmp.186 = agetv %tmp.183 %tmp.185;
+        %tmp.187 = 1;
+        %tmp.188 = agetv %tmp.186 %tmp.187;
+        %tmp.189 = add %tmp.181 %tmp.188;
+        %tmp.190 = " Mines";
+        %tmp.191 = add %tmp.189 %tmp.190;
+        %tmp.193 = lgetv %records.3;
+        %tmp.195 = lgetv %i.4;
+        %tmp.196 = agetv %tmp.193 %tmp.195;
+        %tmp.197 = 2;
+        %tmp.198 = agetv %tmp.196 %tmp.197;
+        %tmp.199 = "s";
+        %tmp.200 = add %tmp.198 %tmp.199;
+        %tmp.201 = "Records";
+        %tmp.202 = null;
+        %tmp.157 = newc %tmp.160 (%tmp.191, %tmp.200, %tmp.201, %tmp.202);
+        invoke %tmp.155 %tmp.156(%tmp.157);
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_40_16_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_39_16_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_39_16_if_end:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_38_12_stop:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_37_12_for_incr:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 37 ]
+        %tmp.205 = lgetv %i.4;
+        %tmp.206 = add %tmp.205 1;
+        lputv %i.4 %tmp.206;
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_37_12_for_test;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_37_12_for_end:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_34_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_33_8_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_33_8_if_end:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 51 8 ]
+        %tmp.207 = lgetv %menu.1;
+        %tmp.208 = getv function %tmp.207 :addItem;
+        %tmp.211 = getm $.Toybox.WatchUi;
+        %tmp.212 = getv function ? %tmp.211 :MenuItem;
+        %tmp.213 = "Exit";
+        %tmp.214 = null;
+        %tmp.215 = "Exit";
+        %tmp.216 = null;
+        %tmp.209 = newc %tmp.212 (%tmp.213, %tmp.214, %tmp.215, %tmp.216);
+        invoke %tmp.207 %tmp.208(%tmp.209);
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 53 8 ]
+        %tmp.217 = getm $.Toybox.WatchUi;
+        %tmp.218 = getv function %tmp.217 :pushView;
+        %tmp.220 = lgetv %menu.1;
+        %tmp.224 = getm $;
+        %tmp.225 = getv %tmp.224 :MinesMenuDelegate;
+        %tmp.221 = newc %tmp.225 ();
+        %tmp.226 = getm $.Toybox.WatchUi;
+        %tmp.227 = getv %tmp.226 :SLIDE_UP;
+        invoke %tmp.217 %tmp.218(%tmp.220, %tmp.221, %tmp.227);
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 55 8 ]
+        %tmp.228 = true;
+        ret %tmp.228;
 _home_max_git_mines_connectiq_source_MinesDelegate_mc_15_4_stop:
     }
-    [ @file = "/home/max/git/mines-connectiq/source/MinesDelegate.mc"; @line = 43; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesDelegate.mc"; @line = 58; ]
     function onKey(keyEvent) {
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_44_4_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 49 8 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_49_8_if_stmt:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_59_4_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 64 8 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_64_8_if_stmt:
         %tmp.1 = lgetv %keyEvent;
         %tmp.2 = getv function %tmp.1 :getKey;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = 4;
         %tmp.5 = eq %tmp.3 %tmp.4;
-        bf %tmp.5 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_49_8_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_49_8_if_true:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_50_8_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 51 12 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_51_12_if_stmt:
+        bf %tmp.5 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_64_8_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_64_8_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_65_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 66 12 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_66_12_if_stmt:
         %tmp.6 = self;
         %tmp.7 = getv function %tmp.6 :getApp;
         %tmp.8 = invoke %tmp.6 %tmp.7();
@@ -196,11 +330,11 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_51_12_if_stmt:
         %tmp.11 = invoke %tmp.9 %tmp.10();
         %tmp.13 = getv ? :STATUS_ACTIVE;
         %tmp.14 = eq %tmp.11 %tmp.13;
-        bf %tmp.14 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_51_12_if_false;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_51_12_if_true:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_52_12_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 54 16 ]
-        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_52_12_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_52_12_stop" ]
+        bf %tmp.14 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_66_12_if_false;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_66_12_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_67_12_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 69 16 ]
+        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_67_12_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_67_12_stop" ]
         %cursor_pos.1 = local;
         %tmp.15 = self;
         %tmp.16 = getv function %tmp.15 :getApp;
@@ -209,7 +343,7 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_52_12_start:
         %tmp.19 = getv function %tmp.18 :getCursor;
         %tmp.20 = invoke %tmp.18 %tmp.19();
         lputv %cursor_pos.1 %tmp.20;
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 55 16 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 70 16 ]
         %tmp.21 = self;
         %tmp.22 = getv function %tmp.21 :getApp;
         %tmp.23 = invoke %tmp.21 %tmp.22();
@@ -222,16 +356,16 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_52_12_start:
         %tmp.32 = 1;
         %tmp.33 = agetv %tmp.31 %tmp.32;
         invoke %tmp.24 %tmp.25(%tmp.29, %tmp.33);
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 57 16 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 72 16 ]
         %tmp.34 = getm $.Toybox.WatchUi;
         %tmp.35 = getv function %tmp.34 :requestUpdate;
         invoke %tmp.34 %tmp.35();
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_52_12_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_51_12_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_51_12_if_false:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 60 17 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_60_17_if_stmt:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_60_21_begin:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_67_12_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_66_12_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_66_12_if_false:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 75 17 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_75_17_if_stmt:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_75_21_begin:
         %tmp.36 = self;
         %tmp.37 = getv function %tmp.36 :getApp;
         %tmp.38 = invoke %tmp.36 %tmp.37();
@@ -241,8 +375,8 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_60_21_begin:
         %tmp.43 = getv ? :STATUS_WON;
         %tmp.44 = eq %tmp.41 %tmp.43;
         %tmp.45 = dup %tmp.44;
-        bt %tmp.45 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_60_68_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_60_68_false:
+        bt %tmp.45 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_75_68_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_75_68_false:
         %tmp.46 = self;
         %tmp.47 = getv function %tmp.46 :getApp;
         %tmp.48 = invoke %tmp.46 %tmp.47();
@@ -253,24 +387,24 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_60_68_false:
         %tmp.54 = eq %tmp.51 %tmp.53;
         %tmp.55 = or %tmp.44 %tmp.54;
         push %tmp.55;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_60_68_end:
-        %tmp.56 = phi [%tmp.45 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_60_21_begin] [%tmp.55 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_60_68_false] [%tmp.56 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_60_68_end];
-        bf %tmp.56 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_60_17_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_60_17_if_true:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_61_12_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 62 16 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_75_68_end:
+        %tmp.56 = phi [%tmp.45 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_75_21_begin] [%tmp.55 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_75_68_false] [%tmp.56 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_75_68_end];
+        bf %tmp.56 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_75_17_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_75_17_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_76_12_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 77 16 ]
         %tmp.57 = self;
         %tmp.58 = getv function %tmp.57 :getApp;
         %tmp.59 = invoke %tmp.57 %tmp.58();
         %tmp.60 = getv %tmp.59 :engine;
         %tmp.61 = getv function %tmp.60 :stop;
         invoke %tmp.60 %tmp.61();
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 63 16 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 78 16 ]
         %tmp.62 = getv function self :getApp;
         %tmp.63 = invoke self %tmp.62();
         %tmp.64 = null;
         putv %tmp.63 :engine %tmp.64;
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 64 16 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 79 16 ]
         %tmp.65 = getv function self :getApp;
         %tmp.66 = invoke self %tmp.65();
         %tmp.70 = getv ? :MinesEngine;
@@ -284,29 +418,29 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_61_12_start:
         %tmp.78 = getv %tmp.77 :n_mines;
         %tmp.67 = newc %tmp.70 (%tmp.74, %tmp.78);
         putv %tmp.66 :engine %tmp.67;
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 66 16 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 81 16 ]
         %tmp.79 = getm $.Toybox.WatchUi;
         %tmp.80 = getv function %tmp.79 :requestUpdate;
         invoke %tmp.79 %tmp.80();
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_61_12_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_60_17_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_60_17_if_end:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_51_12_if_end:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_50_8_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_49_8_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_49_8_if_end:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 71 8 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_71_8_if_stmt:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_76_12_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_75_17_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_75_17_if_end:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_66_12_if_end:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_65_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_64_8_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_64_8_if_end:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 86 8 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_86_8_if_stmt:
         %tmp.81 = lgetv %keyEvent;
         %tmp.82 = getv function %tmp.81 :getKey;
         %tmp.83 = invoke %tmp.81 %tmp.82();
         %tmp.85 = getv ? :KEY_DOWN;
         %tmp.86 = eq %tmp.83 %tmp.85;
-        bf %tmp.86 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_71_8_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_71_8_if_true:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_72_8_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 73 12 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_73_12_if_stmt:
+        bf %tmp.86 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_86_8_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_86_8_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_87_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 88 12 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_88_12_if_stmt:
         %tmp.87 = self;
         %tmp.88 = getv function %tmp.87 :getApp;
         %tmp.89 = invoke %tmp.87 %tmp.88();
@@ -315,11 +449,11 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_73_12_if_stmt:
         %tmp.92 = invoke %tmp.90 %tmp.91();
         %tmp.94 = getv ? :STATUS_ACTIVE;
         %tmp.95 = eq %tmp.92 %tmp.94;
-        bf %tmp.95 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_73_12_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_73_12_if_true:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_74_12_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 76 16 ]
-        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_74_12_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_74_12_stop" ]
+        bf %tmp.95 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_88_12_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_88_12_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_89_12_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 91 16 ]
+        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_89_12_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_89_12_stop" ]
         %cursor_pos.2 = local;
         %tmp.96 = self;
         %tmp.97 = getv function %tmp.96 :getApp;
@@ -328,7 +462,7 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_74_12_start:
         %tmp.100 = getv function %tmp.99 :getCursor;
         %tmp.101 = invoke %tmp.99 %tmp.100();
         lputv %cursor_pos.2 %tmp.101;
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 78 16 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 93 16 ]
         %tmp.102 = self;
         %tmp.103 = getv function %tmp.102 :getApp;
         %tmp.104 = invoke %tmp.102 %tmp.103();
@@ -341,45 +475,45 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_74_12_start:
         %tmp.113 = 1;
         %tmp.114 = agetv %tmp.112 %tmp.113;
         invoke %tmp.105 %tmp.106(%tmp.110, %tmp.114);
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 80 16 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 95 16 ]
         %tmp.115 = getm $.Toybox.WatchUi;
         %tmp.116 = getv function %tmp.115 :requestUpdate;
         invoke %tmp.115 %tmp.116();
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_74_12_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_73_12_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_73_12_if_end:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_72_8_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_71_8_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_71_8_if_end:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 85 8 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_85_8_if_stmt:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_89_12_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_88_12_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_88_12_if_end:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_87_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_86_8_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_86_8_if_end:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 100 8 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_100_8_if_stmt:
         %tmp.117 = lgetv %keyEvent;
         %tmp.118 = getv function %tmp.117 :getKey;
         %tmp.119 = invoke %tmp.117 %tmp.118();
         %tmp.121 = getv ? :KEY_ESC;
         %tmp.122 = eq %tmp.119 %tmp.121;
-        bf %tmp.122 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_85_8_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_85_8_if_true:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_86_8_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 87 12 ]
+        bf %tmp.122 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_100_8_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_100_8_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_101_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 102 12 ]
         %tmp.123 = getm $.Toybox.WatchUi;
         %tmp.124 = getv function %tmp.123 :popView;
         %tmp.125 = getm $.Toybox.WatchUi;
         %tmp.126 = getv %tmp.125 :SLIDE_RIGHT;
         invoke %tmp.123 %tmp.124(%tmp.126);
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_86_8_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_85_8_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_85_8_if_end:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 116 8 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_101_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_100_8_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_100_8_if_end:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 131 8 ]
         %tmp.127 = true;
         ret %tmp.127;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_44_4_stop:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_59_4_stop:
     }
-    [ @file = "/home/max/git/mines-connectiq/source/MinesDelegate.mc"; @line = 131; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesDelegate.mc"; @line = 146; ]
     function onSwipe(swipeEvent) {
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_132_4_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 135 8 ]
-        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_132_4_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_132_4_stop" ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_147_4_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 150 8 ]
+        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_147_4_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_147_4_stop" ]
         %size.1 = local;
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :getApp;
@@ -388,8 +522,8 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_132_4_start:
         %tmp.5 = getv function %tmp.4 :getFieldSize;
         %tmp.6 = invoke %tmp.4 %tmp.5();
         lputv %size.1 %tmp.6;
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 137 8 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_137_8_if_stmt:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 152 8 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_152_8_if_stmt:
         %tmp.7 = self;
         %tmp.8 = getv function %tmp.7 :getApp;
         %tmp.9 = invoke %tmp.7 %tmp.8();
@@ -398,21 +532,21 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_137_8_if_stmt:
         %tmp.12 = invoke %tmp.10 %tmp.11();
         %tmp.14 = getv ? :STATUS_ACTIVE;
         %tmp.15 = eq %tmp.12 %tmp.14;
-        bf %tmp.15 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_137_8_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_137_8_if_true:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_138_8_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 139 12 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_139_12_if_stmt:
+        bf %tmp.15 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_152_8_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_152_8_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_153_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 154 12 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_154_12_if_stmt:
         %tmp.16 = lgetv %swipeEvent;
         %tmp.17 = getv function %tmp.16 :getDirection;
         %tmp.18 = invoke %tmp.16 %tmp.17();
         %tmp.20 = getv ? :SWIPE_DOWN;
         %tmp.21 = eq %tmp.18 %tmp.20;
-        bf %tmp.21 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_139_12_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_139_12_if_true:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_140_12_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 141 16 ]
-        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_140_12_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_140_12_stop" ]
+        bf %tmp.21 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_154_12_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_154_12_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_155_12_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 156 16 ]
+        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_155_12_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_155_12_stop" ]
         %cursor_pos.2 = local;
         %tmp.22 = self;
         %tmp.23 = getv function %tmp.22 :getApp;
@@ -421,7 +555,7 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_140_12_start:
         %tmp.26 = getv function %tmp.25 :getCursor;
         %tmp.27 = invoke %tmp.25 %tmp.26();
         lputv %cursor_pos.2 %tmp.27;
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 143 16 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 158 16 ]
         %tmp.28 = self;
         %tmp.29 = getv function %tmp.28 :getApp;
         %tmp.30 = invoke %tmp.28 %tmp.29();
@@ -438,21 +572,21 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_140_12_start:
         %tmp.44 = lgetv %size.1;
         %tmp.45 = mod %tmp.42 %tmp.44;
         invoke %tmp.31 %tmp.32(%tmp.36, %tmp.45);
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_140_12_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_139_12_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_139_12_if_end:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 146 12 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_146_12_if_stmt:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_155_12_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_154_12_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_154_12_if_end:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 161 12 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_161_12_if_stmt:
         %tmp.46 = lgetv %swipeEvent;
         %tmp.47 = getv function %tmp.46 :getDirection;
         %tmp.48 = invoke %tmp.46 %tmp.47();
         %tmp.50 = getv ? :SWIPE_UP;
         %tmp.51 = eq %tmp.48 %tmp.50;
-        bf %tmp.51 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_146_12_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_146_12_if_true:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_147_12_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 148 16 ]
-        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_147_12_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_147_12_stop" ]
+        bf %tmp.51 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_161_12_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_161_12_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_162_12_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 163 16 ]
+        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_162_12_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_162_12_stop" ]
         %cursor_pos.3 = local;
         %tmp.52 = self;
         %tmp.53 = getv function %tmp.52 :getApp;
@@ -461,7 +595,7 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_147_12_start:
         %tmp.56 = getv function %tmp.55 :getCursor;
         %tmp.57 = invoke %tmp.55 %tmp.56();
         lputv %cursor_pos.3 %tmp.57;
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 149 16 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 164 16 ]
         %tmp.58 = self;
         %tmp.59 = getv function %tmp.58 :getApp;
         %tmp.60 = invoke %tmp.58 %tmp.59();
@@ -480,21 +614,21 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_147_12_start:
         %tmp.77 = lgetv %size.1;
         %tmp.78 = mod %tmp.75 %tmp.77;
         invoke %tmp.61 %tmp.62(%tmp.66, %tmp.78);
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_147_12_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_146_12_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_146_12_if_end:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 152 12 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_152_12_if_stmt:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_162_12_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_161_12_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_161_12_if_end:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 167 12 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_167_12_if_stmt:
         %tmp.79 = lgetv %swipeEvent;
         %tmp.80 = getv function %tmp.79 :getDirection;
         %tmp.81 = invoke %tmp.79 %tmp.80();
         %tmp.83 = getv ? :SWIPE_LEFT;
         %tmp.84 = eq %tmp.81 %tmp.83;
-        bf %tmp.84 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_152_12_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_152_12_if_true:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_153_12_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 154 16 ]
-        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_153_12_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_153_12_stop" ]
+        bf %tmp.84 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_167_12_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_167_12_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_168_12_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 169 16 ]
+        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_168_12_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_168_12_stop" ]
         %cursor_pos.4 = local;
         %tmp.85 = self;
         %tmp.86 = getv function %tmp.85 :getApp;
@@ -503,7 +637,7 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_153_12_start:
         %tmp.89 = getv function %tmp.88 :getCursor;
         %tmp.90 = invoke %tmp.88 %tmp.89();
         lputv %cursor_pos.4 %tmp.90;
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 155 16 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 170 16 ]
         %tmp.91 = self;
         %tmp.92 = getv function %tmp.91 :getApp;
         %tmp.93 = invoke %tmp.91 %tmp.92();
@@ -522,21 +656,21 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_153_12_start:
         %tmp.110 = 1;
         %tmp.111 = agetv %tmp.109 %tmp.110;
         invoke %tmp.94 %tmp.95(%tmp.107, %tmp.111);
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_153_12_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_152_12_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_152_12_if_end:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 158 12 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_158_12_if_stmt:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_168_12_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_167_12_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_167_12_if_end:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 173 12 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_173_12_if_stmt:
         %tmp.112 = lgetv %swipeEvent;
         %tmp.113 = getv function %tmp.112 :getDirection;
         %tmp.114 = invoke %tmp.112 %tmp.113();
         %tmp.116 = getv ? :SWIPE_RIGHT;
         %tmp.117 = eq %tmp.114 %tmp.116;
-        bf %tmp.117 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_158_12_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_158_12_if_true:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_159_12_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 160 16 ]
-        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_159_12_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_159_12_stop" ]
+        bf %tmp.117 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_173_12_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_173_12_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_174_12_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 175 16 ]
+        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_174_12_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_174_12_stop" ]
         %cursor_pos.5 = local;
         %tmp.118 = self;
         %tmp.119 = getv function %tmp.118 :getApp;
@@ -545,7 +679,7 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_159_12_start:
         %tmp.122 = getv function %tmp.121 :getCursor;
         %tmp.123 = invoke %tmp.121 %tmp.122();
         lputv %cursor_pos.5 %tmp.123;
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 161 16 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 176 16 ]
         %tmp.124 = self;
         %tmp.125 = getv function %tmp.124 :getApp;
         %tmp.126 = invoke %tmp.124 %tmp.125();
@@ -562,26 +696,26 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_159_12_start:
         %tmp.140 = 1;
         %tmp.141 = agetv %tmp.139 %tmp.140;
         invoke %tmp.127 %tmp.128(%tmp.137, %tmp.141);
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_159_12_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_158_12_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_158_12_if_end:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_138_8_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_137_8_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_137_8_if_end:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 164 8 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_174_12_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_173_12_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_173_12_if_end:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_153_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_152_8_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_152_8_if_end:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 179 8 ]
         %tmp.142 = getm $.Toybox.WatchUi;
         %tmp.143 = getv function %tmp.142 :requestUpdate;
         invoke %tmp.142 %tmp.143();
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 167 8 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 182 8 ]
         %tmp.144 = true;
         ret %tmp.144;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_132_4_stop:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_147_4_stop:
     }
-    [ @file = "/home/max/git/mines-connectiq/source/MinesDelegate.mc"; @line = 170; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesDelegate.mc"; @line = 185; ]
     function onTap(clickEvent) {
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_171_4_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 172 8 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_172_8_if_stmt:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_186_4_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 187 8 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_187_8_if_stmt:
         %tmp.2 = getv ? :Application;
         %tmp.3 = getv %tmp.2 :Properties;
         %tmp.4 = getv function %tmp.3 :getValue;
@@ -590,11 +724,11 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_172_8_if_stmt:
         %tmp.7 = as %tmp.6 Boolean;
         %tmp.8 = true;
         %tmp.9 = eq %tmp.7 %tmp.8;
-        bf %tmp.9 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_172_8_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_172_8_if_true:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_173_8_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 174 12 ]
-        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_173_8_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_173_8_stop" ]
+        bf %tmp.9 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_187_8_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_187_8_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_188_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 189 12 ]
+        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_188_8_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_188_8_stop" ]
         %x.1 = local;
         %tmp.10 = lgetv %clickEvent;
         %tmp.11 = getv function %tmp.10 :getCoordinates;
@@ -602,8 +736,8 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_173_8_start:
         %tmp.13 = 0;
         %tmp.14 = agetv %tmp.12 %tmp.13;
         lputv %x.1 %tmp.14;
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 175 12 ]
-        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_173_8_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_173_8_stop" ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 190 12 ]
+        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_188_8_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_188_8_stop" ]
         %y.2 = local;
         %tmp.15 = lgetv %clickEvent;
         %tmp.16 = getv function %tmp.15 :getCoordinates;
@@ -611,7 +745,7 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_173_8_start:
         %tmp.18 = 1;
         %tmp.19 = agetv %tmp.17 %tmp.18;
         lputv %y.2 %tmp.19;
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 179 12 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 194 12 ]
         %tmp.20 = self;
         %tmp.21 = getv function %tmp.20 :getApp;
         %tmp.22 = invoke %tmp.20 %tmp.21();
@@ -620,22 +754,22 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_173_8_start:
         %tmp.26 = lgetv %x.1;
         %tmp.28 = lgetv %y.2;
         invoke %tmp.23 %tmp.24(%tmp.26, %tmp.28);
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 181 12 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 196 12 ]
         %tmp.29 = true;
         ret %tmp.29;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_173_8_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_172_8_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_172_8_if_end:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 184 8 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_188_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_187_8_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_187_8_if_end:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 199 8 ]
         %tmp.30 = false;
         ret %tmp.30;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_171_4_stop:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_186_4_stop:
     }
-    [ @file = "/home/max/git/mines-connectiq/source/MinesDelegate.mc"; @line = 187; ]
+    [ @file = "/home/max/git/mines-connectiq/source/MinesDelegate.mc"; @line = 202; ]
     function onHold(clickEvent) {
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_188_4_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 189 8 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_189_8_if_stmt:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_203_4_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 204 8 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_204_8_if_stmt:
         %tmp.2 = getv ? :Application;
         %tmp.3 = getv %tmp.2 :Properties;
         %tmp.4 = getv function %tmp.3 :getValue;
@@ -644,11 +778,11 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_189_8_if_stmt:
         %tmp.7 = as %tmp.6 Boolean;
         %tmp.8 = true;
         %tmp.9 = eq %tmp.7 %tmp.8;
-        bf %tmp.9 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_189_8_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_189_8_if_true:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_190_8_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 192 12 ]
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_192_12_if_stmt:
+        bf %tmp.9 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_204_8_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_204_8_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_205_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 207 12 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_207_12_if_stmt:
         %tmp.10 = self;
         %tmp.11 = getv function %tmp.10 :getApp;
         %tmp.12 = invoke %tmp.10 %tmp.11();
@@ -657,11 +791,11 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_192_12_if_stmt:
         %tmp.15 = invoke %tmp.13 %tmp.14();
         %tmp.17 = getv ? :STATUS_ACTIVE;
         %tmp.18 = eq %tmp.15 %tmp.17;
-        bf %tmp.18 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_192_12_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_192_12_if_true:
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_193_12_start:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 194 16 ]
-        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_193_12_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_193_12_stop" ]
+        bf %tmp.18 @_home_max_git_mines_connectiq_source_MinesDelegate_mc_207_12_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_207_12_if_true:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_208_12_start:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 209 16 ]
+        [ "_home_max_git_mines_connectiq_source_MinesDelegate_mc_208_12_start" "_home_max_git_mines_connectiq_source_MinesDelegate_mc_208_12_stop" ]
         %cursor_pos.1 = local;
         %tmp.19 = self;
         %tmp.20 = getv function %tmp.19 :getApp;
@@ -670,7 +804,7 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_193_12_start:
         %tmp.23 = getv function %tmp.22 :getCursor;
         %tmp.24 = invoke %tmp.22 %tmp.23();
         lputv %cursor_pos.1 %tmp.24;
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 196 16 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 211 16 ]
         %tmp.25 = self;
         %tmp.26 = getv function %tmp.25 :getApp;
         %tmp.27 = invoke %tmp.25 %tmp.26();
@@ -683,23 +817,23 @@ _home_max_git_mines_connectiq_source_MinesDelegate_mc_193_12_start:
         %tmp.36 = 1;
         %tmp.37 = agetv %tmp.35 %tmp.36;
         invoke %tmp.28 %tmp.29(%tmp.33, %tmp.37);
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 198 16 ]
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 213 16 ]
         %tmp.38 = getm $.Toybox.WatchUi;
         %tmp.39 = getv function %tmp.38 :requestUpdate;
         invoke %tmp.38 %tmp.39();
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_193_12_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_192_12_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_192_12_if_end:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 201 12 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_208_12_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_207_12_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_207_12_if_end:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 216 12 ]
         %tmp.40 = true;
         ret %tmp.40;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_190_8_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_189_8_if_end;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_189_8_if_end:
-[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 204 8 ]
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_205_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesDelegate_mc_204_8_if_end;
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_204_8_if_end:
+[ "/home/max/git/mines-connectiq/source/MinesDelegate.mc" 219 8 ]
         %tmp.41 = false;
         ret %tmp.41;
-_home_max_git_mines_connectiq_source_MinesDelegate_mc_188_4_stop:
+_home_max_git_mines_connectiq_source_MinesDelegate_mc_203_4_stop:
     }
 }
 [ @file = "/home/max/git/mines-connectiq/source/MinesDelegate.mc"; @line = 1; ]
