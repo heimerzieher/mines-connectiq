@@ -102,7 +102,14 @@ class MinesMenuDelegate extends WatchUi.Menu2InputDelegate
         {
             var value = Application.Properties.getValue("SizeField") as Number;
 
-            var new_value = 2 + (((value-2) + 1) % 15);
+            var max_size = 15;
+
+            if(!(Graphics has :getVectorFont) && System.getDeviceSettings().screenWidth <= 280)
+            {
+                max_size = 11;
+            }
+
+            var new_value = 2 + (((value-2) + 1) % max_size);
 
             Application.Properties.setValue("SizeField", new_value);
 

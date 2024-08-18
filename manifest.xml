@@ -6,11 +6,9 @@
         to update the application attributes.
     -->
     <!-- THIS IS THE BETA ID !-->
-    <iq:application id="d46356fd-e511-490d-9d9c-b1c7e2797180" type="watch-app" name="@Strings.AppName" entry="MinesApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="4.2.0">
-        
+    <iq:application id="d46356fd-e511-490d-9d9c-b1c7e2797180" type="watch-app" name="@Strings.AppName" entry="MinesApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.3.0">
         <!-- THIS IS THE PUBLISHED ID !-->
-        <!-- <iq:application id="f0525abe-1799-452f-a966-cfa8df95f76d" type="watch-app" name="@Strings.AppName" entry="MinesApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="4.2.0"> -->
-        
+        <!-- <iq:application id="f0525abe-1799-452f-a966-cfa8df95f76d" type="watch-app" name="@Strings.AppName" entry="MinesApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.3.0"> -->
         <!--
             Use the following from the Visual Studio Code comand palette to edit
             the build targets:
@@ -46,13 +44,18 @@
             <iq:product id="fr965"/>
             <iq:product id="marq2"/>
             <iq:product id="marq2aviator"/>
+            <iq:product id="venu"/>
             <iq:product id="venu2"/>
             <iq:product id="venu2plus"/>
             <iq:product id="venu2s"/>
             <iq:product id="venu3"/>
             <iq:product id="venu3s"/>
+            <iq:product id="venusq"/>
             <iq:product id="venusq2"/>
             <iq:product id="venusq2m"/>
+            <iq:product id="venusqm"/>
+            <iq:product id="vivoactive4"/>
+            <iq:product id="vivoactive4s"/>
             <iq:product id="vivoactive5"/>
         </iq:products>
         <!--

@@ -264,88 +264,122 @@ _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_102_8_start:
         lputv %value.1 %tmp.133;
 [ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 105 12 ]
         [ "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_102_8_start" "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_102_8_stop" ]
-        %new_value.2 = local;
-        %tmp.134 = 2;
-        %tmp.136 = lgetv %value.1;
-        %tmp.137 = 2;
-        %tmp.138 = sub %tmp.136 %tmp.137;
-        %tmp.139 = 1;
-        %tmp.140 = add %tmp.138 %tmp.139;
-        %tmp.141 = 15;
-        %tmp.142 = mod %tmp.140 %tmp.141;
-        %tmp.143 = add %tmp.134 %tmp.142;
-        lputv %new_value.2 %tmp.143;
+        %max_size.2 = local;
+        %tmp.134 = 15;
+        lputv %max_size.2 %tmp.134;
 [ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 107 12 ]
-        %tmp.145 = getv ? :Application;
-        %tmp.146 = getv %tmp.145 :Properties;
-        %tmp.147 = getv function %tmp.146 :setValue;
-        %tmp.148 = "SizeField";
-        %tmp.150 = lgetv %new_value.2;
-        invoke %tmp.146 %tmp.147(%tmp.148, %tmp.150);
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 109 12 ]
-        %tmp.151 = lgetv %menuItem;
-        %tmp.152 = getv function %tmp.151 :setSubLabel;
-        %tmp.153 = lgetv %new_value.2;
-        %tmp.154 = getv function %tmp.153 :toString;
-        %tmp.155 = invoke %tmp.153 %tmp.154();
-        %tmp.156 = "x";
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_107_12_if_stmt:
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_107_15_begin:
+        %tmp.136 = getv ? :Graphics;
+        %tmp.138 = const :getVectorFont;
+        %tmp.139 = canhazplz %tmp.136 %tmp.138;
+        %tmp.140 = not %tmp.139;
+        %tmp.141 = dup %tmp.140;
+        bf %tmp.141 @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_107_49_end;
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_107_49_true:
+        %tmp.142 = getm $.Toybox.System;
+        %tmp.143 = getv function %tmp.142 :getDeviceSettings;
+        %tmp.144 = invoke %tmp.142 %tmp.143();
+        %tmp.145 = getv %tmp.144 :screenWidth;
+        %tmp.146 = 280;
+        %tmp.147 = lte %tmp.145 %tmp.146;
+        %tmp.148 = and %tmp.140 %tmp.147;
+        push %tmp.148;
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_107_49_end:
+        %tmp.149 = phi [%tmp.141 @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_107_15_begin] [%tmp.148 @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_107_49_true] [%tmp.149 @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_107_49_end];
+        bf %tmp.149 @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_107_12_if_end;
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_107_12_if_true:
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_108_12_start:
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 109 16 ]
+        %tmp.150 = 11;
+        lputv %max_size.2 %tmp.150;
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_108_12_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_107_12_if_end;
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_107_12_if_end:
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 112 12 ]
+        [ "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_102_8_start" "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_102_8_stop" ]
+        %new_value.3 = local;
+        %tmp.151 = 2;
+        %tmp.153 = lgetv %value.1;
+        %tmp.154 = 2;
+        %tmp.155 = sub %tmp.153 %tmp.154;
+        %tmp.156 = 1;
         %tmp.157 = add %tmp.155 %tmp.156;
-        %tmp.158 = lgetv %new_value.2;
-        %tmp.159 = getv function %tmp.158 :toString;
-        %tmp.160 = invoke %tmp.158 %tmp.159();
-        %tmp.161 = add %tmp.157 %tmp.160;
-        invoke %tmp.151 %tmp.152(%tmp.161);
+        %tmp.159 = lgetv %max_size.2;
+        %tmp.160 = mod %tmp.157 %tmp.159;
+        %tmp.161 = add %tmp.151 %tmp.160;
+        lputv %new_value.3 %tmp.161;
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 114 12 ]
+        %tmp.163 = getv ? :Application;
+        %tmp.164 = getv %tmp.163 :Properties;
+        %tmp.165 = getv function %tmp.164 :setValue;
+        %tmp.166 = "SizeField";
+        %tmp.168 = lgetv %new_value.3;
+        invoke %tmp.164 %tmp.165(%tmp.166, %tmp.168);
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 116 12 ]
+        %tmp.169 = lgetv %menuItem;
+        %tmp.170 = getv function %tmp.169 :setSubLabel;
+        %tmp.171 = lgetv %new_value.3;
+        %tmp.172 = getv function %tmp.171 :toString;
+        %tmp.173 = invoke %tmp.171 %tmp.172();
+        %tmp.174 = "x";
+        %tmp.175 = add %tmp.173 %tmp.174;
+        %tmp.176 = lgetv %new_value.3;
+        %tmp.177 = getv function %tmp.176 :toString;
+        %tmp.178 = invoke %tmp.176 %tmp.177();
+        %tmp.179 = add %tmp.175 %tmp.178;
+        invoke %tmp.169 %tmp.170(%tmp.179);
 _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_102_8_stop:
         goto @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_101_13_if_end;
 _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_101_13_if_false:
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 114 13 ]
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_13_if_stmt:
-        %tmp.162 = lgetv %menuItem;
-        %tmp.163 = getv function %tmp.162 :getId;
-        %tmp.164 = invoke %tmp.162 %tmp.163();
-        %tmp.165 = as %tmp.164 String;
-        %tmp.166 = getv function %tmp.165 :equals;
-        %tmp.167 = "NumberMines";
-        %tmp.168 = invoke %tmp.165 %tmp.166(%tmp.167);
-        bf %tmp.168 @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_13_if_end;
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_13_if_true:
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_start:
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 116 12 ]
-        [ "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_start" "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_stop" ]
-        %value.3 = local;
-        %tmp.170 = getv ? :Application;
-        %tmp.171 = getv %tmp.170 :Properties;
-        %tmp.172 = getv function %tmp.171 :getValue;
-        %tmp.173 = "NumberMines";
-        %tmp.174 = invoke %tmp.171 %tmp.172(%tmp.173);
-        %tmp.175 = as %tmp.174 Number;
-        lputv %value.3 %tmp.175;
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 118 12 ]
-        [ "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_start" "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_stop" ]
-        %new_value.4 = local;
-        %tmp.177 = lgetv %value.3;
-        %tmp.178 = 2;
-        %tmp.179 = add %tmp.177 %tmp.178;
-        %tmp.180 = 51;
-        %tmp.181 = mod %tmp.179 %tmp.180;
-        lputv %new_value.4 %tmp.181;
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 120 12 ]
-        %tmp.183 = getv ? :Application;
-        %tmp.184 = getv %tmp.183 :Properties;
-        %tmp.185 = getv function %tmp.184 :setValue;
-        %tmp.186 = "NumberMines";
-        %tmp.188 = lgetv %new_value.4;
-        invoke %tmp.184 %tmp.185(%tmp.186, %tmp.188);
-[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 122 12 ]
-        %tmp.189 = lgetv %menuItem;
-        %tmp.190 = getv function %tmp.189 :setSubLabel;
-        %tmp.191 = lgetv %new_value.4;
-        %tmp.192 = getv function %tmp.191 :toString;
-        %tmp.193 = invoke %tmp.191 %tmp.192();
-        invoke %tmp.189 %tmp.190(%tmp.193);
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_115_8_stop:
-        goto @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_13_if_end;
-_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_114_13_if_end:
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 121 13 ]
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_121_13_if_stmt:
+        %tmp.180 = lgetv %menuItem;
+        %tmp.181 = getv function %tmp.180 :getId;
+        %tmp.182 = invoke %tmp.180 %tmp.181();
+        %tmp.183 = as %tmp.182 String;
+        %tmp.184 = getv function %tmp.183 :equals;
+        %tmp.185 = "NumberMines";
+        %tmp.186 = invoke %tmp.183 %tmp.184(%tmp.185);
+        bf %tmp.186 @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_121_13_if_end;
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_121_13_if_true:
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_122_8_start:
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 123 12 ]
+        [ "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_122_8_start" "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_122_8_stop" ]
+        %value.4 = local;
+        %tmp.188 = getv ? :Application;
+        %tmp.189 = getv %tmp.188 :Properties;
+        %tmp.190 = getv function %tmp.189 :getValue;
+        %tmp.191 = "NumberMines";
+        %tmp.192 = invoke %tmp.189 %tmp.190(%tmp.191);
+        %tmp.193 = as %tmp.192 Number;
+        lputv %value.4 %tmp.193;
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 125 12 ]
+        [ "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_122_8_start" "_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_122_8_stop" ]
+        %new_value.5 = local;
+        %tmp.195 = lgetv %value.4;
+        %tmp.196 = 2;
+        %tmp.197 = add %tmp.195 %tmp.196;
+        %tmp.198 = 51;
+        %tmp.199 = mod %tmp.197 %tmp.198;
+        lputv %new_value.5 %tmp.199;
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 127 12 ]
+        %tmp.201 = getv ? :Application;
+        %tmp.202 = getv %tmp.201 :Properties;
+        %tmp.203 = getv function %tmp.202 :setValue;
+        %tmp.204 = "NumberMines";
+        %tmp.206 = lgetv %new_value.5;
+        invoke %tmp.202 %tmp.203(%tmp.204, %tmp.206);
+[ "/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" 129 12 ]
+        %tmp.207 = lgetv %menuItem;
+        %tmp.208 = getv function %tmp.207 :setSubLabel;
+        %tmp.209 = lgetv %new_value.5;
+        %tmp.210 = getv function %tmp.209 :toString;
+        %tmp.211 = invoke %tmp.209 %tmp.210();
+        invoke %tmp.207 %tmp.208(%tmp.211);
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_122_8_stop:
+        goto @_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_121_13_if_end;
+_home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_121_13_if_end:
 _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_101_13_if_end:
 _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_91_13_if_end:
 _home_max_git_mines_connectiq_source_MinesMenuDelegate_mc_80_13_if_end:

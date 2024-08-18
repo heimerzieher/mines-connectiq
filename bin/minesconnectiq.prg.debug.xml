@@ -31,7 +31,7 @@
         <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="13" lineNum="40" parent="globals/MinesApp" pc="268436285" symbol="saveGame"/>
         <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="13" lineNum="41" parent="globals/MinesApp" pc="268436323" symbol="saveGame"/>
         <entry filename="/home/max/git/mines-connectiq/source/MinesApp.mc" id="13" lineNum="42" parent="globals/MinesApp" pc="268436367" symbol="saveGame"/>
-        <entry filename="/home/max/git/mines-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="14" lineNum="7" parent="globals/Rez" pc="268436412" symbol="&lt;init&gt;"/>
+        <entry filename="/home/max/git/mines-connectiq/bin/gen/006-B4234-00/source/Rez.mcgen" id="14" lineNum="7" parent="globals/Rez" pc="268436412" symbol="&lt;init&gt;"/>
         <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="15" lineNum="401" parent="globals/Field" pc="268436436" symbol="loadState"/>
         <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="15" lineNum="403" parent="globals/Field" pc="268436438" symbol="loadState"/>
         <entry filename="/home/max/git/mines-connectiq/source/MinesEngine.mc" id="15" lineNum="404" parent="globals/Field" pc="268436448" symbol="loadState"/>
@@ -370,15 +370,18 @@
         <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="101" parent="globals/MinesMenuDelegate" pc="268444903" symbol="onSelect"/>
         <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="103" parent="globals/MinesMenuDelegate" pc="268444931" symbol="onSelect"/>
         <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="105" parent="globals/MinesMenuDelegate" pc="268444961" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="107" parent="globals/MinesMenuDelegate" pc="268444989" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="109" parent="globals/MinesMenuDelegate" pc="268445020" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="114" parent="globals/MinesMenuDelegate" pc="268445064" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="116" parent="globals/MinesMenuDelegate" pc="268445092" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="118" parent="globals/MinesMenuDelegate" pc="268445122" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="120" parent="globals/MinesMenuDelegate" pc="268445138" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="122" parent="globals/MinesMenuDelegate" pc="268445169" symbol="onSelect"/>
-        <entry filename="/home/max/git/mines-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="70" lineNum="20" parent="globals/Rez/Layouts" pc="268445196" symbol="MainLayout"/>
-        <entry filename="/home/max/git/mines-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="70" lineNum="21" parent="globals/Rez/Layouts" pc="268445206" symbol="MainLayout"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="107" parent="globals/MinesMenuDelegate" pc="268444968" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="109" parent="globals/MinesMenuDelegate" pc="268445019" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="112" parent="globals/MinesMenuDelegate" pc="268445029" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="114" parent="globals/MinesMenuDelegate" pc="268445054" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="116" parent="globals/MinesMenuDelegate" pc="268445085" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="121" parent="globals/MinesMenuDelegate" pc="268445129" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="123" parent="globals/MinesMenuDelegate" pc="268445157" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="125" parent="globals/MinesMenuDelegate" pc="268445187" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="127" parent="globals/MinesMenuDelegate" pc="268445203" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/source/MinesMenuDelegate.mc" id="69" lineNum="129" parent="globals/MinesMenuDelegate" pc="268445234" symbol="onSelect"/>
+        <entry filename="/home/max/git/mines-connectiq/bin/gen/006-B4234-00/source/Rez.mcgen" id="70" lineNum="20" parent="globals/Rez/Layouts" pc="268445261" symbol="MainLayout"/>
+        <entry filename="/home/max/git/mines-connectiq/bin/gen/006-B4234-00/source/Rez.mcgen" id="70" lineNum="21" parent="globals/Rez/Layouts" pc="268445271" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="13" object="true" symbol="MinesMenuDelegate"/>
@@ -595,12 +598,13 @@
         <entry arg="true" endPc="268444260" name="keyEvent" stackId="1" startPc="268443700"/>
         <entry endPc="268443845" name="cursor_pos" stackId="2" startPc="268443759"/>
         <entry endPc="268444207" name="cursor_pos" stackId="3" startPc="268444121"/>
-        <entry arg="true" endPc="268445195" name="menuItem" stackId="1" startPc="268444301"/>
-        <entry endPc="268445060" name="value" stackId="2" startPc="268444931"/>
-        <entry endPc="268445060" name="new_value" stackId="3" startPc="268444931"/>
-        <entry endPc="268445191" name="value" stackId="4" startPc="268445092"/>
-        <entry endPc="268445191" name="new_value" stackId="5" startPc="268445092"/>
-        <entry arg="true" endPc="268445212" name="dc" stackId="1" startPc="268445196"/>
+        <entry arg="true" endPc="268445260" name="menuItem" stackId="1" startPc="268444301"/>
+        <entry endPc="268445125" name="value" stackId="2" startPc="268444931"/>
+        <entry endPc="268445125" name="max_size" stackId="3" startPc="268444931"/>
+        <entry endPc="268445125" name="new_value" stackId="4" startPc="268444931"/>
+        <entry endPc="268445256" name="value" stackId="5" startPc="268445157"/>
+        <entry endPc="268445256" name="new_value" stackId="6" startPc="268445157"/>
+        <entry arg="true" endPc="268445277" name="dc" stackId="1" startPc="268445261"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -874,7 +878,7 @@
                 <![CDATA[<div class="description"> Constructor<br/></div>]]>
             </documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268445195" name="onSelect" parent="MinesMenuDelegate" startPc="268444301">
+        <functionEntry accessMode="public" endPc="268445260" name="onSelect" parent="MinesMenuDelegate" startPc="268444301">
             <param id="menuItem"/>
             <documentation>
                 <![CDATA[<div class="description"> Handle a menu item being selected<br/> <div class="param"> menuItem The menu item selected</div><br/></div>]]>
@@ -898,7 +902,7 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268445212" name="MainLayout" parent="Layouts" startPc="268445196">
+        <functionEntry accessMode="public" endPc="268445277" name="MainLayout" parent="Layouts" startPc="268445261">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
