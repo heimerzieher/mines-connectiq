@@ -97,6 +97,11 @@ class MinesView extends WatchUi.View
                         font = Graphics.FONT_XTINY;
                     }
 
+                    // else if ((font_size >= 20) && (screen_width <= 280))
+                    // {
+                    //     font = Graphics.FONT_XTINY;
+                    // }
+
                     
                     else 
                     {
@@ -104,6 +109,9 @@ class MinesView extends WatchUi.View
                     }
 
                 }
+                
+                // System.println(font_size);
+
 
                 if(cell == CELL_UNDISCOVERED || cell == CELL_TO_DISCOVER)
                 {

@@ -6,9 +6,9 @@
         to update the application attributes.
     -->
     <!-- THIS IS THE BETA ID !-->
-    <iq:application id="d46356fd-e511-490d-9d9c-b1c7e2797180" type="watch-app" name="@Strings.AppName" entry="MinesApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.3.0">
-        <!-- THIS IS THE PUBLISHED ID !-->
-        <!-- <iq:application id="f0525abe-1799-452f-a966-cfa8df95f76d" type="watch-app" name="@Strings.AppName" entry="MinesApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.3.0"> -->
+    <!-- <iq:application id="d46356fd-e511-490d-9d9c-b1c7e2797180" type="watch-app" name="@Strings.AppName" entry="MinesApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.3.0"> -->
+    <!-- THIS IS THE PUBLISHED ID !-->
+    <iq:application id="f0525abe-1799-452f-a966-cfa8df95f76d" type="watch-app" name="@Strings.AppName" entry="MinesApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.3.0">
         <!--
             Use the following from the Visual Studio Code comand palette to edit
             the build targets:
@@ -17,12 +17,15 @@
             "Monkey C: Edit Products" - Lets you add or remove any product
         -->
         <iq:products>
+            <iq:product id="approachs50"/>
             <iq:product id="approachs7042mm"/>
             <iq:product id="approachs7047mm"/>
             <iq:product id="d2airx10"/>
             <iq:product id="d2mach1"/>
+            <iq:product id="descentg2"/>
             <iq:product id="descentmk343mm"/>
             <iq:product id="descentmk351mm"/>
+            <iq:product id="enduro3"/>
             <iq:product id="epix2"/>
             <iq:product id="epix2pro42mm"/>
             <iq:product id="epix2pro47mm"/>
@@ -36,6 +39,11 @@
             <iq:product id="fenix7x"/>
             <iq:product id="fenix7xpro"/>
             <iq:product id="fenix7xpronowifi"/>
+            <iq:product id="fenix843mm"/>
+            <iq:product id="fenix847mm"/>
+            <iq:product id="fenix8solar47mm"/>
+            <iq:product id="fenix8solar51mm"/>
+            <iq:product id="fenixe"/>
             <iq:product id="fr165"/>
             <iq:product id="fr165m"/>
             <iq:product id="fr265"/>
@@ -57,6 +65,7 @@
             <iq:product id="vivoactive4"/>
             <iq:product id="vivoactive4s"/>
             <iq:product id="vivoactive5"/>
+            <iq:product id="vivoactive6"/>
         </iq:products>
         <!--
             Use "Monkey C: Edit Permissions" from the Visual Studio Code command
